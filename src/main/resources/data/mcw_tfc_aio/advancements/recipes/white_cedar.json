@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_picket_fence",
+	  "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_stockade_fence",
+	  "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_horse_fence",
+	  "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_wired_fence",
+	  "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_highley_gate",
+	  "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_pyramid_gate",
+      "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_roof",
+      "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_attic_roof",
+      "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_top_roof",
+      "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_lower_roof",
+      "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_steep_roof",
+      "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_upper_lower_roof",
+      "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_upper_steep_roof",
+      "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_planks_roof",
+      "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_planks_attic_roof",
+      "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_planks_top_roof",
+      "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_planks_lower_roof",
+      "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_planks_steep_roof",
+      "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_white_cedar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/white_cedar"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_white_cedar"
+    ]
+  ]
+}

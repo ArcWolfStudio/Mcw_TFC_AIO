@@ -1,0 +1,15 @@
+{
+    "variants": {                                                                        
+        "facing=north,powered=false":  { "model": "mcw_tfc_aio:block/bridge/rail/oak/oak", "y": 90},
+		"facing=east,powered=false":  { "model": "mcw_tfc_aio:block/bridge/rail/oak/oak"},
+		"facing=south,powered=false":  { "model": "mcw_tfc_aio:block/bridge/rail/oak/oak", "y": 90},
+		"facing=west,powered=false":  { "model": "mcw_tfc_aio:block/bridge/rail/oak/oak"},
+
+		"facing=north,powered=true":  { "model": "mcw_tfc_aio:block/bridge/rail/oak/oak_powered", "y": 90},
+		"facing=east,powered=true":  { "model": "mcw_tfc_aio:block/bridge/rail/oak/oak_powered"},
+		"facing=south,powered=true":  { "model": "mcw_tfc_aio:block/bridge/rail/oak/oak_powered", "y": 90},
+		"facing=west,powered=true":  { "model": "mcw_tfc_aio:block/bridge/rail/oak/oak_powered"}
+    }
+}
+
+

@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/roof_outer",
+	"textures": {
+		"4": "minecraft:block/light_gray_terracotta",
+		"particle": "minecraft:block/light_gray_terracotta"
+	}
+}

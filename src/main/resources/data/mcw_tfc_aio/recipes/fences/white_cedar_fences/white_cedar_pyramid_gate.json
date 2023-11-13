@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "pyramid",
+    
+    "pattern":
+    [
+		"ABA",
+		"ACA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stick"
+        },    
+        
+        "B":
+        {
+            "item": "tfc:wood/log/white_cedar"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/white_cedar"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/white_cedar_fences/white_cedar_pyramid_gate",
+        "count": 1
+    }
+}
+
+

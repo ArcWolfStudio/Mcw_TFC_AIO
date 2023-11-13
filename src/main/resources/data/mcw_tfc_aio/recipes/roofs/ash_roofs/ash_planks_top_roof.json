@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "top",
+    
+    "pattern":
+    [
+        "WSW"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "tfc:wood/planks/ash"
+        },
+		"S":
+        {
+            "tag": "tfc:lumber"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/ash_roofs/ash_planks_top_roof",
+        "count": 2
+    }
+}

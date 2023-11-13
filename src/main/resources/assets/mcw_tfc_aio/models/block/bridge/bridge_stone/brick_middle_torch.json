@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/bridge/bridge_stone/parent/middle_torch",
+	"textures": {
+		"5": "minecraft:block/gravel",
+		"4": "mcw_tfc_aio:block/torch",
+		"2": "minecraft:block/bricks",
+		"particle": "minecraft:block/bricks"
+	}
+}

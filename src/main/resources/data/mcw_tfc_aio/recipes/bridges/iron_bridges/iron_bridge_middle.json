@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+	    "   ",
+        "A A",
+		"III"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "tfc:metal/rod/wrought_iron"
+        },
+        
+        "I":
+        {
+            "item": "tfc:metal/ingot/wrought_iron"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/iron_bridges/iron_bridge",
+        "count": 4
+    }
+}

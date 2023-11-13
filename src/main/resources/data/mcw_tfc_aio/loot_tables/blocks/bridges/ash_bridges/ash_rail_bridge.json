@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:block",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "mcw_tfc_aio:bridges/ash_bridges/ash_rail_bridge"
+				}
+			]
+		}
+	]
+}

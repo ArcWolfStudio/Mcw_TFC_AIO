@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "upper_lower",
+    
+    "pattern":
+    [
+		"  W",
+        "WWS"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "tfc:wood/planks/spruce"
+        },
+		"S":
+        {
+            "tag": "tfc:lumber"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/spruce_roofs/spruce_planks_upper_lower_roof",
+        "count": 3
+    }
+}

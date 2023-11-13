@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "attic",
+    
+    "pattern":
+    [
+        " W",
+        "WG"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "tfc:wood/log/ash"
+        },
+		"G":
+        {
+            "item": "minecraft:glass"
+        }
+    },
+
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/ash_roofs/ash_attic_roof",
+        "count": 2
+    }
+}

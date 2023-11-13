@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "stone_piers",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "minecraft:brick_wall"
+        },
+        
+        "W":
+        {
+            "item": "minecraft:bricks"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/brick_bridges/brick_bridge_pier",
+        "count": 3
+    }
+}

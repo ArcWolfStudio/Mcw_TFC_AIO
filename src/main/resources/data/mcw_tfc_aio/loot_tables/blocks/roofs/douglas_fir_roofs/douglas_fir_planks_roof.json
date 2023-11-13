@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:block",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "mcw_tfc_aio:roofs/douglas_fir_roofs/douglas_fir_planks_roof"
+				}
+			]
+		}
+	]
+}

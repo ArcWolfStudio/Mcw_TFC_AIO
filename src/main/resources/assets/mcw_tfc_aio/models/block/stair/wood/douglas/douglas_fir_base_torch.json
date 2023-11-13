@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/stair/wood/parent/base_torch",
+	"textures": {
+		"2": "tfc:block/wood/planks/douglas_fir",
+		"particle": "tfc:block/wood/log/douglas_fir",
+		"4": "mcw_tfc_aio:block/torch",
+		"1_1": "tfc:block/wood/log/douglas_fir"
+	}
+}

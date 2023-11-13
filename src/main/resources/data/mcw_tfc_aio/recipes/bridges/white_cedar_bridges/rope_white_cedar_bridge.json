@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "rope_bridges",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "tag": "forge:string"
+        },
+        
+        "W":
+        {
+            "item": "tfc:wood/planks/white_cedar_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/white_cedar_bridges/rope_white_cedar_bridge",
+        "count": 4
+    }
+}

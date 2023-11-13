@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "picket",
+    
+    "pattern":
+    [
+		"CBC",
+		"CAC"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stick"
+        },  
+
+        "B":
+        {
+            "item": "tfc:wood/lumber/rosewood"
+        },   		
+        
+        "C":
+        {
+            "item": "tfc:wood/log/rosewood"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/rosewood_fences/rosewood_picket_fence",
+        "count": 8
+    }
+}
+
+

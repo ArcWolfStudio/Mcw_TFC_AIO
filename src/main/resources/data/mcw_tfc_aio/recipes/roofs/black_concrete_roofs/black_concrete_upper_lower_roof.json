@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:black_concrete"
+    },
+    "result": "mcw_tfc_aio:roofs/black_concrete_roofs/black_concrete_upper_lower_roof",
+    "group": "roofs",
+    "count": 1
+}

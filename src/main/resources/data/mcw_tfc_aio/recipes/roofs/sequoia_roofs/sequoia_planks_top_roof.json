@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "top",
+    
+    "pattern":
+    [
+        "WSW"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "tfc:wood/planks/sequoia"
+        },
+		"S":
+        {
+            "tag": "tfc:lumber"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/sequoia_roofs/sequoia_planks_top_roof",
+        "count": 2
+    }
+}

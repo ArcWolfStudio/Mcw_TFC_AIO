@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "stockade",
+    
+    "pattern":
+    [
+		"ABA",
+		"ACA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "tfc:wood/log/sequoia"
+        },    
+        
+        "B":
+        {
+            "item": "tfc:wood/planks/sequoia"
+        },
+
+        "C":
+        {
+            "item": "tfc:wood/lumber/sequoia"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/sequoia_fences/sequoia_stockade_fence",
+        "count": 8
+    }
+}
+
+

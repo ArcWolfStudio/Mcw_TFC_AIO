@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/pine_fences/pine_picket_fence",
+	  "mcw_tfc_aio:fences/pine_fences/pine_stockade_fence",
+	  "mcw_tfc_aio:fences/pine_fences/pine_horse_fence",
+	  "mcw_tfc_aio:fences/pine_fences/pine_wired_fence",
+	  "mcw_tfc_aio:fences/pine_fences/pine_highley_gate",
+	  "mcw_tfc_aio:fences/pine_fences/pine_pyramid_gate",
+      "mcw_tfc_aio:fences/pine_fences/pine_roof",
+      "mcw_tfc_aio:fences/pine_fences/pine_attic_roof",
+      "mcw_tfc_aio:fences/pine_fences/pine_top_roof",
+      "mcw_tfc_aio:fences/pine_fences/pine_lower_roof",
+      "mcw_tfc_aio:fences/pine_fences/pine_steep_roof",
+      "mcw_tfc_aio:fences/pine_fences/pine_upper_lower_roof",
+      "mcw_tfc_aio:fences/pine_fences/pine_upper_steep_roof",
+      "mcw_tfc_aio:fences/pine_fences/pine_planks_roof",
+      "mcw_tfc_aio:fences/pine_fences/pine_planks_attic_roof",
+      "mcw_tfc_aio:fences/pine_fences/pine_planks_top_roof",
+      "mcw_tfc_aio:fences/pine_fences/pine_planks_lower_roof",
+      "mcw_tfc_aio:fences/pine_fences/pine_planks_steep_roof",
+      "mcw_tfc_aio:fences/pine_fences/pine_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/pine_fences/pine_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_pine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/pine"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pine"
+    ]
+  ]
+}

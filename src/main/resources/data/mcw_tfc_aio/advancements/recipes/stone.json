@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:modern_stone_brick_wall",
+	  "mcw_tfc_aio:modern_andesite_wall",
+	  "mcw_tfc_aio:modern_diorite_wall",
+	  "mcw_tfc_aio:modern_granite_wall",
+	  "mcw_tfc_aio:railing_stone_brick_wall",
+	  "mcw_tfc_aio:railing_andesite_wall",
+	  "mcw_tfc_aio:railing_diorite_wall",
+	  "mcw_tfc_aio:railing_granite_wall",
+	  "mcw_tfc_aio:stone_brick_railing_gate",
+	  "mcw_tfc_aio:andesite_railing_gate",
+	  "mcw_tfc_aio:diorite_railing_gate",
+	  "mcw_tfc_aio:granite_railing_gate"
+    ]
+  },
+  "criteria": {
+    "has_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stone"
+    ]
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "top",
+    
+    "pattern":
+    [
+        "WSW"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "minecraft:brown_concrete"
+        },
+		"S":
+        {
+            "tag": "tfc:lumber"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/brown_concrete_roofs/brown_concrete_top_roof",
+        "count": 2
+    }
+}

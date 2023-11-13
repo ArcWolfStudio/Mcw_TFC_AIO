@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "picket",
+    
+    "pattern":
+    [
+		"CBC",
+		"CAC"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stick"
+        },  
+
+        "B":
+        {
+            "item": "tfc:wood/lumber/aspen"
+        },   		
+        
+        "C":
+        {
+            "item": "tfc:wood/log/aspen"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/aspen_fences/aspen_picket_fence",
+        "count": 8
+    }
+}
+
+

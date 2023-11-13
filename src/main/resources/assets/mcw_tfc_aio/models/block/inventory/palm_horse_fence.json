@@ -1,0 +1,11 @@
+
+	
+{
+	"parent": "mcw_tfc_aio:block/parent/inventory/horse_fence",
+	"textures": {
+		"1_texture": "tfc:block/wood/planks/palm",
+		"1_1_texture": "tfc:block/wood/stripped_log/palm",
+		"particle": "tfc:block/wood/log/palm",
+		"wall": "tfc:block/wood/log/palm"
+	}
+}

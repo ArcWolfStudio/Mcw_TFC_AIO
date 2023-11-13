@@ -1,0 +1,12 @@
+{
+	"parent": "mcw_tfc_aio:block/bridge/rail/parent/rail_powered",
+	"textures": {
+		"0": "tfc:block/wood/stripped_log/chestnut",
+		"1": "tfc:block/wood/log/chestnut",
+		"2": "minecraft:block/redstone_block",
+		"particle": "tfc:block/wood/log/chestnut"
+	}
+}
+
+
+

@@ -1,0 +1,10 @@
+
+	
+{
+	"parent": "mcw_tfc_aio:block/parent/highley_gate",
+	"textures": {
+		"2": "tfc:block/wood/planks/willow",
+		"particle": "tfc:block/wood/planks/willow",
+		"texture": "tfc:block/wood/log/willow"
+	}
+}

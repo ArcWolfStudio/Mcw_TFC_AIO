@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_piers",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "tfc:wood/planks/acacia_fence"
+        },
+        
+        "W":
+        {
+            "item": "tfc:wood/log/acacia"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/acacia_bridges/acacia_bridge_pier",
+        "count": 3
+    }
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/roof_inner",
+	"textures": {
+		"particle": "minecraft:block/red_terracotta",
+		"1_2": "minecraft:block/red_terracotta"
+	}
+}

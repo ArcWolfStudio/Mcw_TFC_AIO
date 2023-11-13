@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "upper_steep",
+    
+    "pattern":
+    [
+		" W",
+		" W",
+        "WS"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "minecraft:orange_terracotta"
+        },
+		"S":
+        {
+            "tag": "tfc:lumber"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/orange_terracotta_roofs/orange_terracotta_upper_steep_roof",
+        "count": 3
+    }
+}

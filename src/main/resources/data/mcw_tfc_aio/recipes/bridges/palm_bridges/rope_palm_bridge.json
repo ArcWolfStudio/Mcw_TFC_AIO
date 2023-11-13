@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "rope_bridges",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "tag": "forge:string"
+        },
+        
+        "W":
+        {
+            "item": "tfc:wood/planks/palm_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/palm_bridges/rope_palm_bridge",
+        "count": 4
+    }
+}

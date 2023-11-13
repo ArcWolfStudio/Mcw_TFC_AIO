@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:black_terracotta"
+    },
+    "result": "mcw_tfc_aio:roofs/black_terracotta_roofs/black_terracotta_attic_roof",
+    "group": "roofs",
+    "count": 1
+}

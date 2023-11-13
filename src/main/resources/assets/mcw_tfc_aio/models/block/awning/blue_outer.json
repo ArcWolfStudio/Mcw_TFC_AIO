@@ -1,0 +1,8 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/awning_outer",
+	"textures": {
+		"1": "minecraft:block/blue_wool",
+		"3": "minecraft:block/white_wool",
+		"particle": "minecraft:block/blue_wool"
+	}
+}

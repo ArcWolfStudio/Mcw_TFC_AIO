@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/oak_fences/oak_picket_fence",
+	  "mcw_tfc_aio:fences/oak_fences/oak_stockade_fence",
+	  "mcw_tfc_aio:fences/oak_fences/oak_horse_fence",
+	  "mcw_tfc_aio:fences/oak_fences/oak_wired_fence",
+	  "mcw_tfc_aio:fences/oak_fences/oak_highley_gate",
+	  "mcw_tfc_aio:fences/oak_fences/oak_pyramid_gate",
+      "mcw_tfc_aio:fences/oak_fences/oak_roof",
+      "mcw_tfc_aio:fences/oak_fences/oak_attic_roof",
+      "mcw_tfc_aio:fences/oak_fences/oak_top_roof",
+      "mcw_tfc_aio:fences/oak_fences/oak_lower_roof",
+      "mcw_tfc_aio:fences/oak_fences/oak_steep_roof",
+      "mcw_tfc_aio:fences/oak_fences/oak_upper_lower_roof",
+      "mcw_tfc_aio:fences/oak_fences/oak_upper_steep_roof",
+      "mcw_tfc_aio:fences/oak_fences/oak_planks_roof",
+      "mcw_tfc_aio:fences/oak_fences/oak_planks_attic_roof",
+      "mcw_tfc_aio:fences/oak_fences/oak_planks_top_roof",
+      "mcw_tfc_aio:fences/oak_fences/oak_planks_lower_roof",
+      "mcw_tfc_aio:fences/oak_fences/oak_planks_steep_roof",
+      "mcw_tfc_aio:fences/oak_fences/oak_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/oak_fences/oak_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_oak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/oak"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_oak"
+    ]
+  ]
+}

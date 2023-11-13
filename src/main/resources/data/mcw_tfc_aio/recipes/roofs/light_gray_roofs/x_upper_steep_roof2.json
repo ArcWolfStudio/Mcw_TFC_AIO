@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "upper_steep",
+    
+    "pattern":
+    [
+        "W ",
+        "W ",
+        "SW"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "minecraft:light_gray_terracotta"
+        },
+		"S":
+        {
+            "tag": "tfc:lumber"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/light_gray_roofs/light_gray_upper_steep_roof",
+        "count": 3
+    }
+}

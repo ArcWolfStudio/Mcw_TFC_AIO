@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "log_bridges",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "tfc:wood/planks/chestnut_fence"
+        },
+        
+        "W":
+        {
+            "item": "tfc:wood/planks/chestnut_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/chestnut_bridges/chestnut_log_bridge_middle",
+        "count": 4
+    }
+}

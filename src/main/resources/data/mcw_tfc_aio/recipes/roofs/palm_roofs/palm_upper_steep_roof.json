@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "upper_steep",
+    
+    "pattern":
+    [
+		" W",
+		" W",
+        "WS"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "tfc:wood/log/palm"
+        },
+		"S":
+        {
+            "tag": "tfc:lumber"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/palm_roofs/palm_upper_steep_roof",
+        "count": 3
+    }
+}

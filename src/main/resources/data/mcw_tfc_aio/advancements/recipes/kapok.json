@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/kapok_fences/kapok_picket_fence",
+	  "mcw_tfc_aio:fences/kapok_fences/kapok_stockade_fence",
+	  "mcw_tfc_aio:fences/kapok_fences/kapok_horse_fence",
+	  "mcw_tfc_aio:fences/kapok_fences/kapok_wired_fence",
+	  "mcw_tfc_aio:fences/kapok_fences/kapok_highley_gate",
+	  "mcw_tfc_aio:fences/kapok_fences/kapok_pyramid_gate",
+      "mcw_tfc_aio:fences/kapok_fences/kapok_roof",
+      "mcw_tfc_aio:fences/kapok_fences/kapok_attic_roof",
+      "mcw_tfc_aio:fences/kapok_fences/kapok_top_roof",
+      "mcw_tfc_aio:fences/kapok_fences/kapok_lower_roof",
+      "mcw_tfc_aio:fences/kapok_fences/kapok_steep_roof",
+      "mcw_tfc_aio:fences/kapok_fences/kapok_upper_lower_roof",
+      "mcw_tfc_aio:fences/kapok_fences/kapok_upper_steep_roof",
+      "mcw_tfc_aio:fences/kapok_fences/kapok_planks_roof",
+      "mcw_tfc_aio:fences/kapok_fences/kapok_planks_attic_roof",
+      "mcw_tfc_aio:fences/kapok_fences/kapok_planks_top_roof",
+      "mcw_tfc_aio:fences/kapok_fences/kapok_planks_lower_roof",
+      "mcw_tfc_aio:fences/kapok_fences/kapok_planks_steep_roof",
+      "mcw_tfc_aio:fences/kapok_fences/kapok_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/kapok_fences/kapok_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_kapok": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/kapok"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_kapok"
+    ]
+  ]
+}

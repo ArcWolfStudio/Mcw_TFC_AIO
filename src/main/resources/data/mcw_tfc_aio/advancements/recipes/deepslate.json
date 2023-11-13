@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:modern_deepslate_brick_wall",
+	  "mcw_tfc_aio:railing_deepslate_brick_wall",
+	  "mcw_tfc_aio:deepslate_railing_gate",
+	  "mcw_tfc_aio:deepslate_brick_railing_gate"
+    ]
+  },
+  "criteria": {
+    "has_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:deepslate"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate"
+    ]
+  ]
+}

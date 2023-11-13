@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "lower",
+    
+    "pattern":
+    [
+		" WW",
+        "WWS"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "tfc:wood/log/pine"
+        },
+		"S":
+        {
+            "tag": "tfc:lumber"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/pine_roofs/pine_lower_roof",
+        "count": 4
+    }
+}

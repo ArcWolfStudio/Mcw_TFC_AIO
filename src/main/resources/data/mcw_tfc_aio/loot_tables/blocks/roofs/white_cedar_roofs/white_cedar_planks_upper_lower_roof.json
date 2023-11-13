@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:block",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "mcw_tfc_aio:roofs/white_cedar_roofs/white_cedar_planks_upper_lower_roof"
+				}
+			]
+		}
+	]
+}

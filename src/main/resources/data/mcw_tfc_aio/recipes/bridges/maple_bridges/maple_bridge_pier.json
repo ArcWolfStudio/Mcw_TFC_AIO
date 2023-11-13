@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_piers",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "tfc:wood/planks/maple_fence"
+        },
+        
+        "W":
+        {
+            "item": "tfc:wood/log/maple"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/maple_bridges/maple_bridge_pier",
+        "count": 3
+    }
+}

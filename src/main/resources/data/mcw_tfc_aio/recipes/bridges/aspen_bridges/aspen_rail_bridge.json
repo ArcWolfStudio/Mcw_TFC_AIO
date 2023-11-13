@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "rail_bridges",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "tfc:wood/planks/aspen_fence"
+        },
+        
+        "W":
+        {
+            "item": "tfc:wood/planks/aspen_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/aspen_bridges/aspen_rail_bridge",
+        "count": 4
+    }
+}

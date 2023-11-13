@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/support_pier/wooden/parent/pillar_middle",
+	"textures": {
+		"0": "tfc:block/wood/log/kapok",
+		"1": "tfc:block/wood/log/kapok",
+		"2": "tfc:block/wood/planks/kapok",
+		"particle": "tfc:block/wood/log/kapok"
+	}
+}

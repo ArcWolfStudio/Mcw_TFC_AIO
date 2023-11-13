@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:modern_quartz_wall",
+	  "mcw_tfc_aio:railing_quartz_wall",
+	  "mcw_tfc_aio:quartz_railing_gate"
+    ]
+  },
+  "criteria": {
+    "has_qq": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:quartz_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_qq"
+    ]
+  ]
+}

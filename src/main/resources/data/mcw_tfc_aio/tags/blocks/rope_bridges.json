@@ -1,0 +1,23 @@
+{
+  "values": [
+	  "mcw_tfc_aio:bridges/oak_bridges/rope_oak_bridge",
+	  "mcw_tfc_aio:bridges/spruce_bridges/rope_spruce_bridge",
+	  "mcw_tfc_aio:bridges/birch_bridges/rope_birch_bridge",
+	  "mcw_tfc_aio:bridges/acacia_bridges/rope_acacia_bridge",
+	  "mcw_tfc_aio:bridges/ash_bridges/rope_ash_bridge",
+	  "mcw_tfc_aio:bridges/aspen_bridges/rope_aspen_bridge",
+	  "mcw_tfc_aio:bridges/blackwood_bridges/rope_blackwood_bridge",
+	  "mcw_tfc_aio:bridges/chestnut_bridges/rope_chestnut_bridge",
+	  "mcw_tfc_aio:bridges/douglas_fir_bridges/rope_douglas_fir_bridge",
+	  "mcw_tfc_aio:bridges/hickory_bridges/rope_hickory_bridge",
+	  "mcw_tfc_aio:bridges/kapok_bridges/rope_kapok_bridge",
+	  "mcw_tfc_aio:bridges/maple_bridges/rope_maple_bridge",
+	  "mcw_tfc_aio:bridges/palm_bridges/rope_palm_bridge",
+	  "mcw_tfc_aio:bridges/pine_bridges/rope_pine_bridge",
+	  "mcw_tfc_aio:bridges/rosewood_bridges/rope_rosewood_bridge",
+	  "mcw_tfc_aio:bridges/sequoia_bridges/rope_sequoia_bridge",
+	  "mcw_tfc_aio:bridges/sycamore_bridges/rope_sycamore_bridge",
+	  "mcw_tfc_aio:bridges/white_cedar_bridges/rope_white_cedar_bridge",
+	  "mcw_tfc_aio:bridges/willow_bridges/rope_willow_bridge"
+  ]
+}

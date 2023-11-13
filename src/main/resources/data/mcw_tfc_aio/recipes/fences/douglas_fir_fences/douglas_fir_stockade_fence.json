@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "stockade",
+    
+    "pattern":
+    [
+		"ABA",
+		"ACA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "tfc:wood/log/douglas_fir"
+        },    
+        
+        "B":
+        {
+            "item": "tfc:wood/planks/douglas_fir"
+        },
+
+        "C":
+        {
+            "item": "tfc:wood/lumber/douglas_fir"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_stockade_fence",
+        "count": 8
+    }
+}
+
+

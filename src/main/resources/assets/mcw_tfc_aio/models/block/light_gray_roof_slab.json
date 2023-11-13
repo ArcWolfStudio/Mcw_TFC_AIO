@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "mcw_tfc_aio:block/light_gray_roof",
+    "top": "mcw_tfc_aio:block/light_gray_roof",
+    "side": "mcw_tfc_aio:block/light_gray_roof"
+  }
+}

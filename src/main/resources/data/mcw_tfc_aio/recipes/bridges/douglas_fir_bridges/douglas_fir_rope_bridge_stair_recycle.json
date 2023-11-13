@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "mcw_tfc_aio:bridges/douglas_fir_bridges/douglas_fir_rope_bridge_stair"
+        }
+    ],
+    "result": {
+        "item": "mcw_tfc_aio:bridges/douglas_fir_bridges/rope_douglas_fir_bridge",
+        "count": 1
+    }
+}

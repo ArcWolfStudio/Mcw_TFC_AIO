@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "log_bridges",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "tfc:wood/planks/hickory_fence"
+        },
+        
+        "W":
+        {
+            "item": "tfc:wood/planks/hickory_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/hickory_bridges/hickory_log_bridge_middle",
+        "count": 4
+    }
+}

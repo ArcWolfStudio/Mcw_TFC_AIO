@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/willow_fences/willow_picket_fence",
+	  "mcw_tfc_aio:fences/willow_fences/willow_stockade_fence",
+	  "mcw_tfc_aio:fences/willow_fences/willow_horse_fence",
+	  "mcw_tfc_aio:fences/willow_fences/willow_wired_fence",
+	  "mcw_tfc_aio:fences/willow_fences/willow_highley_gate",
+	  "mcw_tfc_aio:fences/willow_fences/willow_pyramid_gate",
+      "mcw_tfc_aio:fences/willow_fences/willow_roof",
+      "mcw_tfc_aio:fences/willow_fences/willow_attic_roof",
+      "mcw_tfc_aio:fences/willow_fences/willow_top_roof",
+      "mcw_tfc_aio:fences/willow_fences/willow_lower_roof",
+      "mcw_tfc_aio:fences/willow_fences/willow_steep_roof",
+      "mcw_tfc_aio:fences/willow_fences/willow_upper_lower_roof",
+      "mcw_tfc_aio:fences/willow_fences/willow_upper_steep_roof",
+      "mcw_tfc_aio:fences/willow_fences/willow_planks_roof",
+      "mcw_tfc_aio:fences/willow_fences/willow_planks_attic_roof",
+      "mcw_tfc_aio:fences/willow_fences/willow_planks_top_roof",
+      "mcw_tfc_aio:fences/willow_fences/willow_planks_lower_roof",
+      "mcw_tfc_aio:fences/willow_fences/willow_planks_steep_roof",
+      "mcw_tfc_aio:fences/willow_fences/willow_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/willow_fences/willow_planks_upper_steep_roof"
+      
+    ]
+  },
+  "criteria": {
+    "has_willow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/willow"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_willow"
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "variants": {
+        "facing=east,shape=straight":  { "model": "mcw_tfc_aio:block/awning/cyan_straight" },
+        "facing=west,shape=straight":  { "model": "mcw_tfc_aio:block/awning/cyan_straight", "y": 180, "uvlock": true },
+        "facing=south,shape=straight": { "model": "mcw_tfc_aio:block/awning/cyan_straight", "y": 90, "uvlock": false },
+        "facing=north,shape=straight": { "model": "mcw_tfc_aio:block/awning/cyan_straight", "y": 270, "uvlock": false },
+        
+        "facing=east,shape=outer_right":  { "model": "mcw_tfc_aio:block/awning/cyan_outer" },
+        "facing=west,shape=outer_right":  { "model": "mcw_tfc_aio:block/awning/cyan_outer", "y": 180, "uvlock": true },
+        "facing=south,shape=outer_right": { "model": "mcw_tfc_aio:block/awning/cyan_outer", "y": 90, "uvlock": true },
+        "facing=north,shape=outer_right": { "model": "mcw_tfc_aio:block/awning/cyan_outer", "y": 270, "uvlock": true },
+        
+        "facing=east,shape=outer_left":  { "model": "mcw_tfc_aio:block/awning/cyan_outer", "y": 270, "uvlock": true },
+        "facing=west,shape=outer_left":  { "model": "mcw_tfc_aio:block/awning/cyan_outer", "y": 90, "uvlock": true },
+        "facing=south,shape=outer_left": { "model": "mcw_tfc_aio:block/awning/cyan_outer" },
+        "facing=north,shape=outer_left": { "model": "mcw_tfc_aio:block/awning/cyan_outer", "y": 180, "uvlock": true },
+        
+        "facing=east,shape=inner_right":  { "model": "mcw_tfc_aio:block/awning/cyan_inner", "uvlock": false },
+        "facing=west,shape=inner_right":  { "model": "mcw_tfc_aio:block/awning/cyan_inner", "y": 180, "uvlock": false },
+        "facing=south,shape=inner_right": { "model": "mcw_tfc_aio:block/awning/cyan_inner", "y": 90, "uvlock": true },
+        "facing=north,shape=inner_right": { "model": "mcw_tfc_aio:block/awning/cyan_inner", "y": 270, "uvlock": false },
+        
+        "facing=east,shape=inner_left":  { "model": "mcw_tfc_aio:block/awning/cyan_inner", "y": 270, "uvlock": false },
+        "facing=west,shape=inner_left":  { "model": "mcw_tfc_aio:block/awning/cyan_inner", "y": 90, "uvlock": false },
+        "facing=south,shape=inner_left": { "model": "mcw_tfc_aio:block/awning/cyan_inner" },
+        "facing=north,shape=inner_left": { "model": "mcw_tfc_aio:block/awning/cyan_inner", "y": 180, "uvlock": false }
+    }
+}

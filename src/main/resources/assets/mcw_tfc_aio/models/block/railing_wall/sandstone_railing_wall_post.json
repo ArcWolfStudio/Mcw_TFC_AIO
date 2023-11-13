@@ -1,0 +1,9 @@
+
+	
+{
+	"parent": "mcw_tfc_aio:block/parent/railing_wall_post",
+	"textures": {
+		"particle": "minecraft:block/sandstone_top",
+		"wall": "minecraft:block/sandstone_top"
+	}
+}

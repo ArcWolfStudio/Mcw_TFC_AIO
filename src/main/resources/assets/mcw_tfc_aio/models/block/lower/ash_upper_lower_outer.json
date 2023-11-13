@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/xx_upper_lower_outer",
+	"textures": {
+		"particle": "tfc:block/wood/log/ash",
+		"1_2": "tfc:block/wood/log/ash"
+	}
+}

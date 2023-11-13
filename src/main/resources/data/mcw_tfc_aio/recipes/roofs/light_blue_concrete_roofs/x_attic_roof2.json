@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "attic",
+    
+    "pattern":
+    [
+        " W",
+        "WG"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "minecraft:light_blue_concrete"
+        },
+		"G":
+        {
+            "item": "minecraft:glass"
+        }
+    },
+
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/light_blue_concrete_roofs/light_blue_concrete_attic_roof",
+        "count": 2
+    }
+}

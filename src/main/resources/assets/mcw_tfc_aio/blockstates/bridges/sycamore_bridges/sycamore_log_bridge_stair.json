@@ -1,0 +1,58 @@
+{
+    "variants": {                                                                        
+        "facing=north,north=false,south=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_double", "y": 270,"uvlock": true},
+		"facing=north,north=false,south=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_right", "y": 270,"uvlock": true},
+		"facing=north,north=true,south=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_left", "y": 270,"uvlock": true},
+
+        "facing=west,west=false,east=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_double", "y": 180,"uvlock": true},
+		"facing=west,west=false,east=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_right", "y": 180,"uvlock": true},
+		"facing=west,west=true,east=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_left", "y": 180,"uvlock": true},
+
+        "facing=south,south=false,north=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_double", "y": 90,"uvlock": true},
+		"facing=south,south=false,north=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_right", "y": 90,"uvlock": true},
+		"facing=south,south=true,north=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_left", "y": 90,"uvlock": true},
+
+        "facing=east,east=false,west=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_double","uvlock": true},
+		"facing=east,east=false,west=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_right","uvlock": true},
+		"facing=east,east=true,west=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_left","uvlock": true},
+
+        "facing=north,north=true,south=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_base", "y": 270,"uvlock": true},
+		"facing=east,east=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_base","uvlock": true},
+		"facing=south,north=true,south=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_base", "y": 90,"uvlock": true},
+		"facing=west,east=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_base", "y": 180,"uvlock": true},
+		
+		
+		
+		
+		
+		"facing=north,north=false,south=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_double_torch", "y": 270,"uvlock": true},
+		"facing=north,north=false,south=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_right_torch", "y": 270,"uvlock": true},
+		"facing=north,north=true,south=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_left_torch", "y": 270,"uvlock": true},
+
+        "facing=west,west=false,east=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_double_torch", "y": 180,"uvlock": true},
+		"facing=west,west=false,east=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_right_torch", "y": 180,"uvlock": true},
+		"facing=west,west=true,east=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_left_torch", "y": 180,"uvlock": true},
+
+        "facing=south,south=false,north=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_double_torch", "y": 90,"uvlock": true},
+		"facing=south,south=false,north=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_right_torch", "y": 90,"uvlock": true},
+		"facing=south,south=true,north=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_left_torch", "y": 90,"uvlock": true},
+
+        "facing=east,east=false,west=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_double_torch","uvlock": true},
+		"facing=east,east=false,west=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_right_torch","uvlock": true},
+		"facing=east,east=true,west=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_left_torch","uvlock": true},
+
+        "facing=north,north=true,south=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_base_torch", "y": 270,"uvlock": true},
+		"facing=east,east=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_base_torch","uvlock": true},
+		"facing=south,north=true,south=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_base_torch", "y": 90,"uvlock": true},
+		"facing=west,east=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/wood/sycamore/sycamore_base_torch", "y": 180,"uvlock": true}
+
+
+
+
+    }
+}
+
+
+
+
+

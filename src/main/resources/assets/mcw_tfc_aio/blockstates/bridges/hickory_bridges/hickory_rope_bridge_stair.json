@@ -1,0 +1,59 @@
+{
+    "variants": {                                                                        
+        "facing=north,north=false,south=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_double", "y": 270},
+		"facing=north,north=false,south=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_right", "y": 270},
+		"facing=north,north=true,south=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_left", "y": 270},
+
+        "facing=west,west=false,east=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_double", "y": 180},
+		"facing=west,west=false,east=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_right", "y": 180},
+		"facing=west,west=true,east=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_left", "y": 180},
+
+        "facing=south,south=false,north=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_double", "y": 90},
+		"facing=south,south=false,north=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_right", "y": 90},
+		"facing=south,south=true,north=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_left", "y": 90},
+
+        "facing=east,east=false,west=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_double"},
+		"facing=east,east=false,west=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_right"},
+		"facing=east,east=true,west=false,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_left"},
+
+        "facing=north,north=true,south=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_base", "y": 270},
+		"facing=east,east=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_base"},
+		"facing=south,north=true,south=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_base", "y": 90},
+		"facing=west,east=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_base", "y": 180},
+
+
+
+
+
+
+		"facing=north,north=false,south=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_double_torch", "y": 270},
+		"facing=north,north=false,south=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_right_torch", "y": 270},
+		"facing=north,north=true,south=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_left_torch", "y": 270},
+
+        "facing=west,west=false,east=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_double_torch", "y": 180},
+		"facing=west,west=false,east=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_right_torch", "y": 180},
+		"facing=west,west=true,east=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_left_torch", "y": 180},
+
+        "facing=south,south=false,north=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_double_torch", "y": 90},
+		"facing=south,south=false,north=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_right_torch", "y": 90},
+		"facing=south,south=true,north=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_left_torch", "y": 90},
+
+        "facing=east,east=false,west=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_double_torch"},
+		"facing=east,east=false,west=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_right_torch"},
+		"facing=east,east=true,west=false,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_left_torch"},
+
+        "facing=north,north=true,south=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_base_torch", "y": 270},
+		"facing=east,east=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_base_torch"},
+		"facing=south,north=true,south=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_base_torch", "y": 90},
+		"facing=west,east=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/stair/rope/hickory/hickory_base_torch", "y": 180}
+
+
+
+
+    }
+}
+
+
+
+
+

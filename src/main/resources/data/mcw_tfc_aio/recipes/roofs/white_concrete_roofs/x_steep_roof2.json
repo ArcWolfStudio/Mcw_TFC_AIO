@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "steep",
+    
+    "pattern":
+    [
+        " W",
+		"WW",
+        "WS"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "minecraft:white_concrete"
+        },
+		"S":
+        {
+            "tag": "tfc:lumber"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/white_concrete_roofs/white_concrete_steep_roof",
+        "count": 4
+    }
+}

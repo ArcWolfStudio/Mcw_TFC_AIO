@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "rail_bridges",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "tfc:wood/planks/douglas_fir_fence"
+        },
+        
+        "W":
+        {
+            "item": "tfc:wood/planks/douglas_fir_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/douglas_fir_bridges/douglas_fir_rail_bridge",
+        "count": 4
+    }
+}

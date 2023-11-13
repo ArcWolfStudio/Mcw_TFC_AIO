@@ -1,0 +1,10 @@
+{
+	"parent": "mcw_tfc_aio:block/bridge/rope/parent/inventory",
+	"textures": {
+		"0": "mcw_tfc_aio:block/lead_knot_vert",
+		"2": "tfc:block/wood/planks/ash",
+		"4": "tfc:block/wood/log/ash",
+		"particle": "tfc:block/wood/log/ash",
+		"1_4": "mcw_tfc_aio:block/lead_knot"
+	}
+}

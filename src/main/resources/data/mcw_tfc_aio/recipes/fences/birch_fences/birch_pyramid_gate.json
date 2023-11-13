@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "pyramid",
+    
+    "pattern":
+    [
+		"ABA",
+		"ACA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stick"
+        },    
+        
+        "B":
+        {
+            "item": "tfc:wood/log/birch"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/birch"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/birch_fences/birch_pyramid_gate",
+        "count": 1
+    }
+}
+
+

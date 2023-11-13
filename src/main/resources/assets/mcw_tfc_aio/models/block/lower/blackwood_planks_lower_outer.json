@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/xx_lower_outer",
+	"textures": {
+		"particle": "tfc:block/wood/planks/blackwood",
+		"1_2": "tfc:block/wood/planks/blackwood"
+	}
+}

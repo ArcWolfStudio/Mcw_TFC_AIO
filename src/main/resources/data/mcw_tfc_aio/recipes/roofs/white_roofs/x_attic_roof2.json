@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "attic",
+    
+    "pattern":
+    [
+        "W ",
+        "GW"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "minecraft:white_terracotta"
+        },
+		"G":
+        {
+            "item": "minecraft:glass"
+        }
+    },
+
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/white_roofs/white_attic_roof",
+        "count": 2
+    }
+}

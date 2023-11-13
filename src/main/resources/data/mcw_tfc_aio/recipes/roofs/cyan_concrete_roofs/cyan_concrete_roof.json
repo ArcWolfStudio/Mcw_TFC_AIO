@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:cyan_concrete"
+    },
+    "result": "mcw_tfc_aio:roofs/cyan_concrete_roofs/cyan_concrete_roof",
+    "group": "roofs",
+    "count": 1
+}

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "mcw_tfc_aio:rain_gutter"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:roofs/gutters/gutter_base",
+        "count": 1
+    }
+}
+
+

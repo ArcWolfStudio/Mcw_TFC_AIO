@@ -1,0 +1,9 @@
+
+	
+{
+	"parent": "mcw_tfc_aio:block/parent/inventory/stockade_fence",
+	"textures": {
+		"5": "tfc:block/wood/log/acacia",
+		"particle": "tfc:block/wood/planks/acacia"
+	}
+}

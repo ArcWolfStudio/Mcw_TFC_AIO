@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/birch_fences/birch_picket_fence",
+	  "mcw_tfc_aio:fences/birch_fences/birch_stockade_fence",
+	  "mcw_tfc_aio:fences/birch_fences/birch_horse_fence",
+	  "mcw_tfc_aio:fences/birch_fences/birch_wired_fence",
+	  "mcw_tfc_aio:fences/birch_fences/birch_highley_gate",
+	  "mcw_tfc_aio:fences/birch_fences/birch_pyramid_gate",
+      "mcw_tfc_aio:fences/birch_fences/birch_roof",
+      "mcw_tfc_aio:fences/birch_fences/birch_attic_roof",
+      "mcw_tfc_aio:fences/birch_fences/birch_top_roof",
+      "mcw_tfc_aio:fences/birch_fences/birch_lower_roof",
+      "mcw_tfc_aio:fences/birch_fences/birch_steep_roof",
+      "mcw_tfc_aio:fences/birch_fences/birch_upper_lower_roof",
+      "mcw_tfc_aio:fences/birch_fences/birch_upper_steep_roof",
+      "mcw_tfc_aio:fences/birch_fences/birch_planks_roof",
+      "mcw_tfc_aio:fences/birch_fences/birch_planks_attic_roof",
+      "mcw_tfc_aio:fences/birch_fences/birch_planks_top_roof",
+      "mcw_tfc_aio:fences/birch_fences/birch_planks_lower_roof",
+      "mcw_tfc_aio:fences/birch_fences/birch_planks_steep_roof",
+      "mcw_tfc_aio:fences/birch_fences/birch_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/birch_fences/birch_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_birch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/birch"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_birch"
+    ]
+  ]
+}

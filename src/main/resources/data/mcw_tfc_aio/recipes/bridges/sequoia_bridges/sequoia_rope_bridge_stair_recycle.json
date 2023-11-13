@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "mcw_tfc_aio:bridges/sequoia_bridges/sequoia_rope_bridge_stair"
+        }
+    ],
+    "result": {
+        "item": "mcw_tfc_aio:bridges/sequoia_bridges/rope_sequoia_bridge",
+        "count": 1
+    }
+}

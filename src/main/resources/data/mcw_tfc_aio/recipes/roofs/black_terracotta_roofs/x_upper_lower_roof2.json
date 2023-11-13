@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "upper_lower",
+    
+    "pattern":
+    [
+		"  W",
+        "WWS"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "minecraft:black_terracotta"
+        },
+		"S":
+        {
+            "tag": "tfc:lumber"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/black_terracotta_roofs/black_terracotta_upper_lower_roof",
+        "count": 3
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "picket",
+    
+    "pattern":
+    [
+		"CBC",
+		"CAC"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stick"
+        },  
+
+        "B":
+        {
+            "item": "tfc:wood/lumber/pine"
+        },   		
+        
+        "C":
+        {
+            "item": "tfc:wood/log/pine"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/pine_fences/pine_picket_fence",
+        "count": 8
+    }
+}
+
+

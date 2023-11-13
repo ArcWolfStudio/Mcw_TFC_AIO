@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/chestnut_fences/chestnut_picket_fence",
+	  "mcw_tfc_aio:fences/chestnut_fences/chestnut_stockade_fence",
+	  "mcw_tfc_aio:fences/chestnut_fences/chestnut_horse_fence",
+	  "mcw_tfc_aio:fences/chestnut_fences/chestnut_wired_fence",
+	  "mcw_tfc_aio:fences/chestnut_fences/chestnut_highley_gate",
+	  "mcw_tfc_aio:fences/chestnut_fences/chestnut_pyramid_gate",
+      "mcw_tfc_aio:fences/chestnut_fences/chestnut_roof",
+      "mcw_tfc_aio:fences/chestnut_fences/chestnut_attic_roof",
+      "mcw_tfc_aio:fences/chestnut_fences/chestnut_top_roof",
+      "mcw_tfc_aio:fences/chestnut_fences/chestnut_lower_roof",
+      "mcw_tfc_aio:fences/chestnut_fences/chestnut_steep_roof",
+      "mcw_tfc_aio:fences/chestnut_fences/chestnut_upper_lower_roof",
+      "mcw_tfc_aio:fences/chestnut_fences/chestnut_upper_steep_roof",
+      "mcw_tfc_aio:fences/chestnut_fences/chestnut_planks_roof",
+      "mcw_tfc_aio:fences/chestnut_fences/chestnut_planks_attic_roof",
+      "mcw_tfc_aio:fences/chestnut_fences/chestnut_planks_top_roof",
+      "mcw_tfc_aio:fences/chestnut_fences/chestnut_planks_lower_roof",
+      "mcw_tfc_aio:fences/chestnut_fences/chestnut_planks_steep_roof",
+      "mcw_tfc_aio:fences/chestnut_fences/chestnut_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/chestnut_fences/chestnut_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_chestnut": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/chestnut"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chestnut"
+    ]
+  ]
+}

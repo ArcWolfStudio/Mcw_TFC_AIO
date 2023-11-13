@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bamboo_bridges",
+    
+    "pattern": [
+    "WFW",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "minecraft:string"
+        },
+        
+        "W":
+        {
+            "item": "minecraft:bamboo"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/bamboo_bridges/bamboo_bridge",
+        "count": 1
+    }
+}

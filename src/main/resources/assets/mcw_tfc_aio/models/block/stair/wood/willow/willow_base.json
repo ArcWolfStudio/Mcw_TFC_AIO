@@ -1,0 +1,8 @@
+{
+	"parent": "mcw_tfc_aio:block/stair/wood/parent/base",
+	"textures": {
+		"2": "tfc:block/wood/planks/willow",
+		"particle": "tfc:block/wood/log/willow",
+		"1_1": "tfc:block/wood/log/willow"
+	}
+}

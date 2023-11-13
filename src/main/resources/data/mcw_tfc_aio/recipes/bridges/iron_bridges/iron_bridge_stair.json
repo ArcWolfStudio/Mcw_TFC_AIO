@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "  F",
+    " FF",
+	"FFF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "mcw_tfc_aio:bridges/iron_bridges/iron_bridge"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/iron_bridges/iron_bridge_stair",
+        "count": 6
+    }
+}

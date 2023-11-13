@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "pyramid",
+    
+    "pattern":
+    [
+		"ABA",
+		"ACA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stick"
+        },    
+        
+        "B":
+        {
+            "item": "tfc:wood/log/sequoia"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/sequoia"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/sequoia_fences/sequoia_pyramid_gate",
+        "count": 1
+    }
+}
+
+

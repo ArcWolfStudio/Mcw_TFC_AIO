@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:light_gray_concrete"
+    },
+    "result": "mcw_tfc_aio:roofs/light_gray_concrete_roofs/light_gray_concrete_upper_steep_roof",
+    "group": "roofs",
+    "count": 1
+}

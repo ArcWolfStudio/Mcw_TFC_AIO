@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": 
+    {
+        "layer0": "mcw_tfc_aio:item/rain_gutter"
+    }
+}

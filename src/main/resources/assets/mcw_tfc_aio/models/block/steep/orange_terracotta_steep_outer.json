@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/xx_steep_outer",
+	"textures": {
+		"particle": "minecraft:block/orange_terracotta",
+		"2": "minecraft:block/orange_terracotta"
+	}
+}

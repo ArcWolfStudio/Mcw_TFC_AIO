@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:terracotta"
+    },
+    "result": "mcw_tfc_aio:roofs/base_roofs/base_upper_lower_roof",
+    "group": "roofs",
+    "count": 1
+}

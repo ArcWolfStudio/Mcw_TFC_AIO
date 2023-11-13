@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:purple_terracotta"
+    },
+    "result": "mcw_tfc_aio:roofs/purple_terracotta_roofs/purple_terracotta_roof",
+    "group": "roofs",
+    "count": 1
+}

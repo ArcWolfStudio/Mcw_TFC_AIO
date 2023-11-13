@@ -1,0 +1,11 @@
+{
+	"parent": "mcw_tfc_aio:block/stair/rope/parent/right_torch",
+	"textures": {
+		"0": "mcw_tfc_aio:block/lead_knot_vert",
+		"2": "tfc:block/wood/planks/spruce",
+		"3": "mcw_tfc_aio:block/lead_knot",
+		"4": "tfc:block/wood/log/spruce",
+		"6": "mcw_tfc_aio:block/torch",
+		"particle": "tfc:block/wood/log/spruce"
+	}
+}

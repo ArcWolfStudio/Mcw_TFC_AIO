@@ -1,0 +1,10 @@
+{
+	"parent": "mcw_tfc_aio:block/stair/rope/parent/double",
+	"textures": {
+		"0": "mcw_tfc_aio:block/lead_knot_vert",
+		"2": "tfc:block/wood/planks/douglas_fir",
+		"3": "mcw_tfc_aio:block/lead_knot",
+		"4": "tfc:block/wood/log/douglas_fir",
+		"particle": "tfc:block/wood/log/douglas_fir"
+	}
+}

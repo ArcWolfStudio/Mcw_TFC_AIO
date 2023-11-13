@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "minecraft:block/bamboo_stalk",
+		"1_0": "minecraft:block/bamboo_stalk"
+	},
+	"elements": [
+		{
+			"from": [0, 3, 6.5],
+			"to": [3, 13, 9.5],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 10], "texture": "#1_0"},
+				"east": {"uv": [0, 0, 3, 10], "texture": "#1_0"},
+				"south": {"uv": [0, 0, 3, 10], "texture": "#1_0"},
+				"west": {"uv": [0, 0, 3, 10], "texture": "#1_0"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#1_0"}
+			}
+		},
+		{
+			"from": [0, 13, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [13, 4, 16, 7], "texture": "#1_0"},
+				"east": {"uv": [3, 0, 6, 16], "rotation": 90, "texture": "#1_0"},
+				"south": {"uv": [13, 0, 16, 3], "texture": "#1_0"},
+				"west": {"uv": [9, 0, 12, 16], "rotation": 90, "texture": "#1_0"},
+				"up": {"uv": [0, 0, 3, 16], "texture": "#1_0"},
+				"down": {"uv": [0, 0, 3, 16], "texture": "#1_0"}
+			}
+		},
+		{
+			"from": [3, 13, 0],
+			"to": [16, 16, 3],
+			"faces": {
+				"north": {"uv": [9, 0, 12, 13], "rotation": 90, "texture": "#1_0"},
+				"east": {"uv": [13, 4, 16, 7], "texture": "#1_0"},
+				"south": {"uv": [3, 0, 6, 13], "rotation": 90, "texture": "#1_0"},
+				"up": {"uv": [0, 0, 3, 13], "rotation": 90, "texture": "#1_0"},
+				"down": {"uv": [0, 0, 3, 13], "rotation": 270, "texture": "#1_0"}
+			}
+		},
+		{
+			"from": [6.5, 3, 0],
+			"to": [9.5, 13, 3],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 10], "texture": "#1_0"},
+				"east": {"uv": [0, 0, 3, 10], "texture": "#1_0"},
+				"south": {"uv": [0, 0, 3, 10], "texture": "#1_0"},
+				"west": {"uv": [0, 0, 3, 10], "texture": "#1_0"},
+				"down": {"uv": [0, 0, 3, 3], "rotation": 270, "texture": "#1_0"}
+			}
+		}
+	]
+}

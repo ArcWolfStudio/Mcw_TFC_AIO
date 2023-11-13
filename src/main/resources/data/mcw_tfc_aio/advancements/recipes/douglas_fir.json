@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_picket_fence",
+	  "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_stockade_fence",
+	  "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_horse_fence",
+	  "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_wired_fence",
+	  "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_highley_gate",
+	  "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_pyramid_gate",
+      "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_roof",
+      "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_attic_roof",
+      "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_top_roof",
+      "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_lower_roof",
+      "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_steep_roof",
+      "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_upper_lower_roof",
+      "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_upper_steep_roof",
+      "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_planks_roof",
+      "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_planks_attic_roof",
+      "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_planks_top_roof",
+      "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_planks_lower_roof",
+      "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_planks_steep_roof",
+      "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/douglas_fir_fences/douglas_fir_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_douglas_fir": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/douglas_fir"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_douglas_fir"
+    ]
+  ]
+}

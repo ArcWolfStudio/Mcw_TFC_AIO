@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "picket",
+    
+    "pattern":
+    [
+		"CBC",
+		"CAC"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stick"
+        },  
+
+        "B":
+        {
+            "item": "tfc:wood/lumber/acacia"
+        },   		
+        
+        "C":
+        {
+            "item": "tfc:wood/log/acacia"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/acacia_fences/acacia_picket_fence",
+        "count": 8
+    }
+}
+
+

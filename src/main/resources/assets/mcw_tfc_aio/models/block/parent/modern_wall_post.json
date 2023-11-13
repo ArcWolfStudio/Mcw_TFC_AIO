@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"render_type": "cutout",
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [6, 0, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [3, 0, 7, 16], "texture": "#wall"},
+				"east": {"uv": [3, 0, 7, 16], "texture": "#wall"},
+				"south": {"uv": [3, 0, 7, 16], "texture": "#wall"},
+				"west": {"uv": [3, 0, 7, 16], "texture": "#wall"},
+				"up": {"uv": [8, 2, 12, 6], "texture": "#wall"},
+				"down": {"uv": [6, 0, 10, 4], "texture": "#wall"}
+			}
+		}
+	]
+}

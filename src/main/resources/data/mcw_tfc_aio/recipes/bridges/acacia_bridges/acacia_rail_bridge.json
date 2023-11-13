@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "rail_bridges",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "tfc:wood/planks/acacia_fence"
+        },
+        
+        "W":
+        {
+            "item": "tfc:wood/planks/acacia_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/acacia_bridges/acacia_rail_bridge",
+        "count": 4
+    }
+}

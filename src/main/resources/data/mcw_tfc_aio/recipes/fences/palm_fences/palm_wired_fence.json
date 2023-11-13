@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "wired",
+    
+    "pattern":
+    [
+		"ACA",
+		"ABA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stick"
+        },    
+        
+        "B":
+        {
+            "item": "tfc:wood/log/palm"
+        },   		
+        
+        "C":
+        {
+            "item": "minecraft:iron_bars"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/palm_fences/palm_wired_fence",
+        "count": 4
+    }
+}
+
+

@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/bridge/rope/parent/corner_clear",
+	"textures": {
+		"0": "mcw_tfc_aio:block/lead_knot_vert",
+		"4": "tfc:block/wood/log/willow",
+		"particle": "tfc:block/wood/log/willow",
+		"1_4": "mcw_tfc_aio:block/lead_knot"
+	}
+}

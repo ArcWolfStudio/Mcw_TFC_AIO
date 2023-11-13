@@ -1,0 +1,11 @@
+
+	
+{
+	"parent": "mcw_tfc_aio:block/parent/inventory/horse_fence",
+	"textures": {
+		"1_texture": "tfc:block/wood/planks/sycamore",
+		"1_1_texture": "tfc:block/wood/stripped_log/sycamore",
+		"particle": "tfc:block/wood/log/sycamore",
+		"wall": "tfc:block/wood/log/sycamore"
+	}
+}

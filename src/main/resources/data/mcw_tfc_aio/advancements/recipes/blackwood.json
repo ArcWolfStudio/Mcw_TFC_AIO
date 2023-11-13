@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/blackwood_fences/blackwood_picket_fence",
+	  "mcw_tfc_aio:fences/blackwood_fences/blackwood_stockade_fence",
+	  "mcw_tfc_aio:fences/blackwood_fences/blackwood_horse_fence",
+	  "mcw_tfc_aio:fences/blackwood_fences/blackwood_wired_fence",
+	  "mcw_tfc_aio:fences/blackwood_fences/blackwood_highley_gate",
+	  "mcw_tfc_aio:fences/blackwood_fences/blackwood_pyramid_gate",
+      "mcw_tfc_aio:fences/blackwood_fences/blackwood_roof",
+      "mcw_tfc_aio:fences/blackwood_fences/blackwood_attic_roof",
+      "mcw_tfc_aio:fences/blackwood_fences/blackwood_top_roof",
+      "mcw_tfc_aio:fences/blackwood_fences/blackwood_lower_roof",
+      "mcw_tfc_aio:fences/blackwood_fences/blackwood_steep_roof",
+      "mcw_tfc_aio:fences/blackwood_fences/blackwood_upper_lower_roof",
+      "mcw_tfc_aio:fences/blackwood_fences/blackwood_upper_steep_roof",
+      "mcw_tfc_aio:fences/blackwood_fences/blackwood_planks_roof",
+      "mcw_tfc_aio:fences/blackwood_fences/blackwood_planks_attic_roof",
+      "mcw_tfc_aio:fences/blackwood_fences/blackwood_planks_top_roof",
+      "mcw_tfc_aio:fences/blackwood_fences/blackwood_planks_lower_roof",
+      "mcw_tfc_aio:fences/blackwood_fences/blackwood_planks_steep_roof",
+      "mcw_tfc_aio:fences/blackwood_fences/blackwood_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/blackwood_fences/blackwood_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_blackwood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/blackwood"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blackwood"
+    ]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A A",
+        " A "
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:clay_ball"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:rain_gutter",
+        "count": 3
+    }
+}
+
+

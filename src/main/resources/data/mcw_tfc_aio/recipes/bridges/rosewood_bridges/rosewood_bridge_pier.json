@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_piers",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "tfc:wood/planks/rosewood_fence"
+        },
+        
+        "W":
+        {
+            "item": "tfc:wood/log/rosewood"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/rosewood_bridges/rosewood_bridge_pier",
+        "count": 3
+    }
+}

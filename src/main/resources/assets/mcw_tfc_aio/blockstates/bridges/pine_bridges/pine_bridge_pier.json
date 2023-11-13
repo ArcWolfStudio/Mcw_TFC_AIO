@@ -1,0 +1,27 @@
+{
+    "variants": {                                                                        
+        "north=false,east=false,west=false,south=false":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_single"},
+
+        "north=true,east=false,west=false,south=true":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_middle", "y":90 },
+        "north=false,east=true,west=true,south=false":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_middle" },
+        "north=true,east=true,west=true,south=true":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_single" },
+
+		"north=true,east=true,west=true,south=false":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_single" },
+		"north=true,east=true,west=false,south=true":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_single" },
+		"north=false,east=true,west=true,south=true":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_single" },
+	    "north=true,east=false,west=true,south=true":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_single" },
+				
+		"north=true,east=false,west=true,south=false":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_corner" },
+	    "north=true,east=true,west=false,south=false":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_corner", "y":90 },
+	    "north=false,east=true,west=false,south=true":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_corner", "y":180 },
+	    "north=false,east=false,west=true,south=true":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_corner", "y":270 },
+		
+		"north=true,east=false,west=false,south=false":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_side", "y":90 },
+	    "north=false,east=true,west=false,south=false":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_side", "y":180 },
+	    "north=false,east=false,west=false,south=true":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_side", "y":270 },
+	    "north=false,east=false,west=true,south=false":  { "model": "mcw_tfc_aio:block/support_pier/wooden/pine/pine_pillar_side" }
+					
+    }
+}
+
+

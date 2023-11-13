@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcw_tfc_aio:black_striped_awning",
+	  "mcw_tfc_aio:blue_striped_awning",
+	  "mcw_tfc_aio:brown_striped_awning",
+	  "mcw_tfc_aio:cyan_striped_awning",
+	  "mcw_tfc_aio:gray_striped_awning",
+	  "mcw_tfc_aio:green_striped_awning",
+	  "mcw_tfc_aio:light_blue_striped_awning",
+	  "mcw_tfc_aio:light_gray_striped_awning",
+	  "mcw_tfc_aio:lime_striped_awning",
+	  "mcw_tfc_aio:magenta_striped_awning",
+	  "mcw_tfc_aio:orange_striped_awning",
+	  "mcw_tfc_aio:pink_striped_awning",
+	  "mcw_tfc_aio:purple_striped_awning",
+	  "mcw_tfc_aio:red_striped_awning",
+	  "mcw_tfc_aio:yellow_striped_awning"
+    ]
+  },
+  "criteria": {
+    "has_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_planks"
+    ]
+  ]
+}

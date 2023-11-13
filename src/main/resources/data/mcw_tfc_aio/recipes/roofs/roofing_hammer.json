@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " I ",
+        " S ",
+		"S  "
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:stick"
+        },
+		"I":
+        {
+            "tag": "mcw_tfc_aio:metal_ingots"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofing_hammer",
+        "count": 1
+    }
+}

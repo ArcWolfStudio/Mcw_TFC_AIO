@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "steep",
+    
+    "pattern":
+    [
+        " W",
+		"WW",
+        "WS"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "tfc:wood/log/willow"
+        },
+		"S":
+        {
+            "tag": "tfc:lumber"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/willow_roofs/willow_steep_roof",
+        "count": 4
+    }
+}

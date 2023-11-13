@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"render_type": "cutout",
+	"elements": [
+		{
+			"name": "wall",
+			"from": [6.2, 0, 0],
+			"to": [9.8, 4, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -3, 8]},
+			"faces": {
+				"north": {"uv": [5, 2, 8.6, 6], "texture": "#wall"},
+				"east": {"uv": [3, 4, 11, 8], "texture": "#wall"},
+				"west": {"uv": [4, 4, 12, 8], "texture": "#wall"},
+				"up": {"uv": [5, 2, 13, 5.6], "rotation": 90, "texture": "#wall"},
+				"down": {"uv": [6, 1, 14, 4.6], "rotation": 90, "texture": "#wall"}
+			}
+		},
+		{
+			"name": "wall",
+			"from": [6.2, 12.9, 0],
+			"to": [9.8, 14, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 8]},
+			"faces": {
+				"north": {"uv": [5, 2, 8.6, 3.1], "texture": "#wall"},
+				"east": {"uv": [3, 1, 11, 2.1], "texture": "#wall"},
+				"west": {"uv": [0, 2, 8, 3.1], "texture": "#wall"},
+				"up": {"uv": [4, 1, 12, 4.6], "rotation": 90, "texture": "#wall"},
+				"down": {"uv": [6, 1, 14, 5], "rotation": 90, "texture": "#wall"}
+			}
+		},
+		{
+			"from": [7, 4, 0],
+			"to": [9, 13, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 12, 8]},
+			"faces": {
+				"north": {"uv": [7, 2, 9, 11], "texture": "#1"},
+				"east": {"uv": [6, 0, 14, 9], "texture": "#1"},
+				"west": {"uv": [5, 0, 13, 9], "texture": "#1"}
+			}
+		}
+	]
+}

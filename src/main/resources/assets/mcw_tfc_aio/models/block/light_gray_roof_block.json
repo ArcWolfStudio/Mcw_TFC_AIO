@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mcw_tfc_aio:block/light_gray_roof"
+  }
+}

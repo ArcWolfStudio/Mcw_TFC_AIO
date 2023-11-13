@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/support_pier/wooden/parent/pillar_corner",
+	"textures": {
+		"0": "tfc:block/wood/log/ash",
+		"1": "tfc:block/wood/log/ash",
+		"2": "tfc:block/wood/planks/ash",
+		"particle": "tfc:block/wood/log/ash"
+	}
+}

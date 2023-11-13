@@ -1,0 +1,10 @@
+
+	
+{
+	"parent": "mcw_tfc_aio:block/parent/picket_fence_side",
+	"textures": {
+		"2": "tfc:block/wood/log/willow",
+		"particle": "tfc:block/wood/planks/willow",
+		"texture": "tfc:block/wood/planks/willow"
+	}
+}

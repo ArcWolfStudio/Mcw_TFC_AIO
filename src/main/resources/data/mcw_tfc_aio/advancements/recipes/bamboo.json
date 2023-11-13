@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:bamboo_fence"
+    ]
+  },
+  "criteria": {
+    "has_bamboo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bamboo"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bamboo"
+    ]
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/rosewood_fences/rosewood_picket_fence",
+	  "mcw_tfc_aio:fences/rosewood_fences/rosewood_stockade_fence",
+	  "mcw_tfc_aio:fences/rosewood_fences/rosewood_horse_fence",
+	  "mcw_tfc_aio:fences/rosewood_fences/rosewood_wired_fence",
+	  "mcw_tfc_aio:fences/rosewood_fences/rosewood_highley_gate",
+	  "mcw_tfc_aio:fences/rosewood_fences/rosewood_pyramid_gate",
+      "mcw_tfc_aio:fences/rosewood_fences/rosewood_roof",
+      "mcw_tfc_aio:fences/rosewood_fences/rosewood_attic_roof",
+      "mcw_tfc_aio:fences/rosewood_fences/rosewood_top_roof",
+      "mcw_tfc_aio:fences/rosewood_fences/rosewood_lower_roof",
+      "mcw_tfc_aio:fences/rosewood_fences/rosewood_steep_roof",
+      "mcw_tfc_aio:fences/rosewood_fences/rosewood_upper_lower_roof",
+      "mcw_tfc_aio:fences/rosewood_fences/rosewood_upper_steep_roof",
+      "mcw_tfc_aio:fences/rosewood_fences/rosewood_planks_roof",
+      "mcw_tfc_aio:fences/rosewood_fences/rosewood_planks_attic_roof",
+      "mcw_tfc_aio:fences/rosewood_fences/rosewood_planks_top_roof",
+      "mcw_tfc_aio:fences/rosewood_fences/rosewood_planks_lower_roof",
+      "mcw_tfc_aio:fences/rosewood_fences/rosewood_planks_steep_roof",
+      "mcw_tfc_aio:fences/rosewood_fences/rosewood_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/rosewood_fences/rosewood_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_rosewood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/rosewood"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_rosewood"
+    ]
+  ]
+}

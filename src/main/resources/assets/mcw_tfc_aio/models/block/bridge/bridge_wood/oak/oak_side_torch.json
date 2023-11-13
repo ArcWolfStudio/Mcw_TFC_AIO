@@ -1,0 +1,9 @@
+	{
+	"parent": "mcw_tfc_aio:block/bridge/bridge_wood/parent/side_torch",
+	"textures": {
+		"5": "tfc:block/wood/planks/oak",
+		"0": "tfc:block/wood/log/oak",
+		"4": "mcw_tfc_aio:block/torch",
+		"particle": "tfc:block/wood/log/oak"
+	}
+}

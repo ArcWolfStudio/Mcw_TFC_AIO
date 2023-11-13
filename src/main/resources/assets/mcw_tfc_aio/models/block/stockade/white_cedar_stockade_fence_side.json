@@ -1,0 +1,10 @@
+
+	
+{
+	"parent": "mcw_tfc_aio:block/parent/stockade_fence_side",
+	"textures": {
+		"4": "tfc:block/wood/planks/white_cedar",
+		"5": "tfc:block/wood/log/white_cedar",
+		"particle": "tfc:block/wood/planks/white_cedar"
+	}
+}

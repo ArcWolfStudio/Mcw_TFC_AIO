@@ -1,0 +1,10 @@
+
+	
+{
+	"parent": "mcw_tfc_aio:block/parent/wired_fence_post",
+	"textures": {
+		"1": "tfc:block/wood/log_top/douglas_fir",
+		"particle": "tfc:block/wood/log/douglas_fir",
+		"texture": "tfc:block/wood/log/douglas_fir"
+	}
+}

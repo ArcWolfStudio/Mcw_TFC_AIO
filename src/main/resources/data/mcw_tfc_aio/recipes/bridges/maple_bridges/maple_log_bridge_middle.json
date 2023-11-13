@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "log_bridges",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "tfc:wood/planks/maple_fence"
+        },
+        
+        "W":
+        {
+            "item": "tfc:wood/planks/maple_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/maple_bridges/maple_log_bridge_middle",
+        "count": 4
+    }
+}

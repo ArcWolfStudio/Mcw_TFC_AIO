@@ -1,0 +1,15 @@
+{
+    "variants": {                                                                        
+        "facing=north,powered=false":  { "model": "mcw_tfc_aio:block/bridge/rail/white_cedar/white_cedar", "y": 90},
+		"facing=east,powered=false":  { "model": "mcw_tfc_aio:block/bridge/rail/white_cedar/white_cedar"},
+		"facing=south,powered=false":  { "model": "mcw_tfc_aio:block/bridge/rail/white_cedar/white_cedar", "y": 90},
+		"facing=west,powered=false":  { "model": "mcw_tfc_aio:block/bridge/rail/white_cedar/white_cedar"},
+
+		"facing=north,powered=true":  { "model": "mcw_tfc_aio:block/bridge/rail/white_cedar/white_cedar_powered", "y": 90},
+		"facing=east,powered=true":  { "model": "mcw_tfc_aio:block/bridge/rail/white_cedar/white_cedar_powered"},
+		"facing=south,powered=true":  { "model": "mcw_tfc_aio:block/bridge/rail/white_cedar/white_cedar_powered", "y": 90},
+		"facing=west,powered=true":  { "model": "mcw_tfc_aio:block/bridge/rail/white_cedar/white_cedar_powered"}
+    }
+}
+
+

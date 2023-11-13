@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "highley",
+    
+    "pattern":
+    [
+		"ABA",
+		"ABA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stick"
+        },    
+        
+        "B":
+        {
+            "item": "tfc:wood/log/sequoia"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/sequoia_fences/sequoia_highley_gate",
+        "count": 1
+    }
+}
+
+

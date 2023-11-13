@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mcw_tfc_aio:block/black_roof_slab"
+    },
+    "type=double": {
+      "model": "mcw_tfc_aio:block/black_roof_block"
+    },
+    "type=top": {
+      "model": "mcw_tfc_aio:block/black_roof_slab_top"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/xx_upper_lower_inner",
+	"textures": {
+		"particle": "minecraft:block/light_gray_concrete",
+		"1_2": "minecraft:block/light_gray_concrete"
+	}
+}

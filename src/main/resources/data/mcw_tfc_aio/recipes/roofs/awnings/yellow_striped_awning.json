@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "awnings",
+    
+    "pattern":
+    [
+        "BAB"
+    ],
+    
+    "key":
+    { 
+        "B":
+        {
+            "item": "minecraft:yellow_carpet"
+        },
+        "A":
+        {
+            "item": "minecraft:white_carpet"
+        }
+    },
+    
+    "result":                                
+    {
+        "item":  "mcw_tfc_aio:roofs/awnings/yellow_striped_awning",
+        "count": 1
+    }
+}
+
+

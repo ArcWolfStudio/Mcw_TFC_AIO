@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "pyramid",
+    
+    "pattern":
+    [
+		"ABA",
+		"ACA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stick"
+        },    
+        
+        "B":
+        {
+            "item": "tfc:wood/log/acacia"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/acacia"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/acacia_fences/acacia_pyramid_gate",
+        "count": 1
+    }
+}
+
+

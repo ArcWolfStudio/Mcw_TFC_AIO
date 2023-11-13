@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/sycamore_fences/sycamore_picket_fence",
+	  "mcw_tfc_aio:fences/sycamore_fences/sycamore_stockade_fence",
+	  "mcw_tfc_aio:fences/sycamore_fences/sycamore_horse_fence",
+	  "mcw_tfc_aio:fences/sycamore_fences/sycamore_wired_fence",
+	  "mcw_tfc_aio:fences/sycamore_fences/sycamore_highley_gate",
+	  "mcw_tfc_aio:fences/sycamore_fences/sycamore_pyramid_gate",
+      "mcw_tfc_aio:fences/sycamore_fences/sycamore_roof",
+      "mcw_tfc_aio:fences/sycamore_fences/sycamore_attic_roof",
+      "mcw_tfc_aio:fences/sycamore_fences/sycamore_top_roof",
+      "mcw_tfc_aio:fences/sycamore_fences/sycamore_lower_roof",
+      "mcw_tfc_aio:fences/sycamore_fences/sycamore_steep_roof",
+      "mcw_tfc_aio:fences/sycamore_fences/sycamore_upper_lower_roof",
+      "mcw_tfc_aio:fences/sycamore_fences/sycamore_upper_steep_roof",
+      "mcw_tfc_aio:fences/sycamore_fences/sycamore_planks_roof",
+      "mcw_tfc_aio:fences/sycamore_fences/sycamore_planks_attic_roof",
+      "mcw_tfc_aio:fences/sycamore_fences/sycamore_planks_top_roof",
+      "mcw_tfc_aio:fences/sycamore_fences/sycamore_planks_lower_roof",
+      "mcw_tfc_aio:fences/sycamore_fences/sycamore_planks_steep_roof",
+      "mcw_tfc_aio:fences/sycamore_fences/sycamore_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/sycamore_fences/sycamore_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_sycamore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/sycamore"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sycamore"
+    ]
+  ]
+}

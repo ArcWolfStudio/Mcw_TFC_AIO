@@ -1,0 +1,8 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/railing_gate",
+	"textures": {
+		"2": "minecraft:block/stone_bricks",
+		"4": "mcw_tfc_aio:block/iron_bar_gate",
+		"particle": "minecraft:block/stone_bricks"
+	}
+}

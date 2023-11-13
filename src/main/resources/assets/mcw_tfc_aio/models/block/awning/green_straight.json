@@ -1,0 +1,8 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/awning_straight",
+	"textures": {
+		"1": "minecraft:block/green_wool",
+		"3": "minecraft:block/white_wool",
+		"particle": "minecraft:block/green_wool"
+	}
+}

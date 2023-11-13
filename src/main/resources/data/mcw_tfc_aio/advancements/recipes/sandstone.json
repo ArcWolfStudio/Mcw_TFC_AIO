@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:modern_sandstone_wall",
+	  "mcw_tfc_aio:modern_red_sandstone_wall",
+	  "mcw_tfc_aio:railing_sandstone_wall",
+	  "mcw_tfc_aio:railing_red_sandstone_wall",
+	  "mcw_tfc_aio:sandstone_railing_gate",
+	  "mcw_tfc_aio:red_sandstone_railing_gate"
+    ]
+  },
+  "criteria": {
+    "has_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sand"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sand"
+    ]
+  ]
+}

@@ -1,0 +1,10 @@
+
+	
+{
+	"parent": "mcw_tfc_aio:block/parent/stockade_fence_side",
+	"textures": {
+		"4": "minecraft:block/warped_planks",
+		"5": "minecraft:block/warped_stem",
+		"particle": "minecraft:block/warped_planks"
+	}
+}

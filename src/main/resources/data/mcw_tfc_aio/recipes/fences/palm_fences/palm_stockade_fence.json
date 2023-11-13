@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "stockade",
+    
+    "pattern":
+    [
+		"ABA",
+		"ACA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "tfc:wood/log/palm"
+        },    
+        
+        "B":
+        {
+            "item": "tfc:wood/planks/palm"
+        },
+
+        "C":
+        {
+            "item": "tfc:wood/lumber/palm"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/palm_fences/palm_stockade_fence",
+        "count": 8
+    }
+}
+
+

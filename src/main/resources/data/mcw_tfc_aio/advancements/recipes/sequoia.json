@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/sequoia_fences/sequoia_picket_fence",
+	  "mcw_tfc_aio:fences/sequoia_fences/sequoia_stockade_fence",
+	  "mcw_tfc_aio:fences/sequoia_fences/sequoia_horse_fence",
+	  "mcw_tfc_aio:fences/sequoia_fences/sequoia_wired_fence",
+	  "mcw_tfc_aio:fences/sequoia_fences/sequoia_highley_gate",
+	  "mcw_tfc_aio:fences/sequoia_fences/sequoia_pyramid_gate",
+      "mcw_tfc_aio:fences/sequoia_fences/sequoia_roof",
+      "mcw_tfc_aio:fences/sequoia_fences/sequoia_attic_roof",
+      "mcw_tfc_aio:fences/sequoia_fences/sequoia_top_roof",
+      "mcw_tfc_aio:fences/sequoia_fences/sequoia_lower_roof",
+      "mcw_tfc_aio:fences/sequoia_fences/sequoia_steep_roof",
+      "mcw_tfc_aio:fences/sequoia_fences/sequoia_upper_lower_roof",
+      "mcw_tfc_aio:fences/sequoia_fences/sequoia_upper_steep_roof",
+      "mcw_tfc_aio:fences/sequoia_fences/sequoia_planks_roof",
+      "mcw_tfc_aio:fences/sequoia_fences/sequoia_planks_attic_roof",
+      "mcw_tfc_aio:fences/sequoia_fences/sequoia_planks_top_roof",
+      "mcw_tfc_aio:fences/sequoia_fences/sequoia_planks_lower_roof",
+      "mcw_tfc_aio:fences/sequoia_fences/sequoia_planks_steep_roof",
+      "mcw_tfc_aio:fences/sequoia_fences/sequoia_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/sequoia_fences/sequoia_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_sequoia": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/sequoia"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sequoia"
+    ]
+  ]
+}

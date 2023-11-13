@@ -1,0 +1,16 @@
+{
+"replace": false,
+"values":[
+
+  "#forge:rods/bismuth_bronze",
+  "#forge:rods/black_bronze",
+  "#forge:rods/black_steel",
+  "#forge:rods/blue_steel",
+  "#forge:rods/brass",
+  "#forge:rods/bronze",
+  "#forge:rods/copper",
+  "#forge:rods/red_steel",
+  "#forge:rods/steel",
+  "#forge:rods/wrought_iron"
+  ]
+}

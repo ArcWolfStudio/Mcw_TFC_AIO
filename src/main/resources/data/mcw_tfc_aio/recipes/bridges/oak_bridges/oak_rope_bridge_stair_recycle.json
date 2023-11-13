@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "mcw_tfc_aio:bridges/oak_bridges/oak_rope_bridge_stair"
+        }
+    ],
+    "result": {
+        "item": "mcw_tfc_aio:bridges/oak_bridges/rope_oak_bridge",
+        "count": 1
+    }
+}

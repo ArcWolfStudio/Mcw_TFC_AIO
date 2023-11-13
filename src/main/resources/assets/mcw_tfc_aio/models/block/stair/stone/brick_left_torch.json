@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/stair/stone/parent/left_torch",
+	"textures": {
+		"1": "minecraft:block/gravel",
+		"2": "minecraft:block/bricks",
+		"4": "mcw_tfc_aio:block/torch",
+		"particle": "minecraft:block/bricks"
+	}
+}

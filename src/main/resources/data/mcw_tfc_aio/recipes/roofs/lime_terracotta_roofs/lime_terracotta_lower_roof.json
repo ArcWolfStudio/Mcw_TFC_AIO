@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:lime_terracotta"
+    },
+    "result": "mcw_tfc_aio:roofs/lime_terracotta_roofs/lime_terracotta_lower_roof",
+    "group": "roofs",
+    "count": 1
+}

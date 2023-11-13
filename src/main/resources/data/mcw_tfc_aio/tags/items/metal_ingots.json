@@ -1,0 +1,16 @@
+{
+"replace": false,
+"values":[
+
+  "#forge:ingots/bismuth_bronze",
+  "#forge:ingots/black_bronze",
+  "#forge:ingots/black_steel",
+  "#forge:ingots/blue_steel",
+  "#forge:ingots/brass",
+  "#forge:ingots/bronze",
+  "#forge:ingots/copper",
+  "#forge:ingots/red_steel",
+  "#forge:ingots/steel",
+  "#forge:ingots/wrought_iron"
+  ]
+}

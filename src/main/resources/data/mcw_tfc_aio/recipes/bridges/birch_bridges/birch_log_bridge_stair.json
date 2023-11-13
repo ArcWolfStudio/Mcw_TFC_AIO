@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "log_stairs",
+    
+    "pattern": [
+    "  F",
+    " FF",
+	"FFF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "mcw_tfc_aio:bridges/birch_bridges/birch_log_bridge_middle"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/birch_bridges/birch_log_bridge_stair",
+        "count": 6
+    }
+}

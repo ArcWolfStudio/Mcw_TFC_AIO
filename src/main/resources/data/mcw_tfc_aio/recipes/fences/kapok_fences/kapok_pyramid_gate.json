@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "pyramid",
+    
+    "pattern":
+    [
+		"ABA",
+		"ACA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stick"
+        },
+
+        "B":
+        {
+            "item": "tfc:wood/log/kapok"
+        },
+
+        "C":
+        {
+            "item": "tfc:wood/planks/kapok"
+        }
+    },
+
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/kapok_fences/kapok_pyramid_gate",
+        "count": 1
+    }
+}
+
+

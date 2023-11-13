@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "rope_stairs",
+    
+    "pattern": [
+    "  F",
+    " FF",
+	"FFF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "mcw_tfc_aio:bridges/ash_bridges/rope_ash_bridge"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/ash_bridges/ash_rope_bridge_stair",
+        "count": 6
+    }
+}

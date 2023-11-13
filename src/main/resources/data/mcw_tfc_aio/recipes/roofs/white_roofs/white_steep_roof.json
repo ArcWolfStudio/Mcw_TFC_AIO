@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:white_terracotta"
+    },
+    "result": "mcw_tfc_aio:roofs/white_roofs/white_steep_roof",
+    "group": "roofs",
+    "count": 1
+}

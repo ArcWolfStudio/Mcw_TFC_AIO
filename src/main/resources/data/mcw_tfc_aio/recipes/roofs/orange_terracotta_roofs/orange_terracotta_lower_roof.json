@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:orange_terracotta"
+    },
+    "result": "mcw_tfc_aio:roofs/orange_terracotta_roofs/orange_terracotta_lower_roof",
+    "group": "roofs",
+    "count": 1
+}

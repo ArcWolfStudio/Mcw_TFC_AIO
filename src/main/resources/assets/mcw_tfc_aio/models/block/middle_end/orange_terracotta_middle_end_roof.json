@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/top_roof",
+	"textures": {
+		"particle": "minecraft:block/orange_terracotta_middle_end_roof",
+		"1_2": "minecraft:block/orange_terracotta_middle_end_roof"
+	}
+}

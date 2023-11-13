@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:bricks"
+    },
+    "result": "mcw_tfc_aio:roofs/brick_roofs/bricks_upper_steep_roof",
+    "group": "roofs",
+    "count": 1
+}

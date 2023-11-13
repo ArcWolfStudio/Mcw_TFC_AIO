@@ -1,0 +1,46 @@
+{
+    "variants": {           
+
+        "facing=north,above=true,below=true,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_middle_light_gray", "y":270 },
+        "facing=south,above=true,below=true,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_middle_light_gray", "y":90 },
+        "facing=west,above=true,below=true,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_middle_light_gray", "y":180},
+        "facing=east,above=true,below=true,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_middle_light_gray"},
+
+        "facing=north,above=true,below=true,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_middle_light_gray", "y":270 },
+        "facing=south,above=true,below=true,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_middle_light_gray", "y":90 },
+        "facing=west,above=true,below=true,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_middle_light_gray", "y":180},
+        "facing=east,above=true,below=true,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_middle_light_gray"},
+
+        "facing=north,above=false,below=false,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray", "y":270 },
+        "facing=south,above=false,below=false,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray", "y":90 },
+        "facing=west,above=false,below=false,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray", "y":180},
+        "facing=east,above=false,below=false,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray"},
+
+        "facing=north,above=false,below=false,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray0", "y":270 },
+        "facing=south,above=false,below=false,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray0", "y":90 },
+        "facing=west,above=false,below=false,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray0", "y":180},
+        "facing=east,above=false,below=false,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray0"},
+		
+		"facing=north,above=true,below=false,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray", "y":270 },
+        "facing=south,above=true,below=false,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray", "y":90 },
+        "facing=west,above=true,below=false,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray", "y":180},
+        "facing=east,above=true,below=false,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray"},
+
+        "facing=north,above=true,below=false,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray0", "y":270 },
+        "facing=south,above=true,below=false,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray0", "y":90 },
+        "facing=west,above=true,below=false,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray0", "y":180},
+        "facing=east,above=true,below=false,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_bot_light_gray0"},
+
+        "facing=north,above=false,below=true,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_top_light_gray0", "y":270 },
+        "facing=south,above=false,below=true,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_top_light_gray0", "y":90 },
+        "facing=west,above=false,below=true,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_top_light_gray0", "y":180},
+        "facing=east,above=false,below=true,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_top_light_gray0"},
+
+        "facing=north,above=false,below=true,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_top_light_gray", "y":270 },
+        "facing=south,above=false,below=true,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_top_light_gray", "y":90 },
+        "facing=west,above=false,below=true,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_top_light_gray", "y":180},
+        "facing=east,above=false,below=true,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_top_light_gray"}
+  
+    }
+}
+

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "mcw_tfc_aio:bridges/hickory_bridges/hickory_rope_bridge_stair"
+        }
+    ],
+    "result": {
+        "item": "mcw_tfc_aio:bridges/hickory_bridges/rope_hickory_bridge",
+        "count": 1
+    }
+}

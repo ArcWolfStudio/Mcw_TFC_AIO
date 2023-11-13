@@ -1,0 +1,9 @@
+
+{
+	"parent": "mcw_tfc_aio:block/parent/horse_fence_side",
+	"textures": {
+		"texture": "tfc:block/wood/planks/willow",
+		"particle": "tfc:block/wood/planks/willow",
+		"1_texture": "tfc:block/wood/planks/willow"
+	}
+}

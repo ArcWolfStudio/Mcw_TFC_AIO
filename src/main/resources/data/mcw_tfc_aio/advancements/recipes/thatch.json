@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:thatch_roof",
+	  "mcw_tfc_aio:thatch_attic_roof",
+	  "mcw_tfc_aio:thatch_top_roof",
+	  "mcw_tfc_aio:thatch_lower_roof",
+	  "mcw_tfc_aio:thatch_steep_roof",
+	  "mcw_tfc_aio:thatch_upper_lower_roof",
+	  "mcw_tfc_aio:thatch_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wheat"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_planks"
+    ]
+  ]
+}

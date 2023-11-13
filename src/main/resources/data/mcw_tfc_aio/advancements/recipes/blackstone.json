@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:modern_blackstone_wall",
+	  "mcw_tfc_aio:railing_blackstone_wall",
+	  "mcw_tfc_aio:blackstone_railing_gate",
+	  "mcw_tfc_aio:blackstone_brick_railing_gate"
+    ]
+  },
+  "criteria": {
+    "has_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blackstone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blackstone"
+    ]
+  ]
+}

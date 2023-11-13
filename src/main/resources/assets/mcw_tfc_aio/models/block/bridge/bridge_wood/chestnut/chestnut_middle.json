@@ -1,0 +1,8 @@
+	{
+	"parent": "mcw_tfc_aio:block/bridge/bridge_wood/parent/middle",
+	"textures": {
+		"5": "tfc:block/wood/planks/chestnut",
+		"0": "tfc:block/wood/log/chestnut",
+		"particle": "tfc:block/wood/log/chestnut"
+	}
+}

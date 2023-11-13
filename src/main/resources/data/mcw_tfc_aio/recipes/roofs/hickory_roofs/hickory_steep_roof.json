@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "steep",
+    
+    "pattern":
+    [
+        " W",
+		"WW",
+        "WS"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "tfc:wood/log/hickory"
+        },
+		"S":
+        {
+            "tag": "tfc:lumber"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/hickory_roofs/hickory_steep_roof",
+        "count": 4
+    }
+}

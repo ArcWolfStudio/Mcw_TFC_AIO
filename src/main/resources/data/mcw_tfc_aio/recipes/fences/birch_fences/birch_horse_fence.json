@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "horse",
+    
+    "pattern":
+    [
+		"ABA",
+		"BAB"
+    ],
+    
+    "key":
+    { 
+        "B":
+        {
+            "item": "minecraft:stick"
+        },    
+        
+        "A":
+        {
+            "item": "tfc:wood/log/birch"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/birch_fences/birch_horse_fence",
+        "count": 8
+    }
+}
+
+

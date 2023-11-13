@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/spruce_fences/spruce_picket_fence",
+	  "mcw_tfc_aio:fences/spruce_fences/spruce_stockade_fence",
+	  "mcw_tfc_aio:fences/spruce_fences/spruce_horse_fence",
+	  "mcw_tfc_aio:fences/spruce_fences/spruce_wired_fence",
+	  "mcw_tfc_aio:fences/spruce_fences/spruce_highley_gate",
+	  "mcw_tfc_aio:fences/spruce_fences/spruce_pyramid_gate",
+      "mcw_tfc_aio:fences/spruce_fences/spruce_roof",
+      "mcw_tfc_aio:fences/spruce_fences/spruce_attic_roof",
+      "mcw_tfc_aio:fences/spruce_fences/spruce_top_roof",
+      "mcw_tfc_aio:fences/spruce_fences/spruce_lower_roof",
+      "mcw_tfc_aio:fences/spruce_fences/spruce_steep_roof",
+      "mcw_tfc_aio:fences/spruce_fences/spruce_upper_lower_roof",
+      "mcw_tfc_aio:fences/spruce_fences/spruce_upper_steep_roof",
+      "mcw_tfc_aio:fences/spruce_fences/spruce_planks_roof",
+      "mcw_tfc_aio:fences/spruce_fences/spruce_planks_attic_roof",
+      "mcw_tfc_aio:fences/spruce_fences/spruce_planks_top_roof",
+      "mcw_tfc_aio:fences/spruce_fences/spruce_planks_lower_roof",
+      "mcw_tfc_aio:fences/spruce_fences/spruce_planks_steep_roof",
+      "mcw_tfc_aio:fences/spruce_fences/spruce_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/spruce_fences/spruce_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_spruce": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/spruce"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_spruce"
+    ]
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/hickory_fences/hickory_picket_fence",
+	  "mcw_tfc_aio:fences/hickory_fences/hickory_stockade_fence",
+	  "mcw_tfc_aio:fences/hickory_fences/hickory_horse_fence",
+	  "mcw_tfc_aio:fences/hickory_fences/hickory_wired_fence",
+	  "mcw_tfc_aio:fences/hickory_fences/hickory_highley_gate",
+	  "mcw_tfc_aio:fences/hickory_fences/hickory_pyramid_gate",
+      "mcw_tfc_aio:fences/hickory_fences/hickory_roof",
+      "mcw_tfc_aio:fences/hickory_fences/hickory_attic_roof",
+      "mcw_tfc_aio:fences/hickory_fences/hickory_top_roof",
+      "mcw_tfc_aio:fences/hickory_fences/hickory_lower_roof",
+      "mcw_tfc_aio:fences/hickory_fences/hickory_steep_roof",
+      "mcw_tfc_aio:fences/hickory_fences/hickory_upper_lower_roof",
+      "mcw_tfc_aio:fences/hickory_fences/hickory_upper_steep_roof",
+      "mcw_tfc_aio:fences/hickory_fences/hickory_planks_roof",
+      "mcw_tfc_aio:fences/hickory_fences/hickory_planks_attic_roof",
+      "mcw_tfc_aio:fences/hickory_fences/hickory_planks_top_roof",
+      "mcw_tfc_aio:fences/hickory_fences/hickory_planks_lower_roof",
+      "mcw_tfc_aio:fences/hickory_fences/hickory_planks_steep_roof",
+      "mcw_tfc_aio:fences/hickory_fences/hickory_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/hickory_fences/hickory_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_hickory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/hickory"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_hickory"
+    ]
+  ]
+}

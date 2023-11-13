@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/gutter_middle",
+	"textures": {
+		"0": "minecraft:block/red_concrete_powder",
+		"particle": "minecraft:block/red_concrete_powder"
+	}
+}

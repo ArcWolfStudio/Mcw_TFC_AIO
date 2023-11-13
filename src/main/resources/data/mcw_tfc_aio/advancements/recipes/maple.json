@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/maple_fences/maple_picket_fence",
+	  "mcw_tfc_aio:fences/maple_fences/maple_stockade_fence",
+	  "mcw_tfc_aio:fences/maple_fences/maple_horse_fence",
+	  "mcw_tfc_aio:fences/maple_fences/maple_wired_fence",
+	  "mcw_tfc_aio:fences/maple_fences/maple_highley_gate",
+	  "mcw_tfc_aio:fences/maple_fences/maple_pyramid_gate",
+      "mcw_tfc_aio:fences/maple_fences/maple_roof",
+      "mcw_tfc_aio:fences/maple_fences/maple_attic_roof",
+      "mcw_tfc_aio:fences/maple_fences/maple_top_roof",
+      "mcw_tfc_aio:fences/maple_fences/maple_lower_roof",
+      "mcw_tfc_aio:fences/maple_fences/maple_steep_roof",
+      "mcw_tfc_aio:fences/maple_fences/maple_upper_lower_roof",
+      "mcw_tfc_aio:fences/maple_fences/maple_upper_steep_roof",
+      "mcw_tfc_aio:fences/maple_fences/maple_planks_roof",
+      "mcw_tfc_aio:fences/maple_fences/maple_planks_attic_roof",
+      "mcw_tfc_aio:fences/maple_fences/maple_planks_top_roof",
+      "mcw_tfc_aio:fences/maple_fences/maple_planks_lower_roof",
+      "mcw_tfc_aio:fences/maple_fences/maple_planks_steep_roof",
+      "mcw_tfc_aio:fences/maple_fences/maple_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/maple_fences/maple_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_maple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/maple"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_maple"
+    ]
+  ]
+}

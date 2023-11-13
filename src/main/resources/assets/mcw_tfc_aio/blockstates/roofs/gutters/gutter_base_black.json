@@ -1,0 +1,61 @@
+{
+    "variants": {      
+
+		"facing=east,shape=straight,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_straight_black0" },
+        "facing=west,shape=straight,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_straight_black0", "y":180 },
+        "facing=south,shape=straight,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_straight_black0", "y":90},
+        "facing=north,shape=straight,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_straight_black0", "y":270},
+	
+	    "facing=east,shape=outer_right,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black0" },
+        "facing=west,shape=outer_right,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black0", "y":180 },
+        "facing=south,shape=outer_right,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black0", "y":90},
+        "facing=north,shape=outer_right,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black0", "y":270},
+	
+        "facing=east,shape=outer_left,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black0", "y":270 },
+        "facing=west,shape=outer_left,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black0", "y":90 },
+        "facing=south,shape=outer_left,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black0"},
+        "facing=north,shape=outer_left,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black0", "y":180},
+
+        "facing=east,shape=inner_right,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black0" },
+        "facing=west,shape=inner_right,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black0", "y":180 },
+        "facing=south,shape=inner_right,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black0", "y":90},
+        "facing=north,shape=inner_right,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black0", "y":270},
+  
+        "facing=east,shape=inner_left,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black0", "y":270 },
+        "facing=west,shape=inner_left,water=false":  { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black0", "y":90 },
+        "facing=south,shape=inner_left,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black0"},
+        "facing=north,shape=inner_left,water=false": { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black0", "y":180},
+	
+	
+	
+		"facing=east,shape=straight,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_straight_black" },
+        "facing=west,shape=straight,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_straight_black", "y":180 },
+        "facing=south,shape=straight,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_straight_black", "y":90},
+        "facing=north,shape=straight,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_straight_black", "y":270},
+	
+	    "facing=east,shape=outer_right,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black" },
+        "facing=west,shape=outer_right,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black", "y":180 },
+        "facing=south,shape=outer_right,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black", "y":90},
+        "facing=north,shape=outer_right,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black", "y":270},
+	
+        "facing=east,shape=outer_left,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black", "y":270 },
+        "facing=west,shape=outer_left,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black", "y":90 },
+        "facing=south,shape=outer_left,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black"},
+        "facing=north,shape=outer_left,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_outer_black", "y":180},
+
+        "facing=east,shape=inner_right,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black" },
+        "facing=west,shape=inner_right,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black", "y":180 },
+        "facing=south,shape=inner_right,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black", "y":90},
+        "facing=north,shape=inner_right,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black", "y":270},
+  
+        "facing=east,shape=inner_left,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black", "y":270 },
+        "facing=west,shape=inner_left,water=true":  { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black", "y":90 },
+        "facing=south,shape=inner_left,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black"},
+        "facing=north,shape=inner_left,water=true": { "model": "mcw_tfc_aio:block/gutter/gutter_inner_black", "y":180}
+    }
+}
+
+
+
+
+

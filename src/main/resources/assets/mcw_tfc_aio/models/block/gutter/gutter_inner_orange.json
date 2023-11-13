@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/gutter_inner",
+	"textures": {
+		"0": "block/orange_concrete_powder",
+		"2": "block/orange_concrete",
+		"3": "mcw_tfc_aio:block/water_still",
+		"particle": "block/orange_concrete_powder"
+	}
+}

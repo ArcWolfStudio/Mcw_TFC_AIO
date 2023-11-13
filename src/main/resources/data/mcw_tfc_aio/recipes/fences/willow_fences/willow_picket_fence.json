@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "picket",
+    
+    "pattern":
+    [
+		"CBC",
+		"CAC"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stick"
+        },  
+
+        "B":
+        {
+            "item": "tfc:wood/lumber/willow"
+        },   		
+        
+        "C":
+        {
+            "item": "tfc:wood/log/willow"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/willow_fences/willow_picket_fence",
+        "count": 8
+    }
+}
+
+

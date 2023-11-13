@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/top_pyramid",
+	"textures": {
+		"particle": "tfc:block/wood/planks/acacia",
+		"1_2": "tfc:block/wood/planks/acacia"
+	}
+}

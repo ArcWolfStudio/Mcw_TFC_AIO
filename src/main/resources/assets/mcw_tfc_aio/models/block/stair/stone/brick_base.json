@@ -1,0 +1,8 @@
+{
+	"parent": "mcw_tfc_aio:block/stair/stone/parent/base",
+	"textures": {
+		"1": "minecraft:block/gravel",
+		"2": "minecraft:block/bricks",
+		"particle": "minecraft:block/bricks"
+	}
+}

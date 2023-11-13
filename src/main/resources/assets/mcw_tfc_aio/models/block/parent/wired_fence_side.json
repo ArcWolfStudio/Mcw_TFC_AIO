@@ -1,0 +1,39 @@
+{
+	"credit": "Made with Blockbench",
+	"render_type": "cutout",
+	"elements": [
+		{
+			"name": "lower bar",
+			"from": [-1, 0, 1],
+			"to": [15, 16, 1],
+			"rotation": {"angle": -45, "axis": "y", "origin": [5, 12, 3]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#4"},
+				"south": {"uv": [16, 0, 0, 16], "rotation": 90, "texture": "#4"}
+			}
+		},
+		{
+			"name": "lower bar",
+			"from": [2, 0, 3],
+			"to": [18, 16, 3],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 12, 5]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#4"}
+			}
+		},
+		{
+			"name": "Center post",
+			"from": [7, 9, 0],
+			"to": [9, 11, 8],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 10, 8]},
+			"faces": {
+				"north": {"uv": [7, 7, 9, 9], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 8], "rotation": 90, "texture": "#1_texture"},
+				"west": {"uv": [0, 0, 2, 8], "rotation": 270, "texture": "#1_texture"},
+				"up": {"uv": [0, 0, 2, 8], "texture": "#1_texture"},
+				"down": {"uv": [0, 0, 2, 8], "rotation": 180, "texture": "#1_texture"}
+			}
+		}
+	]
+}

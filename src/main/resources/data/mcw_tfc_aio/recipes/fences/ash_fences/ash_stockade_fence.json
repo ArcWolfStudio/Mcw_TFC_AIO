@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "stockade",
+    
+    "pattern":
+    [
+		"ABA",
+		"ACA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "tfc:wood/log/ash"
+        },    
+        
+        "B":
+        {
+            "item": "tfc:wood/planks/ash"
+        },
+        "C":
+        {
+            "item": "tfc:wood/lumber/ash"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/ash_fences/ash_stockade_fence",
+        "count": 8
+    }
+}
+
+

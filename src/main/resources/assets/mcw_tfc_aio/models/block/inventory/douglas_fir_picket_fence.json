@@ -1,0 +1,9 @@
+
+	
+{
+	"parent": "mcw_tfc_aio:block/parent/inventory/picket_fence",
+	"textures": {
+		"5": "tfc:block/wood/log/douglas_fir",
+		"particle": "tfc:block/wood/planks/douglas_fir"
+	}
+}

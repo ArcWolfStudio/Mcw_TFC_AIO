@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:modern_nether_brick_wall",
+	  "mcw_tfc_aio:railing_nether_brick_wall",
+	  "mcw_tfc_aio:nether_brick_railing_gate"
+    ]
+  },
+  "criteria": {
+    "has_nether_brick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:nether_bricks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_brick"
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "rope_bridges",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "tag": "forge:string"
+        },
+        
+        "W":
+        {
+            "item": "tfc:wood/planks/oak_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/oak_bridges/rope_oak_bridge",
+        "count": 4
+    }
+}

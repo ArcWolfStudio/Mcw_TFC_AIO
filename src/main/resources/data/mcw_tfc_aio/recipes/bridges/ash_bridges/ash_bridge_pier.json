@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_piers",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "tfc:wood/planks/ash_fence"
+        },
+        
+        "W":
+        {
+            "item": "tfc:wood/log/ash"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/ash_bridges/ash_bridge_pier",
+        "count": 3
+    }
+}

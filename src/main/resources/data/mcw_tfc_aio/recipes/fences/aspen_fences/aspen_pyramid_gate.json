@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "pyramid",
+    
+    "pattern":
+    [
+		"ABA",
+		"ACA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stick"
+        },    
+        
+        "B":
+        {
+            "item": "tfc:wood/log/aspen"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/aspen"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/aspen_fences/aspen_pyramid_gate",
+        "count": 1
+    }
+}
+
+

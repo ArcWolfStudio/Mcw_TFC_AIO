@@ -1,0 +1,15 @@
+{
+    "variants": {                                                                        
+        "facing=north,powered=false":  { "model": "mcw_tfc_aio:block/bridge/rail/palm/palm", "y": 90},
+		"facing=east,powered=false":  { "model": "mcw_tfc_aio:block/bridge/rail/palm/palm"},
+		"facing=south,powered=false":  { "model": "mcw_tfc_aio:block/bridge/rail/palm/palm", "y": 90},
+		"facing=west,powered=false":  { "model": "mcw_tfc_aio:block/bridge/rail/palm/palm"},
+
+		"facing=north,powered=true":  { "model": "mcw_tfc_aio:block/bridge/rail/palm/palm_powered", "y": 90},
+		"facing=east,powered=true":  { "model": "mcw_tfc_aio:block/bridge/rail/palm/palm_powered"},
+		"facing=south,powered=true":  { "model": "mcw_tfc_aio:block/bridge/rail/palm/palm_powered", "y": 90},
+		"facing=west,powered=true":  { "model": "mcw_tfc_aio:block/bridge/rail/palm/palm_powered"}
+    }
+}
+
+

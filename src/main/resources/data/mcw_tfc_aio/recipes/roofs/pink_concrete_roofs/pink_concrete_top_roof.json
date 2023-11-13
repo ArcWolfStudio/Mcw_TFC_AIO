@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:pink_concrete"
+    },
+    "result": "mcw_tfc_aio:roofs/pink_concrete_roofs/pink_concrete_top_roof",
+    "group": "roofs",
+    "count": 1
+}

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:light_blue_terracotta"
+    },
+    "result": "mcw_tfc_aio:roofs/light_blue_terracotta_roofs/light_blue_terracotta_attic_roof",
+    "group": "roofs",
+    "count": 1
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "rope_bridges",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "tag": "forge:string"
+        },
+        
+        "W":
+        {
+            "item": "tfc:wood/planks/hickory_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:bridges/hickory_bridges/rope_hickory_bridge",
+        "count": 4
+    }
+}
