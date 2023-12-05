@@ -11,6 +11,7 @@
 	  "mcw_tfc_aio:bridges/douglas_fir_bridges/rope_douglas_fir_bridge",
 	  "mcw_tfc_aio:bridges/hickory_bridges/rope_hickory_bridge",
 	  "mcw_tfc_aio:bridges/kapok_bridges/rope_kapok_bridge",
+	  "mcw_tfc_aio:bridges/mangrove_bridges/rope_mangrove_bridge",
 	  "mcw_tfc_aio:bridges/maple_bridges/rope_maple_bridge",
 	  "mcw_tfc_aio:bridges/palm_bridges/rope_palm_bridge",
 	  "mcw_tfc_aio:bridges/pine_bridges/rope_pine_bridge",

@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "pyramid",
+    
+    "pattern":
+    [
+		"ABA",
+		"ACA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stick"
+        },    
+        
+        "B":
+        {
+            "item": "tfc:wood/log/mangrove"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/mangrove"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:fences/mangrove_fences/mangrove_pyramid_gate",
+        "count": 1
+    }
+}
+
+

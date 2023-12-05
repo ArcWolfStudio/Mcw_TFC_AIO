@@ -1,0 +1,10 @@
+{
+	"parent": "mcw_tfc_aio:block/bridge/bridge_wood/parent/middle_end_torch",
+	"textures": {
+		"5": "tfc:block/wood/planks/mangrove",
+		"4": "mcw_tfc_aio:block/torch",
+		"0": "tfc:block/wood/log/mangrove",
+		"1": "tfc:block/wood/planks/mangrove",
+		"particle": "tfc:block/wood/log/mangrove"
+	}
+}

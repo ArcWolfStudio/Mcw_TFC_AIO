@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/top_roof",
+	"textures": {
+		"particle": "tfc:block/wood/log/mangrove",
+		"1_2": "tfc:block/wood/log/mangrove"
+	}
+}
