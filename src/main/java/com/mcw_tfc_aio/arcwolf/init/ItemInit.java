@@ -49,6 +49,9 @@ public class ItemInit {
     public static final RegistryObject<Item> KAPOK_PICKET_FENCE = ITEMS.register("fences/kapok_fences/kapok_picket_fence",() -> {
         return new FuelItemBlock((Block)FenceInit.KAPOK_PICKET_FENCE.get(), new Item.Properties());
     });
+    public static final RegistryObject<Item> MANGROVE_PICKET_FENCE = ITEMS.register("fences/mangrove_fences/mangrove_picket_fence",() -> {
+        return new FuelItemBlock((Block)FenceInit.MANGROVE_PICKET_FENCE.get(), new Item.Properties());
+    });
     public static final RegistryObject<Item> MAPLE_PICKET_FENCE = ITEMS.register("fences/maple_fences/maple_picket_fence",() -> {
         return new FuelItemBlock((Block)FenceInit.MAPLE_PICKET_FENCE.get(), new Item.Properties());
     });
@@ -105,6 +108,9 @@ public class ItemInit {
     });
     public static final RegistryObject<Item> KAPOK_STOCKADE_FENCE = ITEMS.register("fences/kapok_fences/kapok_stockade_fence",() -> {
         return new FuelItemBlock((Block)FenceInit.KAPOK_STOCKADE_FENCE.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> MANGROVE_STOCKADE_FENCE = ITEMS.register("fences/mangrove_fences/mangrove_stockade_fence",() -> {
+        return new FuelItemBlock((Block)FenceInit.MANGROVE_STOCKADE_FENCE.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> MAPLE_STOCKADE_FENCE = ITEMS.register("fences/maple_fences/maple_stockade_fence",() -> {
         return new FuelItemBlock((Block)FenceInit.MAPLE_STOCKADE_FENCE.get(), new Item.Properties());
@@ -163,6 +169,9 @@ public class ItemInit {
     public static final RegistryObject<Item> KAPOK_HORSE_FENCE = ITEMS.register("fences/kapok_fences/kapok_horse_fence",() -> {
         return new FuelItemBlock((Block)FenceInit.KAPOK_HORSE_FENCE.get(), new Item.Properties());
     });
+    public static final RegistryObject<Item> MANGROVE_HORSE_FENCE = ITEMS.register("fences/mangrove_fences/mangrove_horse_fence",() -> {
+        return new FuelItemBlock((Block)FenceInit.MANGROVE_HORSE_FENCE.get(), new Item.Properties());
+    });
     public static final RegistryObject<Item> MAPLE_HORSE_FENCE = ITEMS.register("fences/maple_fences/maple_horse_fence",() -> {
         return new FuelItemBlock((Block)FenceInit.MAPLE_HORSE_FENCE.get(), new Item.Properties());
     });
@@ -219,6 +228,9 @@ public class ItemInit {
     });
     public static final RegistryObject<Item> KAPOK_WIRED_FENCE = ITEMS.register("fences/kapok_fences/kapok_wired_fence",() -> {
         return new FuelItemBlock((Block)FenceInit.KAPOK_WIRED_FENCE.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> MANGROVE_WIRED_FENCE = ITEMS.register("fences/mangrove_fences/mangrove_wired_fence",() -> {
+        return new FuelItemBlock((Block)FenceInit.MANGROVE_WIRED_FENCE.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> MAPLE_WIRED_FENCE = ITEMS.register("fences/maple_fences/maple_wired_fence",() -> {
         return new FuelItemBlock((Block)FenceInit.MAPLE_WIRED_FENCE.get(), new Item.Properties());
@@ -283,6 +295,9 @@ public class ItemInit {
     public static final RegistryObject<Item> KAPOK_HIGHLEY_GATE = ITEMS.register("fences/kapok_fences/kapok_highley_gate",() -> {
         return new FuelItemBlock((Block)FenceInit.KAPOK_HIGHLEY_GATE.get(), new Item.Properties());
     });
+    public static final RegistryObject<Item> MANGROVE_HIGHLEY_GATE = ITEMS.register("fences/mangrove_fences/mangrove_highley_gate",() -> {
+        return new FuelItemBlock((Block)FenceInit.MANGROVE_HIGHLEY_GATE.get(), new Item.Properties());
+    });
     public static final RegistryObject<Item> MAPLE_HIGHLEY_GATE = ITEMS.register("fences/maple_fences/maple_highley_gate",() -> {
         return new FuelItemBlock((Block)FenceInit.MAPLE_HIGHLEY_GATE.get(), new Item.Properties());
     });
@@ -339,6 +354,9 @@ public class ItemInit {
     });
     public static final RegistryObject<Item> KAPOK_PYRAMID_GATE = ITEMS.register("fences/kapok_fences/kapok_pyramid_gate",() -> {
         return new FuelItemBlock((Block)FenceInit.KAPOK_PYRAMID_GATE.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> MANGROVE_PYRAMID_GATE = ITEMS.register("fences/mangrove_fences/mangrove_pyramid_gate",() -> {
+        return new FuelItemBlock((Block)FenceInit.MANGROVE_PYRAMID_GATE.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> MAPLE_PYRAMID_GATE = ITEMS.register("fences/maple_fences/maple_pyramid_gate",() -> {
         return new FuelItemBlock((Block)FenceInit.MAPLE_PYRAMID_GATE.get(), new Item.Properties());
@@ -397,6 +415,9 @@ public class ItemInit {
     public static final RegistryObject<Item> ROPE_KAPOK_BRIDGE = ITEMS.register("bridges/kapok_bridges/rope_kapok_bridge",() -> {
         return new FuelItemBlock((Block)BridgeInit.ROPE_KAPOK_BRIDGE.get(), new Item.Properties());
     });
+    public static final RegistryObject<Item> ROPE_MANGROVE_BRIDGE = ITEMS.register("bridges/mangrove_bridges/rope_mangrove_bridge",() -> {
+        return new FuelItemBlock((Block)BridgeInit.ROPE_MANGROVE_BRIDGE.get(), new Item.Properties());
+    });
     public static final RegistryObject<Item> ROPE_MAPLE_BRIDGE = ITEMS.register("bridges/maple_bridges/rope_maple_bridge",() -> {
         return new FuelItemBlock((Block)BridgeInit.ROPE_MAPLE_BRIDGE.get(), new Item.Properties());
     });
@@ -453,6 +474,9 @@ public class ItemInit {
     });
     public static final RegistryObject<Item> KAPOK_BRIDGE_PIER = ITEMS.register("bridges/kapok_bridges/kapok_bridge_pier",() -> {
         return new FuelItemBlock((Block)BridgeInit.KAPOK_BRIDGE_PIER.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> MANGROVE_BRIDGE_PIER = ITEMS.register("bridges/mangrove_bridges/mangrove_bridge_pier",() -> {
+        return new FuelItemBlock((Block)BridgeInit.MANGROVE_BRIDGE_PIER.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> MAPLE_BRIDGE_PIER = ITEMS.register("bridges/maple_bridges/maple_bridge_pier",() -> {
         return new FuelItemBlock((Block)BridgeInit.MAPLE_BRIDGE_PIER.get(), new Item.Properties());
@@ -511,6 +535,9 @@ public class ItemInit {
     public static final RegistryObject<Item> KAPOK_LOG_BRIDGE_MIDDLE = ITEMS.register("bridges/kapok_bridges/kapok_log_bridge_middle",() -> {
         return new FuelItemBlock((Block)BridgeInit.KAPOK_LOG_BRIDGE_MIDDLE.get(), new Item.Properties());
     });
+    public static final RegistryObject<Item> MANGROVE_LOG_BRIDGE_MIDDLE = ITEMS.register("bridges/mangrove_bridges/mangrove_log_bridge_middle",() -> {
+        return new FuelItemBlock((Block)BridgeInit.MANGROVE_LOG_BRIDGE_MIDDLE.get(), new Item.Properties());
+    });
     public static final RegistryObject<Item> MAPLE_LOG_BRIDGE_MIDDLE = ITEMS.register("bridges/maple_bridges/maple_log_bridge_middle",() -> {
         return new FuelItemBlock((Block)BridgeInit.MAPLE_LOG_BRIDGE_MIDDLE.get(), new Item.Properties());
     });
@@ -567,6 +594,9 @@ public class ItemInit {
     });
     public static final RegistryObject<Item> KAPOK_LOG_BRIDGE_STAIR = ITEMS.register("bridges/kapok_bridges/kapok_log_bridge_stair",() -> {
         return new FuelItemBlock((Block)BridgeInit.KAPOK_LOG_BRIDGE_STAIR.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> MANGROVE_LOG_BRIDGE_STAIR = ITEMS.register("bridges/mangrove_bridges/mangrove_log_bridge_stair",() -> {
+        return new FuelItemBlock((Block)BridgeInit.MANGROVE_LOG_BRIDGE_STAIR.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> MAPLE_LOG_BRIDGE_STAIR = ITEMS.register("bridges/maple_bridges/maple_log_bridge_stair",() -> {
         return new FuelItemBlock((Block)BridgeInit.MAPLE_LOG_BRIDGE_STAIR.get(), new Item.Properties());
@@ -625,6 +655,9 @@ public class ItemInit {
     public static final RegistryObject<Item> KAPOK_ROPE_BRIDGE_STAIR = ITEMS.register("bridges/kapok_bridges/kapok_rope_bridge_stair",() -> {
         return new FuelItemBlock((Block)BridgeInit.KAPOK_ROPE_BRIDGE_STAIR.get(), new Item.Properties());
     });
+    public static final RegistryObject<Item> MANGROVE_ROPE_BRIDGE_STAIR = ITEMS.register("bridges/mangrove_bridges/mangrove_rope_bridge_stair",() -> {
+        return new FuelItemBlock((Block)BridgeInit.MANGROVE_ROPE_BRIDGE_STAIR.get(), new Item.Properties());
+    });
     public static final RegistryObject<Item> MAPLE_ROPE_BRIDGE_STAIR = ITEMS.register("bridges/maple_bridges/maple_rope_bridge_stair",() -> {
         return new FuelItemBlock((Block)BridgeInit.MAPLE_ROPE_BRIDGE_STAIR.get(), new Item.Properties());
     });
@@ -681,6 +714,9 @@ public class ItemInit {
     });
     public static final RegistryObject<Item> KAPOK_RAIL_BRIDGE = ITEMS.register("bridges/kapok_bridges/kapok_rail_bridge",() -> {
         return new FuelItemBlock((Block)BridgeInit.KAPOK_RAIL_BRIDGE.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> MANGROVE_RAIL_BRIDGE = ITEMS.register("bridges/mangrove_bridges/mangrove_rail_bridge",() -> {
+        return new FuelItemBlock((Block)BridgeInit.MANGROVE_RAIL_BRIDGE.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> MAPLE_RAIL_BRIDGE = ITEMS.register("bridges/maple_bridges/maple_rail_bridge",() -> {
         return new FuelItemBlock((Block)BridgeInit.MAPLE_RAIL_BRIDGE.get(), new Item.Properties());
@@ -775,6 +811,9 @@ public class ItemInit {
     public static final RegistryObject<Item> KAPOK_ROOF = ITEMS.register("roofs/kapok_roofs/kapok_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.KAPOK_ROOF.get(), new Item.Properties());
     });
+    public static final RegistryObject<Item> MANGROVE_ROOF = ITEMS.register("roofs/mangrove_roofs/mangrove_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.MANGROVE_ROOF.get(), new Item.Properties());
+    });
     public static final RegistryObject<Item> MAPLE_ROOF = ITEMS.register("roofs/maple_roofs/maple_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.MAPLE_ROOF.get(), new Item.Properties());
     });
@@ -831,6 +870,9 @@ public class ItemInit {
     });
     public static final RegistryObject<Item> KAPOK_ATTIC_ROOF = ITEMS.register("roofs/kapok_roofs/kapok_attic_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.KAPOK_ATTIC_ROOF.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> MANGROVE_ATTIC_ROOF = ITEMS.register("roofs/mangrove_roofs/mangrove_attic_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.MANGROVE_ATTIC_ROOF.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> MAPLE_ATTIC_ROOF = ITEMS.register("roofs/maple_roofs/maple_attic_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.MAPLE_ATTIC_ROOF.get(), new Item.Properties());
@@ -889,6 +931,9 @@ public class ItemInit {
     public static final RegistryObject<Item> KAPOK_TOP_ROOF = ITEMS.register("roofs/kapok_roofs/kapok_top_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.KAPOK_TOP_ROOF.get(), new Item.Properties());
     });
+    public static final RegistryObject<Item> MANGROVE_TOP_ROOF = ITEMS.register("roofs/mangrove_roofs/mangrove_top_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.MANGROVE_TOP_ROOF.get(), new Item.Properties());
+    });
     public static final RegistryObject<Item> MAPLE_TOP_ROOF = ITEMS.register("roofs/maple_roofs/maple_top_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.MAPLE_TOP_ROOF.get(), new Item.Properties());
     });
@@ -945,6 +990,9 @@ public class ItemInit {
     });
     public static final RegistryObject<Item> KAPOK_LOWER_ROOF = ITEMS.register("roofs/kapok_roofs/kapok_lower_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.KAPOK_LOWER_ROOF.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> MANGROVE_LOWER_ROOF = ITEMS.register("roofs/mangrove_roofs/mangrove_lower_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.MANGROVE_LOWER_ROOF.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> MAPLE_LOWER_ROOF = ITEMS.register("roofs/maple_roofs/maple_lower_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.MAPLE_LOWER_ROOF.get(), new Item.Properties());
@@ -1003,6 +1051,9 @@ public class ItemInit {
     public static final RegistryObject<Item> KAPOK_STEEP_ROOF = ITEMS.register("roofs/kapok_roofs/kapok_steep_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.KAPOK_STEEP_ROOF.get(), new Item.Properties());
     });
+    public static final RegistryObject<Item> MANGROVE_STEEP_ROOF = ITEMS.register("roofs/mangrove_roofs/mangrove_steep_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.MANGROVE_STEEP_ROOF.get(), new Item.Properties());
+    });
     public static final RegistryObject<Item> MAPLE_STEEP_ROOF = ITEMS.register("roofs/maple_roofs/maple_steep_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.MAPLE_STEEP_ROOF.get(), new Item.Properties());
     });
@@ -1059,6 +1110,9 @@ public class ItemInit {
     });
     public static final RegistryObject<Item> KAPOK_UPPER_LOWER_ROOF = ITEMS.register("roofs/kapok_roofs/kapok_upper_lower_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.KAPOK_UPPER_LOWER_ROOF.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> MANGROVE_UPPER_LOWER_ROOF = ITEMS.register("roofs/mangrove_roofs/mangrove_upper_lower_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.MANGROVE_UPPER_LOWER_ROOF.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> MAPLE_UPPER_LOWER_ROOF = ITEMS.register("roofs/maple_roofs/maple_upper_lower_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.MAPLE_UPPER_LOWER_ROOF.get(), new Item.Properties());
@@ -1117,6 +1171,9 @@ public class ItemInit {
     public static final RegistryObject<Item> KAPOK_UPPER_STEEP_ROOF = ITEMS.register("roofs/kapok_roofs/kapok_upper_steep_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.KAPOK_UPPER_STEEP_ROOF.get(), new Item.Properties());
     });
+    public static final RegistryObject<Item> MANGROVE_UPPER_STEEP_ROOF = ITEMS.register("roofs/mangrove_roofs/mangrove_upper_steep_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.MANGROVE_UPPER_STEEP_ROOF.get(), new Item.Properties());
+    });
     public static final RegistryObject<Item> MAPLE_UPPER_STEEP_ROOF = ITEMS.register("roofs/maple_roofs/maple_upper_steep_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.MAPLE_UPPER_STEEP_ROOF.get(), new Item.Properties());
     });
@@ -1173,6 +1230,9 @@ public class ItemInit {
     });
     public static final RegistryObject<Item> KAPOK_PLANKS_ROOF = ITEMS.register("roofs/kapok_roofs/kapok_planks_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.KAPOK_PLANKS_ROOF.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> MANGROVE_PLANKS_ROOF = ITEMS.register("roofs/mangrove_roofs/mangrove_planks_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.MANGROVE_PLANKS_ROOF.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> MAPLE_PLANKS_ROOF = ITEMS.register("roofs/maple_roofs/maple_planks_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.MAPLE_PLANKS_ROOF.get(), new Item.Properties());
@@ -1231,6 +1291,9 @@ public class ItemInit {
     public static final RegistryObject<Item> KAPOK_PLANKS_ATTIC_ROOF = ITEMS.register("roofs/kapok_roofs/kapok_planks_attic_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.KAPOK_PLANKS_ATTIC_ROOF.get(), new Item.Properties());
     });
+    public static final RegistryObject<Item> MANGROVE_PLANKS_ATTIC_ROOF = ITEMS.register("roofs/mangrove_roofs/mangrove_planks_attic_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.MANGROVE_PLANKS_ATTIC_ROOF.get(), new Item.Properties());
+    });
     public static final RegistryObject<Item> MAPLE_PLANKS_ATTIC_ROOF = ITEMS.register("roofs/maple_roofs/maple_planks_attic_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.MAPLE_PLANKS_ATTIC_ROOF.get(), new Item.Properties());
     });
@@ -1287,6 +1350,9 @@ public class ItemInit {
     });
     public static final RegistryObject<Item> KAPOK_PLANKS_TOP_ROOF = ITEMS.register("roofs/kapok_roofs/kapok_planks_top_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.KAPOK_PLANKS_TOP_ROOF.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> MANGROVE_PLANKS_TOP_ROOF = ITEMS.register("roofs/mangrove_roofs/mangrove_planks_top_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.MANGROVE_PLANKS_TOP_ROOF.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> MAPLE_PLANKS_TOP_ROOF = ITEMS.register("roofs/maple_roofs/maple_planks_top_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.MAPLE_PLANKS_TOP_ROOF.get(), new Item.Properties());
@@ -1345,6 +1411,9 @@ public class ItemInit {
     public static final RegistryObject<Item> KAPOK_PLANKS_LOWER_ROOF = ITEMS.register("roofs/kapok_roofs/kapok_planks_lower_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.KAPOK_PLANKS_LOWER_ROOF.get(), new Item.Properties());
     });
+    public static final RegistryObject<Item> MANGROVE_PLANKS_LOWER_ROOF = ITEMS.register("roofs/mangrove_roofs/mangrove_planks_lower_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.MANGROVE_PLANKS_LOWER_ROOF.get(), new Item.Properties());
+    });
     public static final RegistryObject<Item> MAPLE_PLANKS_LOWER_ROOF = ITEMS.register("roofs/maple_roofs/maple_planks_lower_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.MAPLE_PLANKS_LOWER_ROOF.get(), new Item.Properties());
     });
@@ -1401,6 +1470,9 @@ public class ItemInit {
     });
     public static final RegistryObject<Item> KAPOK_PLANKS_STEEP_ROOF = ITEMS.register("roofs/kapok_roofs/kapok_planks_steep_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.KAPOK_PLANKS_STEEP_ROOF.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> MANGROVE_PLANKS_STEEP_ROOF = ITEMS.register("roofs/mangrove_roofs/mangrove_planks_steep_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.MANGROVE_PLANKS_STEEP_ROOF.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> MAPLE_PLANKS_STEEP_ROOF = ITEMS.register("roofs/maple_roofs/maple_planks_steep_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.MAPLE_PLANKS_STEEP_ROOF.get(), new Item.Properties());
@@ -1459,6 +1531,9 @@ public class ItemInit {
     public static final RegistryObject<Item> KAPOK_PLANKS_UPPER_LOWER_ROOF = ITEMS.register("roofs/kapok_roofs/kapok_planks_upper_lower_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.KAPOK_PLANKS_UPPER_LOWER_ROOF.get(), new Item.Properties());
     });
+    public static final RegistryObject<Item> MANGROVE_PLANKS_UPPER_LOWER_ROOF = ITEMS.register("roofs/mangrove_roofs/mangrove_planks_upper_lower_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.MANGROVE_PLANKS_UPPER_LOWER_ROOF.get(), new Item.Properties());
+    });
     public static final RegistryObject<Item> MAPLE_PLANKS_UPPER_LOWER_ROOF = ITEMS.register("roofs/maple_roofs/maple_planks_upper_lower_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.MAPLE_PLANKS_UPPER_LOWER_ROOF.get(), new Item.Properties());
     });
@@ -1515,6 +1590,9 @@ public class ItemInit {
     });
     public static final RegistryObject<Item> KAPOK_PLANKS_UPPER_STEEP_ROOF = ITEMS.register("roofs/kapok_roofs/kapok_planks_upper_steep_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.KAPOK_PLANKS_UPPER_STEEP_ROOF.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> MANGROVE_PLANKS_UPPER_STEEP_ROOF = ITEMS.register("roofs/mangrove_roofs/mangrove_planks_upper_steep_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.MANGROVE_PLANKS_UPPER_STEEP_ROOF.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> MAPLE_PLANKS_UPPER_STEEP_ROOF = ITEMS.register("roofs/maple_roofs/maple_planks_upper_steep_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.MAPLE_PLANKS_UPPER_STEEP_ROOF.get(), new Item.Properties());
