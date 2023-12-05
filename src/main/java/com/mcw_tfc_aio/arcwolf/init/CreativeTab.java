@@ -131,6 +131,7 @@ public class CreativeTab {
                         pOutput.accept(FenceInit.WILLOW_STOCKADE_FENCE.get());
                         pOutput.accept(FenceInit.WILLOW_WIRED_FENCE.get());
                         pOutput.accept(FenceInit.BAMBOO_FENCE.get());
+                        pOutput.accept(FenceInit.HEDGE.get());
                     })
                     .build());
     public static final RegistryObject<CreativeModeTab> BRIDGESITEMGROUP= CREATIVE_TABS.register("bridgesitmegroup", () ->

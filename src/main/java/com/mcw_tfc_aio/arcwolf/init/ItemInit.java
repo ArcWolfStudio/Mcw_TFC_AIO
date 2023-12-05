@@ -253,6 +253,9 @@ public class ItemInit {
     public static final RegistryObject<Item> BAMBOO_FENCE = ITEMS.register("fences/other_fences/bamboo_fence",() -> {
         return new FuelItemBlock((Block)FenceInit.BAMBOO_FENCE.get(), new Item.Properties());
     });
+    public static final RegistryObject<Item> HEDGE = ITEMS.register("fences/other_fences/hedge",() -> {
+        return new FuelItemBlock((Block)FenceInit.HEDGE.get(), new Item.Properties());
+    });
     public static final RegistryObject<Item> ACACIA_HIGHLEY_GATE = ITEMS.register("fences/acacia_fences/acacia_highley_gate",() -> {
         return new FuelItemBlock((Block)FenceInit.ACACIA_HIGHLEY_GATE.get(), new Item.Properties());
     });
