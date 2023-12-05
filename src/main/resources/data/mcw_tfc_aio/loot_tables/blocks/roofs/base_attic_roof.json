@@ -8,7 +8,7 @@
 			[
 				{
 					"type": "minecraft:item",
-					"name": "mcw_tfc_aio:roofs/base_roofs/base_upper_steep_roof"
+					"name": "mcw_tfc_aio:roofs/base_attic_roof"
 				}
 			]
 		}

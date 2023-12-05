@@ -5,6 +5,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.StairsShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -25,7 +26,7 @@ public class Steep extends BaseRoof {
     protected static final VoxelShape INNER_EAST = Shapes.or(Block.box(0.0, 0.0, 0.0, 8.0, 16.0, 8.0), Block.box(0.0, 0.0, 8.0, 16.0, 16.0, 16.0));
     protected static final VoxelShape INNER_SOUTH = Shapes.or(Block.box(8.0, 0.0, 0.0, 16.0, 16.0, 8.0), Block.box(0.0, 0.0, 8.0, 16.0, 16.0, 16.0));
 
-    public Steep(BlockState state, Properties prop) {
+    public Steep(BlockState state, BlockBehaviour.Properties prop) {
         super(state, prop);
     }
 

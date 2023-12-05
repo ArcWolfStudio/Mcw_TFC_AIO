@@ -6,8 +6,10 @@ import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -29,7 +31,7 @@ public class Iron_Bridge extends Bridge_Base implements SimpleWaterloggedBlock {
     protected static final VoxelShape MIDDLE_90 = Shapes.or(SIDE0, SIDE180, BASE);
     protected static final VoxelShape MIDDLE_0 = Shapes.or(SIDE90, SIDE270, BASE);
 
-    public Iron_Bridge(Properties properties) {
+    public Iron_Bridge(BlockBehaviour.Properties properties) {
         super(properties.lightLevel(setLightLevel(15)));
         this.registerDefaultState(((BlockState)this.stateDefinition.any()).setValue(FACING, Direction.NORTH).setValue(TOGGLE, false).setValue(TORCH, false).setValue(NORTH, false).setValue(EAST, false).setValue(SOUTH, false).setValue(WEST, false).setValue(WATERLOGGED, false));
     }

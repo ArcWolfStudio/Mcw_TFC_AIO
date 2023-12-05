@@ -7,11 +7,11 @@ plugins {
 }
 
 
-group = 'com.mcw_tfc_aio.mcw_tfc.aio'
-version = '0.0.9-1.20.1'
+group = mod_group_id
+version = mod_version
 
 base {
-    archivesName = 'mcw_tfc_aio'
+    archivesName = mod_id
 }
 
 java {
@@ -32,7 +32,7 @@ minecraft {
     //
     // Use non-default mappings at your own risk. They may not always work.
     // Simply re-run your setup task after changing the mappings to update your workspace.
-    mappings channel: 'parchment', version: '2023.09.03-1.20.1'
+    mappings channel: 'parchment', version: '2022.11.06-1.18.2'
 
     // When true, this property will have all Eclipse/IntelliJ IDEA run configurations run the "prepareX" task for the given run configuration before launching the game.
     // enableEclipsePrepareRuns = true
@@ -77,7 +77,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                "${mod_id}" {
+                mcw_tfc_aio {
                     source sourceSets.main
                 }
             }
@@ -114,14 +114,21 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
+    maven {
+        url 'https://www.cursemaven.com'
+        // FG4: It's recommended to uncomment the following block
+        // content {
+        //     includeGroup "curse.maven"
+        // }
+    }
     // Put repositories for dependencies here
     // ForgeGradle automatically adds the Forge maven and Maven Central for you
 
     // If you have mod jar dependencies in ./libs, you can declare them as a repository like so.
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html#sub:flat_dir_resolver
-    // flatDir {
-    //     dir 'libs'
-    // }
+     flatDir {
+        dir 'libs'
+     }
 }
 
 dependencies {
@@ -146,6 +153,11 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
+    implementation fg.deobf("curse.maven:jei-238222:4593548")
+    implementation fg.deobf("curse.maven:patchouli-306770:3809917")
+    implementation fg.deobf("curse.maven:terrafirmacraft-302973:4616004")
+    implementation fg.deobf("curse.maven:macaws-furniture-359540:4419007")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

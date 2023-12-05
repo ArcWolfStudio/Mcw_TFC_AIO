@@ -4,6 +4,7 @@ package com.mcw_tfc_aio.arcwolf.objects.roofs;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
@@ -18,7 +19,7 @@ public class SteepRoof extends BaseRoof {
     protected static final VoxelShape OCCLUSION_BOTTOM = Block.box(0.0, 1.0, 0.0, 16.0, 16.0, 16.0);
     public static final EnumProperty<Half> HALF = BlockStateProperties.HALF;
 
-    public SteepRoof(BlockState state, Properties prop) {
+    public SteepRoof(BlockState state, BlockBehaviour.Properties prop) {
         super(state, prop);
     }
 
