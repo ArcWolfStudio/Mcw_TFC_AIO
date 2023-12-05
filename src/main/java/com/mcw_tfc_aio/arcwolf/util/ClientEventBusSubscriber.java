@@ -112,6 +112,7 @@ public class ClientEventBusSubscriber {
 		ItemBlockRenderTypes.setRenderLayer(FenceInit.SYCAMORE_HIGHLEY_GATE.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(FenceInit.WHITE_CEDAR_HIGHLEY_GATE.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(FenceInit.WILLOW_HIGHLEY_GATE.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(FenceInit.HEDGE.get(), RenderType.cutout());
 
 		
 		//ItemBlockRenderTypes.setRenderLayer(BlockInit.STONE_BRICK_RAILING_GATE.get(), RenderType.cutout());

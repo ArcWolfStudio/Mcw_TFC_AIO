@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "render_type": "cutout",
+  "textures": {
+    "wall": "mcw_tfc_aio:block/oak_hedge"
+  }
+}

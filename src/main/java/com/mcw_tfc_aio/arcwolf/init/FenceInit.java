@@ -2,10 +2,7 @@ package com.mcw_tfc_aio.arcwolf.init;
 
 import com.mcw_tfc_aio.arcwolf.Mcw_Tfc_Aio;
 import com.mcw_tfc_aio.arcwolf.objects.WiredFence;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.FenceBlock;
-import net.minecraft.world.level.block.FenceGateBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.registries.DeferredRegister;
@@ -74,6 +71,7 @@ public class FenceInit {
     public static final RegistryObject<Block> SYCAMORE_HORSE_FENCE = BLOCKS_FENCES.register("fences/sycamore_fences/sycamore_horse_fence", () -> new FenceBlock(Block.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(1.4F, 2.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> WHITE_CEDAR_HORSE_FENCE = BLOCKS_FENCES.register("fences/white_cedar_fences/white_cedar_horse_fence", () -> new FenceBlock(Block.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(1.4F, 2.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> WILLOW_HORSE_FENCE = BLOCKS_FENCES.register("fences/willow_fences/willow_horse_fence", () -> new FenceBlock(Block.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(1.4F, 2.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> HEDGE = BLOCKS_FENCES.register("fences/other_fences/hedge", () -> new WallBlock(Block.Properties.of(Material.LEAVES, MaterialColor.COLOR_GREEN).strength(1.4F, 2.0F).sound(SoundType.GRASS)));
     public static final RegistryObject<Block> OAK_WIRED_FENCE = BLOCKS_FENCES.register("fences/oak_fences/oak_wired_fence", () -> new WiredFence(null));
     public static final RegistryObject<Block> SPRUCE_WIRED_FENCE = BLOCKS_FENCES.register("fences/spruce_fences/spruce_wired_fence", () -> new WiredFence(null));
     public static final RegistryObject<Block> BIRCH_WIRED_FENCE = BLOCKS_FENCES.register("fences/birch_fences/birch_wired_fence", () -> new WiredFence(null));
