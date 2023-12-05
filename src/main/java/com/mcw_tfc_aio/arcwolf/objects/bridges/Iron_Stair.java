@@ -6,8 +6,10 @@ import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -42,7 +44,7 @@ public class Iron_Stair extends Stair_Base implements SimpleWaterloggedBlock {
     protected static final VoxelShape WEST_RIGHT  = Shapes.or(SIDE_R_180, BASE_180);
     protected static final VoxelShape WEST_DOUBLE  = Shapes.or(WEST_LEFT, WEST_RIGHT, BASE_180);
 
-    public Iron_Stair(Properties properties) {
+    public Iron_Stair(BlockBehaviour.Properties properties) {
         super(properties.lightLevel(setLightLevel(15)));
         this.registerDefaultState(((BlockState)this.stateDefinition.any()).setValue(FACING, Direction.NORTH).setValue(TORCH, false).setValue(NORTH, false).setValue(EAST, false).setValue(SOUTH, false).setValue(WEST, false).setValue(WATERLOGGED, false));
     }
