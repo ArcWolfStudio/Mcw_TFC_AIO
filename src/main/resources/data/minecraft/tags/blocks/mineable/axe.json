@@ -533,6 +533,8 @@
 	  "mcw_tfc_aio:roofs/thatch_roofs/thatch_lower_roof",
 	  "mcw_tfc_aio:roofs/thatch_roofs/thatch_steep_roof",
 	  "mcw_tfc_aio:roofs/thatch_roofs/thatch_upper_lower_roof",
-	  "mcw_tfc_aio:roofs/thatch_roofs/thatch_upper_steep_roof"
+	  "mcw_tfc_aio:roofs/thatch_roofs/thatch_upper_steep_roof",
+
+	  "mcw_tfc_aio:fences/other_fences/hedge"
   ]
 }

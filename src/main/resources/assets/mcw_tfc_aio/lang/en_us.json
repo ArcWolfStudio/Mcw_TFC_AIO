@@ -102,6 +102,7 @@
 	    "block.mcw_tfc_aio.fences.oak_fences.oak_wired_fence": "Oak Wired Fence",
 		
 		"block.mcw_tfc_aio.fences.other_fences.bamboo_fence": "Bamboo Fence",
+		"block.mcw_tfc_aio.fences.other_fences.hedge": "Hedge",
 
 	    "block.mcw_tfc_aio.modern_stone_brick_wall": "Modern Stone Brick Wall",
 	    "block.mcw_tfc_aio.modern_andesite_wall": "Modern Andesite Wall",
@@ -1016,5 +1017,7 @@
 		"block.mcw_tfc_aio.bridges.willow_bridges.willow_rail_bridge":"Willow Rail Bridge",
 		"block.mcw_tfc_aio.bridges.willow_bridges.willow_bridge_pier":"Willow Bridge Support",
 		"block.mcw_tfc_aio.bridges.willow_bridges.willow_log_bridge_stair":"Willow Bridge Stair",
-		"block.mcw_tfc_aio.bridges.willow_bridges.willow_rope_bridge_stair":"Rope Willow Bridge Stair"
+		"block.mcw_tfc_aio.bridges.willow_bridges.willow_rope_bridge_stair":"Rope Willow Bridge Stair",
+
+		"tfc.recipe.barrel.mcw_tfc_aio.bleach_terracotta": "Bleaching Terracotta"
 	}
