@@ -879,7 +879,7 @@
 		"block.mcw_tfc_aio.roofs.willow_roofs.willow_planks_upper_steep_roof":"Willow Planks Steep Top Roof",
 
 
-		"itemGroup.bridges": "Macaw's Bridges",
+		"itemGroup.bridges": "Macaw's TFC Bridges",
 
 		"item.mcw_tfc_aio.pliers":"Pliers",
 		"mcw_tfc_aio.pliers.desc":"Right click on a bridge to make an entrance, works only for 2+ wider bridges",

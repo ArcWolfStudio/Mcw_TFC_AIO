@@ -1,7 +1,6 @@
 package com.mcw_tfc_aio.arcwolf.objects.gutters;
 
 import com.mcw_tfc_aio.arcwolf.init.ItemInit;
-import java.util.Random;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.Direction.Axis;
@@ -18,24 +17,16 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.HorizontalDirectionalBlock;
-import net.minecraft.world.level.block.Mirror;
-import net.minecraft.world.level.block.RenderShape;
-import net.minecraft.world.level.block.Rotation;
-import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
-import net.minecraft.world.level.block.state.properties.BooleanProperty;
-import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
-import net.minecraft.world.level.block.state.properties.Property;
-import net.minecraft.world.level.block.state.properties.StairsShape;
+import net.minecraft.world.level.block.state.properties.*;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
+
+import java.util.Random;
 
 public class RainGutter extends Block {
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
@@ -55,7 +46,7 @@ public class RainGutter extends Block {
     protected static final VoxelShape CORNER_W = Shapes.or(SIDE_W, SIDE_N);
  
 
-    public RainGutter(BlockState state, BlockBehaviour.Properties prop) {
+    public RainGutter(BlockState state, Properties prop) {
         super(prop);
         registerDefaultState(stateDefinition.any().setValue(WATER, false).setValue(FACING, Direction.NORTH).setValue(SHAPE, StairsShape.STRAIGHT));
     }

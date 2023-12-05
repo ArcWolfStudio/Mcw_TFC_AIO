@@ -1,7 +1,7 @@
 package com.mcw_tfc_aio.arcwolf.objects.roofs;
 
-import net.minecraft.core.BlockPos;
 import com.mcw_tfc_aio.arcwolf.init.ItemInit;
+import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -13,18 +13,12 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.HorizontalDirectionalBlock;
-import net.minecraft.world.level.block.RenderShape;
-import net.minecraft.world.level.block.Rotation;
-import net.minecraft.world.level.block.SimpleWaterloggedBlock;
-import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.phys.BlockHitResult;
@@ -42,7 +36,7 @@ public class RoofGlass extends Block implements SimpleWaterloggedBlock {
     protected static final VoxelShape CLOSED3 = Shapes.or(Block.box(0.0, 8.0, 0.0, 16.0, 15.0, 8.0), Block.box(0.0, 0.01, 0.0, 16.0, 8.0, 16.0));
     protected static final VoxelShape CLOSED4 = Shapes.or(Block.box(0.0, 8.0, 0.0, 8.0, 15.0, 16.0), Block.box(0.0, 0.01, 0.0, 16.0, 8.0, 16.0));
 
-    public RoofGlass(BlockBehaviour.Properties properties) {
+    public RoofGlass(Properties properties) {
         super(properties);
         registerDefaultState(stateDefinition.any().setValue(OPEN, false).setValue(WATERLOGGED, false).setValue(FACING, Direction.NORTH));
     }

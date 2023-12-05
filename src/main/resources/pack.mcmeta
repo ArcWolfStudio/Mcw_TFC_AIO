@@ -1,8 +1,7 @@
 {
-    "pack": {
-        "description": "Mcw_TFC_aio resources",
-                "pack_format": 9
-                                ,"forge:resource_pack_format": 8
-                        ,"forge:data_pack_format": 9
-                            }
+  "pack": {
+    "description": "mcw_tfc_aio_1_20_1 resources",
+    "pack_format": 15,
+    "forge:server_data_pack_format": 12
+  }
 }

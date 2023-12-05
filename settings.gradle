@@ -13,4 +13,4 @@ plugins {
     id 'org.gradle.toolchains.foojay-resolver-convention' version '0.5.0'
 }
 
-rootProject.name = 'Mcw_TFC_aio'
+rootProject.name = 'Mcw_TFC_AIO-1.20.1'

@@ -6,7 +6,6 @@ import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.Property;
@@ -31,7 +30,7 @@ public class Log_Bridge extends Bridge_Base implements SimpleWaterloggedBlock {
     protected static final VoxelShape MIDDLE_90;
     protected static final VoxelShape MIDDLE_0;
 
-    public Log_Bridge(BlockBehaviour.Properties properties) {
+    public Log_Bridge(Properties properties) {
         super(properties.lightLevel(setLightLevel(15)));
         this.registerDefaultState((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)this.stateDefinition.any()).setValue(FACING, Direction.NORTH)).setValue(TOGGLE, false)).setValue(TORCH, false)).setValue(NORTH, false)).setValue(EAST, false)).setValue(SOUTH, false)).setValue(WEST, false)).setValue(WATERLOGGED, false));
     }

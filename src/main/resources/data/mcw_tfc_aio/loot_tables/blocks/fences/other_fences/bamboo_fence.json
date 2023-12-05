@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mcw_tfc_aio:bamboo_fence"
+          "name": "mcw_tfc_aio:fences/other_fences/bamboo_fence"
         }
       ],
       "conditions": [

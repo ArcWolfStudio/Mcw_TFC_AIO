@@ -4,8 +4,8 @@
     
     "pattern":
     [
-        "WWS",
-        " WW"
+        "WW ",
+        "SWW"
     ],
     
     "key":

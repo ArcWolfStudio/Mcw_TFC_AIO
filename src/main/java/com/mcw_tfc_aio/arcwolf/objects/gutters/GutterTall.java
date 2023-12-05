@@ -1,8 +1,6 @@
 package com.mcw_tfc_aio.arcwolf.objects.gutters;
 
 
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
@@ -22,16 +20,17 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.Rotation;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
+
+import javax.annotation.Nullable;
+import java.util.Random;
 
 public class GutterTall extends Block {
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
@@ -51,7 +50,7 @@ public class GutterTall extends Block {
     public static final BooleanProperty BELOW = BooleanProperty.create("below");
     private static final BooleanProperty WATER = BooleanProperty.create("water");
     
-    public GutterTall(BlockState state, BlockBehaviour.Properties prop) {
+    public GutterTall(BlockState state, Properties prop) {
         super(prop);
         registerDefaultState( ( ( ( ( stateDefinition.any()).setValue(WATER, false)).setValue(FACING, Direction.NORTH)).setValue(ABOVE, false)).setValue(BELOW, false));
     }
