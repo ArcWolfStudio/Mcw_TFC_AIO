@@ -1,7 +1,7 @@
 package com.mcw_tfc_aio.arcwolf.objects.counters;
 
 
-import com.mcw_tfc_aio.arcwolf.storage.StorageTileEntity;
+//import com.mcw_tfc_aio.arcwolf.storage.StorageTileEntity;
 import java.util.Random;
 import javax.annotation.Nullable;
 import net.minecraft.core.BlockPos;
@@ -34,6 +34,7 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.dries007.tfc.common.blockentities.TFCChestBlockEntity;
 
 public class CupboardCounter extends Counter implements EntityBlock {
     public static final DirectionProperty FACING;
@@ -45,23 +46,44 @@ public class CupboardCounter extends Counter implements EntityBlock {
         this.registerDefaultState(((this.stateDefinition.any()).setValue(FACING, Direction.NORTH)).setValue(HINGE, DoorHingeSide.LEFT));
     }
 
+//    @Nullable
+//    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+//        return new StorageTileEntity(pos, state);
+//    }
     @Nullable
     public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-        return new StorageTileEntity(pos, state);
+        return new TFCChestBlockEntity(pos, state);
     }
 
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         return (this.defaultBlockState().setValue(HINGE, this.getHinge(context))).setValue(FACING, context.getHorizontalDirection());
     }
 
+//    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result) {
+//        ItemStack itemstack = player.getItemInHand(hand);
+//        Item item = itemstack.getItem();
+//        if (item != this.asItem()) {
+//            if (!level.isClientSide()) {
+//                BlockEntity var10 = level.getBlockEntity(pos);
+//                if (var10 instanceof StorageTileEntity) {
+//                    StorageTileEntity blockEntity = (StorageTileEntity)var10;
+//                    player.openMenu(blockEntity);
+//                }
+//            }
+//
+//            return InteractionResult.SUCCESS;
+//        } else {
+//            return InteractionResult.PASS;
+//        }
+//    }
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result) {
         ItemStack itemstack = player.getItemInHand(hand);
         Item item = itemstack.getItem();
         if (item != this.asItem()) {
             if (!level.isClientSide()) {
                 BlockEntity var10 = level.getBlockEntity(pos);
-                if (var10 instanceof StorageTileEntity) {
-                    StorageTileEntity blockEntity = (StorageTileEntity)var10;
+                if (var10 instanceof TFCChestBlockEntity) {
+                    TFCChestBlockEntity blockEntity = (TFCChestBlockEntity)var10;
                     player.openMenu(blockEntity);
                 }
             }
@@ -85,19 +107,35 @@ public class CupboardCounter extends Counter implements EntityBlock {
 
     }
 
+//    public void tick(BlockState state, ServerLevel level, BlockPos pos, Random rand) {
+//        BlockEntity blockentity = level.getBlockEntity(pos);
+//        if (blockentity instanceof StorageTileEntity) {
+//            ((StorageTileEntity)blockentity).recheckOpen();
+//        }
+//
+//    }
     public void tick(BlockState state, ServerLevel level, BlockPos pos, Random rand) {
         BlockEntity blockentity = level.getBlockEntity(pos);
-        if (blockentity instanceof StorageTileEntity) {
-            ((StorageTileEntity)blockentity).recheckOpen();
+        if (blockentity instanceof TFCChestBlockEntity) {
+            ((TFCChestBlockEntity)blockentity).recheckOpen();
         }
 
     }
 
+//    public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity livent, ItemStack stack) {
+//        if (stack.hasCustomHoverName()) {
+//            BlockEntity blockentity = level.getBlockEntity(pos);
+//            if (blockentity instanceof StorageTileEntity) {
+//                ((StorageTileEntity)blockentity).setCustomName(stack.getHoverName());
+//            }
+//        }
+//
+//    }
     public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity livent, ItemStack stack) {
         if (stack.hasCustomHoverName()) {
             BlockEntity blockentity = level.getBlockEntity(pos);
-            if (blockentity instanceof StorageTileEntity) {
-                ((StorageTileEntity)blockentity).setCustomName(stack.getHoverName());
+            if (blockentity instanceof TFCChestBlockEntity) {
+                ((TFCChestBlockEntity)blockentity).setCustomName(stack.getHoverName());
             }
         }
 

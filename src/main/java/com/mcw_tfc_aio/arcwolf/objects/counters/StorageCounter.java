@@ -1,7 +1,7 @@
 package com.mcw_tfc_aio.arcwolf.objects.counters;
 
 
-import com.mcw_tfc_aio.arcwolf.storage.StorageTileEntity;
+//import com.mcw_tfc_aio.arcwolf.storage.StorageTileEntity;
 import java.util.Random;
 import javax.annotation.Nullable;
 import net.minecraft.core.BlockPos;
@@ -21,25 +21,47 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
+import net.dries007.tfc.common.blockentities.TFCChestBlockEntity;
 
 public class StorageCounter extends Counter implements EntityBlock {
     public StorageCounter(BlockState state, BlockBehaviour.Properties prop) {
         super(prop);
     }
 
+//    @Nullable
+//    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+//        return new StorageTileEntity(pos, state);
+//    }
     @Nullable
     public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-        return new StorageTileEntity(pos, state);
+        return new TFCChestBlockEntity(pos, state);
     }
 
+//    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result) {
+//        ItemStack itemstack = player.getItemInHand(hand);
+//        Item item = itemstack.getItem();
+//        if (item != this.asItem()) {
+//            if (!level.isClientSide()) {
+//                BlockEntity var10 = level.getBlockEntity(pos);
+//                if (var10 instanceof StorageTileEntity) {
+//                    StorageTileEntity blockEntity = (StorageTileEntity)var10;
+//                    player.openMenu(blockEntity);
+//                }
+//            }
+//
+//            return InteractionResult.SUCCESS;
+//        } else {
+//            return InteractionResult.PASS;
+//        }
+//    }
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result) {
         ItemStack itemstack = player.getItemInHand(hand);
         Item item = itemstack.getItem();
         if (item != this.asItem()) {
             if (!level.isClientSide()) {
                 BlockEntity var10 = level.getBlockEntity(pos);
-                if (var10 instanceof StorageTileEntity) {
-                    StorageTileEntity blockEntity = (StorageTileEntity)var10;
+                if (var10 instanceof TFCChestBlockEntity) {
+                    TFCChestBlockEntity blockEntity = (TFCChestBlockEntity)var10;
                     player.openMenu(blockEntity);
                 }
             }
@@ -63,19 +85,35 @@ public class StorageCounter extends Counter implements EntityBlock {
 
     }
 
+//    public void tick(BlockState state, ServerLevel level, BlockPos pos, Random rand) {
+//        BlockEntity blockentity = level.getBlockEntity(pos);
+//        if (blockentity instanceof StorageTileEntity) {
+//            ((StorageTileEntity)blockentity).recheckOpen();
+//        }
+//
+//    }
     public void tick(BlockState state, ServerLevel level, BlockPos pos, Random rand) {
         BlockEntity blockentity = level.getBlockEntity(pos);
-        if (blockentity instanceof StorageTileEntity) {
-            ((StorageTileEntity)blockentity).recheckOpen();
+        if (blockentity instanceof TFCChestBlockEntity) {
+            ((TFCChestBlockEntity)blockentity).recheckOpen();
         }
 
     }
 
+//    public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity livent, ItemStack stack) {
+//        if (stack.hasCustomHoverName()) {
+//            BlockEntity blockentity = level.getBlockEntity(pos);
+//            if (blockentity instanceof StorageTileEntity) {
+//                ((StorageTileEntity)blockentity).setCustomName(stack.getHoverName());
+//            }
+//        }
+//
+//    }
     public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity livent, ItemStack stack) {
         if (stack.hasCustomHoverName()) {
             BlockEntity blockentity = level.getBlockEntity(pos);
-            if (blockentity instanceof StorageTileEntity) {
-                ((StorageTileEntity)blockentity).setCustomName(stack.getHoverName());
+            if (blockentity instanceof TFCChestBlockEntity) {
+                ((TFCChestBlockEntity)blockentity).setCustomName(stack.getHoverName());
             }
         }
 

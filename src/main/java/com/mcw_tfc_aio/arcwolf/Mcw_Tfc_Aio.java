@@ -63,7 +63,7 @@ public class Mcw_Tfc_Aio
 	private void doClientStuff(final FMLClientSetupEvent event)
 	{
 		MenuScreens.register((MenuType)ContainerInit.EXAMPLE_CHEST.get(), FurnitureStorageScreen::new);
-//		MenuScreens.register((MenuType)ContainerInit.EXAMPLE_CHEST.get(), RestrictedChestContainer::new);
+
 	}
 	
 	@SubscribeEvent
