@@ -1990,6 +1990,8 @@ public class CreativeTab {
                         pOutput.accept(FurnitureInit.STRIPPED_WILLOW_DRAWER_COUNTER.get());
                         pOutput.accept(FurnitureInit.STRIPPED_WILLOW_DOUBLE_DRAWER_COUNTER.get());
                         pOutput.accept(FurnitureInit.STRIPPED_WILLOW_CUPBOARD_COUNTER.get());
+                        pOutput.accept(ItemInit.CABINET_DOOR.get());
+                        pOutput.accept(ItemInit.CABINET_DRAWER.get());
 
                     })
                     .build());
