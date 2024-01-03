@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ABA",
+        "ACA"		
+    ],
+    
+    "key":
+    { 
+        "B":
+        {
+            "tag": "forge:chests/wooden"
+        },    
+        
+	    "C":
+        {
+            "tag": "forge:rods"
+        }, 
+		
+		
+        "A":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/cabinet/cabinet_drawer",
+        "count": 8
+    }
+}
+
+

@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "stool_chair",
+    "pattern":
+    [
+		"A",
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/sycamore"
+        }, 	
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/sycamore_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/sycamore_furniture/sycamore_stool_chair",
+        "count": 1
+    }
+}
+
+

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "counter",
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/planks/hickory_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/stripped_log/hickory"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/hickory_furniture/stripped_hickory_counter",
+        "count": 1
+    }
+}
+
+

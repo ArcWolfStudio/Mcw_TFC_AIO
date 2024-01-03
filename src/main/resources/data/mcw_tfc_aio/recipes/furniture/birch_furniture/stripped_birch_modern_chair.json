@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "modern_chair",
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/birch"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/birch_slab"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/birch_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/birch_furniture/stripped_birch_modern_chair",
+        "count": 1
+    }
+}
+
+

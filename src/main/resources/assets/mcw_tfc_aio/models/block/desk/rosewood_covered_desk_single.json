@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/covered_desk_single",
+	"textures": {
+		"0": "tfc:block/wood/log/rosewood",
+		"particle": "tfc:block/wood/log/rosewood"
+	}
+}

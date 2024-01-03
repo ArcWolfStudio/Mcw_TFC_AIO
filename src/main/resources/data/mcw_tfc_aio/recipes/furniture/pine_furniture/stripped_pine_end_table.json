@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "end_table",
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcw_tfc_aio:furniture/pine_furniture/stripped_pine_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "tfc:wood/stripped_log/pine"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/pine_furniture/stripped_pine_end_table",
+        "count": 1
+    }
+}
+
+

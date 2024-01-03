@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "desk",
+    "pattern":
+    [
+        "AAA",
+        "B B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/sequoia"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/sequoia_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/sequoia_furniture/sequoia_desk",
+        "count": 2
+    }
+}
+
+

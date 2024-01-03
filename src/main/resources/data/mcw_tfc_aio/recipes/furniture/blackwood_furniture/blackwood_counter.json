@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "counter",
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/planks/blackwood_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/log/blackwood"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/blackwood_furniture/blackwood_counter",
+        "count": 1
+    }
+}
+
+

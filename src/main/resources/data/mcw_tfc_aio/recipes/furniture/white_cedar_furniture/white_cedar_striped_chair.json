@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "striped_chair",
+    "pattern":
+    [
+        " A",
+        "BC",
+		"CC"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/white_cedar"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/white_cedar_slab"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/white_cedar_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/white_cedar_furniture/white_cedar_striped_chair",
+        "count": 1
+    }
+}
+
+

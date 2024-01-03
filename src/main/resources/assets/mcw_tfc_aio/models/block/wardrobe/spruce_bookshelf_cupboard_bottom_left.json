@@ -1,0 +1,10 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/bookshelf_cupboard_bottom_left",
+	"textures": {
+		"2": "minecraft:block/iron_block",
+		"3": "minecraft:block/bookshelf",
+		"1": "tfc:block/wood/stripped_log/spruce",
+		"0": "tfc:block/wood/log/spruce",
+		"particle": "tfc:block/wood/log/spruce"
+	}
+}

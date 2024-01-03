@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/large_shelf_single",
+	"textures": {
+		"0": "minecraft:block/iron_block",
+		"1": "tfc:block/wood/log/sycamore",
+		"2": "tfc:block/wood/stripped_log/sycamore",
+		"particle": "tfc:block/wood/log/sycamore"
+	}
+}

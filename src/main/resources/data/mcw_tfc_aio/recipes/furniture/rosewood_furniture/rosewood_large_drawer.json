@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "large_drawer",
+    "pattern":
+    [
+        "ABA",
+        "AAA",
+		"AAA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/rosewood"
+        }, 
+		
+        "B":
+        {
+            "item": "mcw_tfc_aio:furniture/cabinet/cabinet_drawer"
+        }
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/rosewood_furniture/rosewood_large_drawer",
+        "count": 4
+    }
+}
+
+

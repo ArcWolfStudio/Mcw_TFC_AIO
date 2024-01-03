@@ -1,0 +1,48 @@
+{
+  "values": [
+
+
+    "mcw_tfc_aio:furniture/oak_furniture/oak_modern_chair",
+    "mcw_tfc_aio:furniture/birch_furniture/birch_modern_chair",
+    "mcw_tfc_aio:furniture/spruce_furniture/spruce_modern_chair",
+    "mcw_tfc_aio:furniture/acacia_furniture/acacia_modern_chair",
+    "mcw_tfc_aio:furniture/mangrove_furniture/mangrove_modern_chair",
+    "mcw_tfc_aio:furniture/ash_furniture/ash_modern_chair",
+    "mcw_tfc_aio:furniture/aspen_furniture/aspen_modern_chair",
+    "mcw_tfc_aio:furniture/blackwood_furniture/blackwood_modern_chair",
+    "mcw_tfc_aio:furniture/chestnut_furniture/chestnut_modern_chair",
+    "mcw_tfc_aio:furniture/douglas_fir_furniture/douglas_fir_modern_chair",
+    "mcw_tfc_aio:furniture/hickory_furniture/hickory_modern_chair",
+    "mcw_tfc_aio:furniture/kapok_furniture/kapok_modern_chair",
+    "mcw_tfc_aio:furniture/maple_furniture/maple_modern_chair",
+    "mcw_tfc_aio:furniture/palm_furniture/palm_modern_chair",
+    "mcw_tfc_aio:furniture/pine_furniture/pine_modern_chair",
+    "mcw_tfc_aio:furniture/rosewood_furniture/rosewood_modern_chair",
+    "mcw_tfc_aio:furniture/sequoia_furniture/sequoia_modern_chair",
+    "mcw_tfc_aio:furniture/sycamore_furniture/sycamore_modern_chair",
+    "mcw_tfc_aio:furniture/white_cedar_furniture/white_cedar_modern_chair",
+    "mcw_tfc_aio:furniture/willow_furniture/willow_modern_chair",
+
+    "mcw_tfc_aio:furniture/oak_furniture/stripped_oak_modern_chair",
+    "mcw_tfc_aio:furniture/birch_furniture/stripped_birch_modern_chair",
+    "mcw_tfc_aio:furniture/spruce_furniture/stripped_spruce_modern_chair",
+    "mcw_tfc_aio:furniture/acacia_furniture/stripped_acacia_modern_chair",
+    "mcw_tfc_aio:furniture/mangrove_furniture/stripped_mangrove_modern_chair",
+    "mcw_tfc_aio:furniture/ash_furniture/stripped_ash_modern_chair",
+    "mcw_tfc_aio:furniture/aspen_furniture/stripped_aspen_modern_chair",
+    "mcw_tfc_aio:furniture/blackwood_furniture/stripped_blackwood_modern_chair",
+    "mcw_tfc_aio:furniture/chestnut_furniture/stripped_chestnut_modern_chair",
+    "mcw_tfc_aio:furniture/douglas_fir_furniture/stripped_douglas_fir_modern_chair",
+    "mcw_tfc_aio:furniture/hickory_furniture/stripped_hickory_modern_chair",
+    "mcw_tfc_aio:furniture/kapok_furniture/stripped_kapok_modern_chair",
+    "mcw_tfc_aio:furniture/maple_furniture/stripped_maple_modern_chair",
+    "mcw_tfc_aio:furniture/palm_furniture/stripped_palm_modern_chair"
+    "mcw_tfc_aio:furniture/pine_furniture/stripped_pine_modern_chair",
+    "mcw_tfc_aio:furniture/rosewood_furniture/stripped_rosewood_modern_chair",
+    "mcw_tfc_aio:furniture/sequoia_furniture/stripped_sequoia_modern_chair",
+    "mcw_tfc_aio:furniture/sycamore_furniture/stripped_sycamore_modern_chair",
+    "mcw_tfc_aio:furniture/white_cedar_furniture/stripped_white_cedar_modern_chair",
+    "mcw_tfc_aio:furniture/willow_furniture/stripped_willow_modern_chair"
+
+  ]
+}

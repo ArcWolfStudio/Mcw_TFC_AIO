@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "lower_bookshelf_drawer",
+    "pattern":
+    [
+        "AAA",
+        "ACA",
+		"ABA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/sycamore"
+        }, 
+		
+        "B":
+        {
+            "item": "mcw_tfc_aio:furniture/cabinet/cabinet_drawer"
+        },
+		
+	    "C":
+        {
+            "item": "minecraft:book"
+        } 
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/sycamore_furniture/sycamore_lower_bookshelf_drawer",
+        "count": 4
+    }
+}
+
+

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "triple_drawer",
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+		"BAB"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/sequoia"
+        }, 
+		
+        "B":
+        {
+            "item": "mcw_tfc_aio:furniture/cabinet/cabinet_drawer"
+        }
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/sequoia_furniture/stripped_sequoia_triple_drawer",
+        "count": 4
+    }
+}
+
+

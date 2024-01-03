@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "wardrobe",
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+		"AAA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/palm"
+        }, 
+		
+        "B":
+        {
+            "item": "mcw_tfc_aio:furniture/cabinet/cabinet_door"
+        }
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/palm_furniture/stripped_palm_wardrobe",
+        "count": 4
+    }
+}
+
+

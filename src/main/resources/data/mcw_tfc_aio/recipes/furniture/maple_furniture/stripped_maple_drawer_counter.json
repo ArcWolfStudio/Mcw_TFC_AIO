@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "drawer_counter",
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/planks/maple_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "mcw_tfc_aio:furniture/maple_furniture/stripped_maple_drawer"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/maple_furniture/stripped_maple_drawer_counter",
+        "count": 1
+    }
+}
+
+

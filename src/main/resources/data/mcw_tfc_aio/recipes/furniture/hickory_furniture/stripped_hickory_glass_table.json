@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "glass_table",
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcw_tfc_aio:furniture/hickory_furniture/stripped_hickory_end_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "minecraft:glass_pane"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/hickory_furniture/stripped_hickory_glass_table",
+        "count": 1
+    }
+}
+
+

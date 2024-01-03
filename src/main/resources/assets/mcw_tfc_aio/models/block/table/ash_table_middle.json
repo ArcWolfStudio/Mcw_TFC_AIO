@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/table_middle",
+	"textures": {
+		"1": "tfc:block/wood/log/ash",
+		"particle": "tfc:block/wood/log/ash"
+	}
+}

@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "coffee_table",
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/sycamore"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/sycamore_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/sycamore_furniture/stripped_sycamore_coffee_table",
+        "count": 1
+    }
+}
+
+

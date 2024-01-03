@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "desk",
+    "pattern":
+    [
+        "AAA",
+        "B B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/rosewood"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/rosewood_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/rosewood_furniture/rosewood_desk",
+        "count": 2
+    }
+}
+
+

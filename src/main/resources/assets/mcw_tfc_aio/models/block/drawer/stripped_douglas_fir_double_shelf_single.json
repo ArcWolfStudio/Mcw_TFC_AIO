@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/double_shelf_single",
+	"textures": {
+		"0": "minecraft:block/iron_block",
+		"1": "tfc:block/wood/stripped_log/douglas_fir",
+		"2": "tfc:block/wood/log/douglas_fir",
+		"particle": "tfc:block/wood/stripped_log/douglas_fir"
+	}
+}

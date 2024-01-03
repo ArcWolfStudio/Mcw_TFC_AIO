@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "modern_chair",
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/sycamore"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/sycamore_slab"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/sycamore_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/sycamore_furniture/sycamore_modern_chair",
+        "count": 1
+    }
+}
+
+

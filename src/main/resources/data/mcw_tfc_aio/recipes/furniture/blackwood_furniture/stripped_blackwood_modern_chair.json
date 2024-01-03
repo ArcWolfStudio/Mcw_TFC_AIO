@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "modern_chair",
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/blackwood"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/blackwood_slab"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/blackwood_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/blackwood_furniture/stripped_blackwood_modern_chair",
+        "count": 1
+    }
+}
+
+

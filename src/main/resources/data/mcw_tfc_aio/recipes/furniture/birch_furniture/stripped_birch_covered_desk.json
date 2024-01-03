@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "covered_desk",
+    "pattern":
+    [
+        "AAA",
+        "A A"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/birch"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/birch_furniture/stripped_birch_covered_desk",
+        "count": 2
+    }
+}
+
+

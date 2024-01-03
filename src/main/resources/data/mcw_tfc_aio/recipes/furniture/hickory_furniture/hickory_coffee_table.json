@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "coffee_table",
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/hickory"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/hickory_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/hickory_furniture/hickory_coffee_table",
+        "count": 1
+    }
+}
+
+

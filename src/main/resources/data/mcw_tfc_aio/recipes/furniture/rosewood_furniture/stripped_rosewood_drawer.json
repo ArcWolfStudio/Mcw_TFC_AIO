@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "drawer",
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+		"AAA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/rosewood"
+        }, 
+		
+        "B":
+        {
+            "item": "mcw_tfc_aio:furniture/cabinet/cabinet_drawer"
+        }
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/rosewood_furniture/stripped_rosewood_drawer",
+        "count": 4
+    }
+}
+
+

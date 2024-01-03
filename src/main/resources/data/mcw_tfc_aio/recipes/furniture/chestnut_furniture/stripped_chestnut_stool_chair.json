@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "stool_chair",
+    "pattern":
+    [
+		"A",
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/chestnut"
+        }, 	
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/chestnut_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/chestnut_furniture/stripped_chestnut_stool_chair",
+        "count": 1
+    }
+}
+
+

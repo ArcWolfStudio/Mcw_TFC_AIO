@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/modern_wardrobe_bottom_right",
+	"textures": {
+		"0": "tfc:block/wood/log/maple",
+		"1": "tfc:block/wood/stripped_log/maple",
+		"2": "minecraft:block/iron_block",
+		"particle": "tfc:block/wood/log/maple"
+	}
+}

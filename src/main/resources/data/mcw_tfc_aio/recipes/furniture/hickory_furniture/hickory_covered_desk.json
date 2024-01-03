@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "covered_desk",
+    "pattern":
+    [
+        "AAA",
+        "A A"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/hickory"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/hickory_furniture/hickory_covered_desk",
+        "count": 2
+    }
+}
+
+

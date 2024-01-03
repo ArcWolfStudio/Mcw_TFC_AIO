@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bookshelf_cupboard",
+    "pattern":
+    [
+        "AAA",
+        "BAC",
+		"AAA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/rosewood"
+        }, 
+		
+        "B":
+        {
+            "item": "mcw_tfc_aio:furniture/cabinet/cabinet_door"
+        },
+		
+	    "C":
+        {
+            "item": "minecraft:book"
+        } 
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/rosewood_furniture/stripped_rosewood_bookshelf_cupboard",
+        "count": 4
+    }
+}
+
+

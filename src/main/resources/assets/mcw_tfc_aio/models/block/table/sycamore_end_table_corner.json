@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/end_table_corner",
+	"textures": {
+		"1": "tfc:block/wood/log/sycamore",
+		"particle": "tfc:block/wood/log/sycamore"
+	}
+}

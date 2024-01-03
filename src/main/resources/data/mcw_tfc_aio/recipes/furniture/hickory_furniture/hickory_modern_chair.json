@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "modern_chair",
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/hickory"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/hickory_slab"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/hickory_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/hickory_furniture/hickory_modern_chair",
+        "count": 1
+    }
+}
+
+

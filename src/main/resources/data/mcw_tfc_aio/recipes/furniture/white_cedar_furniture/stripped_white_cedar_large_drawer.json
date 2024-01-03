@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "large_drawer",
+    "pattern":
+    [
+        "ABA",
+        "AAA",
+		"AAA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/white_cedar"
+        }, 
+		
+        "B":
+        {
+            "item": "mcw_tfc_aio:furniture/cabinet/cabinet_drawer"
+        }
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/white_cedar_furniture/stripped_white_cedar_large_drawer",
+        "count": 4
+    }
+}
+
+

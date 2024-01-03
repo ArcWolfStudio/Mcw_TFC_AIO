@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "coffee_table",
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/acacia"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/acacia_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/acacia_furniture/acacia_coffee_table",
+        "count": 1
+    }
+}
+
+

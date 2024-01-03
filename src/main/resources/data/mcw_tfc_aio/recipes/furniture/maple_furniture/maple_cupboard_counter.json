@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "cupboard_counter",
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/planks/maple_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "mcw_tfc_aio:furniture/maple_furniture/maple_wardrobe"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/maple_furniture/maple_cupboard_counter",
+        "count": 1
+    }
+}
+
+

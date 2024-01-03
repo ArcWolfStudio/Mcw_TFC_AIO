@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "table",
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcw_tfc_aio:furniture/maple_furniture/maple_coffee_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/maple_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/maple_furniture/maple_table",
+        "count": 1
+    }
+}
+
+

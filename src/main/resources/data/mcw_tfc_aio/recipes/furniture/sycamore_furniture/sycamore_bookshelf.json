@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bookshelf",
+	
+    "pattern":
+    [
+        "AAA",
+        "BBB",
+		"AAA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/sycamore"
+        }, 
+		
+        "B":
+        {
+            "item": "minecraft:book"
+        }
+
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/sycamore_furniture/sycamore_bookshelf",
+        "count": 4
+    }
+}
+
+

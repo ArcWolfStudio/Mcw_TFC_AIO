@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "chair",
+    "pattern":
+    [
+        " A",
+        "BA",
+        "CC"		
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/pine"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/pine_slab"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/pine_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/pine_furniture/pine_chair",
+        "count": 1
+    }
+}
+
+

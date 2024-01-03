@@ -1,0 +1,47 @@
+{
+  "values": [
+
+    "mcw_tfc_aio:furniture/oak_furniture/oak_end_table",
+    "mcw_tfc_aio:furniture/birch_furniture/birch_end_table",
+    "mcw_tfc_aio:furniture/spruce_furniture/spruce_end_table",
+    "mcw_tfc_aio:furniture/acacia_furniture/acacia_end_table",
+    "mcw_tfc_aio:furniture/mangrove_furniture/mangrove_end_table",
+    "mcw_tfc_aio:furniture/ash_furniture/ash_end_table",
+    "mcw_tfc_aio:furniture/aspen_furniture/aspen_end_table",
+    "mcw_tfc_aio:furniture/blackwood_furniture/blackwood_end_table",
+    "mcw_tfc_aio:furniture/chestnut_furniture/chestnut_end_table",
+    "mcw_tfc_aio:furniture/douglas_fir_furniture/douglas_fir_end_table",
+    "mcw_tfc_aio:furniture/hickory_furniture/hickory_end_table",
+    "mcw_tfc_aio:furniture/kapok_furniture/kapok_end_table",
+    "mcw_tfc_aio:furniture/maple_furniture/maple_end_table",
+    "mcw_tfc_aio:furniture/palm_furniture/palm_end_table",
+    "mcw_tfc_aio:furniture/pine_furniture/pine_end_table",
+    "mcw_tfc_aio:furniture/rosewood_furniture/rosewood_end_table",
+    "mcw_tfc_aio:furniture/sequoia_furniture/sequoia_end_table",
+    "mcw_tfc_aio:furniture/sycamore_furniture/sycamore_end_table",
+    "mcw_tfc_aio:furniture/white_cedar_furniture/white_cedar_end_table",
+    "mcw_tfc_aio:furniture/willow_furniture/willow_end_table",
+
+    "mcw_tfc_aio:furniture/oak_furniture/stripped_oak_end_table",
+    "mcw_tfc_aio:furniture/birch_furniture/stripped_birch_end_table",
+    "mcw_tfc_aio:furniture/spruce_furniture/stripped_spruce_end_table",
+    "mcw_tfc_aio:furniture/acacia_furniture/stripped_acacia_end_table",
+    "mcw_tfc_aio:furniture/mangrove_furniture/stripped_mangrove_end_table",
+    "mcw_tfc_aio:furniture/ash_furniture/stripped_ash_end_table",
+    "mcw_tfc_aio:furniture/aspen_furniture/stripped_aspen_end_table",
+    "mcw_tfc_aio:furniture/blackwood_furniture/stripped_blackwood_end_table",
+    "mcw_tfc_aio:furniture/chestnut_furniture/stripped_chestnut_end_table",
+    "mcw_tfc_aio:furniture/douglas_fir_furniture/stripped_douglas_fir_end_table",
+    "mcw_tfc_aio:furniture/hickory_furniture/stripped_hickory_end_table",
+    "mcw_tfc_aio:furniture/kapok_furniture/stripped_kapok_end_table",
+    "mcw_tfc_aio:furniture/maple_furniture/stripped_maple_end_table",
+    "mcw_tfc_aio:furniture/palm_furniture/stripped_palm_end_table"
+    "mcw_tfc_aio:furniture/pine_furniture/stripped_pine_end_table",
+    "mcw_tfc_aio:furniture/rosewood_furniture/stripped_rosewood_end_table",
+    "mcw_tfc_aio:furniture/sequoia_furniture/stripped_sequoia_end_table",
+    "mcw_tfc_aio:furniture/sycamore_furniture/stripped_sycamore_end_table",
+    "mcw_tfc_aio:furniture/white_cedar_furniture/stripped_white_cedar_end_table",
+    "mcw_tfc_aio:furniture/willow_furniture/stripped_willow_end_table"
+
+  ]
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/cupboard_counter",
+	"textures": {
+		"1": "tfc:block/wood/log/hickory",
+		"2": "tfc:block/wood/stripped_log/hickory",
+		"particle": "tfc:block/wood/stripped_log/hickory",
+		"2_1": "minecraft:block/iron_block"
+	}
+}

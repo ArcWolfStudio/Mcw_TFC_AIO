@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/triple_shelf_left",
+	"textures": {
+		"0": "minecraft:block/iron_block",
+		"1": "tfc:block/wood/log/rosewood",
+		"2": "tfc:block/wood/stripped_log/rosewood",
+		"particle": "tfc:block/wood/log/rosewood"
+	}
+}

@@ -1,0 +1,48 @@
+{
+  "values": [
+
+
+    "mcw_tfc_aio:furniture/oak_furniture/oak_triple_drawer",
+    "mcw_tfc_aio:furniture/birch_furniture/birch_triple_drawer",
+    "mcw_tfc_aio:furniture/spruce_furniture/spruce_triple_drawer",
+    "mcw_tfc_aio:furniture/acacia_furniture/acacia_triple_drawer",
+    "mcw_tfc_aio:furniture/mangrove_furniture/mangrove_triple_drawer",
+    "mcw_tfc_aio:furniture/ash_furniture/ash_triple_drawer",
+    "mcw_tfc_aio:furniture/aspen_furniture/aspen_triple_drawer",
+    "mcw_tfc_aio:furniture/blackwood_furniture/blackwood_triple_drawer",
+    "mcw_tfc_aio:furniture/chestnut_furniture/chestnut_triple_drawer",
+    "mcw_tfc_aio:furniture/douglas_fir_furniture/douglas_fir_triple_drawer",
+    "mcw_tfc_aio:furniture/hickory_furniture/hickory_triple_drawer",
+    "mcw_tfc_aio:furniture/kapok_furniture/kapok_triple_drawer",
+    "mcw_tfc_aio:furniture/maple_furniture/maple_triple_drawer",
+    "mcw_tfc_aio:furniture/palm_furniture/palm_triple_drawer",
+    "mcw_tfc_aio:furniture/pine_furniture/pine_triple_drawer",
+    "mcw_tfc_aio:furniture/rosewood_furniture/rosewood_triple_drawer",
+    "mcw_tfc_aio:furniture/sequoia_furniture/sequoia_triple_drawer",
+    "mcw_tfc_aio:furniture/sycamore_furniture/sycamore_triple_drawer",
+    "mcw_tfc_aio:furniture/white_cedar_furniture/white_cedar_triple_drawer",
+    "mcw_tfc_aio:furniture/willow_furniture/willow_triple_drawer",
+
+    "mcw_tfc_aio:furniture/oak_furniture/stripped_oak_triple_drawer",
+    "mcw_tfc_aio:furniture/birch_furniture/stripped_birch_triple_drawer",
+    "mcw_tfc_aio:furniture/spruce_furniture/stripped_spruce_triple_drawer",
+    "mcw_tfc_aio:furniture/acacia_furniture/stripped_acacia_triple_drawer",
+    "mcw_tfc_aio:furniture/mangrove_furniture/stripped_mangrove_triple_drawer",
+    "mcw_tfc_aio:furniture/ash_furniture/stripped_ash_triple_drawer",
+    "mcw_tfc_aio:furniture/aspen_furniture/stripped_aspen_triple_drawer",
+    "mcw_tfc_aio:furniture/blackwood_furniture/stripped_blackwood_triple_drawer",
+    "mcw_tfc_aio:furniture/chestnut_furniture/stripped_chestnut_triple_drawer",
+    "mcw_tfc_aio:furniture/douglas_fir_furniture/stripped_douglas_fir_triple_drawer",
+    "mcw_tfc_aio:furniture/hickory_furniture/stripped_hickory_triple_drawer",
+    "mcw_tfc_aio:furniture/kapok_furniture/stripped_kapok_triple_drawer",
+    "mcw_tfc_aio:furniture/maple_furniture/stripped_maple_triple_drawer",
+    "mcw_tfc_aio:furniture/palm_furniture/stripped_palm_triple_drawer"
+    "mcw_tfc_aio:furniture/pine_furniture/stripped_pine_triple_drawer",
+    "mcw_tfc_aio:furniture/rosewood_furniture/stripped_rosewood_triple_drawer",
+    "mcw_tfc_aio:furniture/sequoia_furniture/stripped_sequoia_triple_drawer",
+    "mcw_tfc_aio:furniture/sycamore_furniture/stripped_sycamore_triple_drawer",
+    "mcw_tfc_aio:furniture/white_cedar_furniture/stripped_white_cedar_triple_drawer",
+    "mcw_tfc_aio:furniture/willow_furniture/stripped_willow_triple_drawer"
+
+  ]
+}

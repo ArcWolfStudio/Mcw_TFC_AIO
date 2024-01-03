@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "chair",
+    "pattern":
+    [
+        " A",
+        "BA",
+        "CC"		
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/rosewood"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/rosewood_slab"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/rosewood_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/rosewood_furniture/rosewood_chair",
+        "count": 1
+    }
+}
+
+

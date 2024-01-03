@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/coffee_table_middle",
+	"textures": {
+		"2": "tfc:block/wood/stripped_log/chestnut",
+		"particle": "tfc:block/wood/stripped_log/chestnut"
+	}
+}
