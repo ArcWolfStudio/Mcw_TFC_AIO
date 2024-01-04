@@ -2,7 +2,7 @@ package com.mcw_tfc_aio.arcwolf.objects;
 
 
 import com.mcw_tfc_aio.arcwolf.objects.TallFurniture.ConnectionStatus;
-//import com.mcw_tfc_aio.arcwolf.storage.StorageTileEntity;
+import com.mcw_tfc_aio.arcwolf.storage.StorageTileEntity;
 import javax.annotation.Nullable;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -24,7 +24,7 @@ import net.minecraft.world.level.block.state.properties.DoorHingeSide;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.phys.Vec3;
-import net.dries007.tfc.common.blockentities.TFCChestBlockEntity;
+//import net.dries007.tfc.common.blockentities.TFCChestBlockEntity;
 
 public class TallFurnitureHinge extends TallFurniture implements EntityBlock {
     public static final EnumProperty<DoorHingeSide> HINGE;
@@ -72,32 +72,14 @@ public class TallFurnitureHinge extends TallFurniture implements EntityBlock {
         return j < 0 && d1 < 0.5 || j > 0 && d1 > 0.5 || k < 0 && d0 > 0.5 || k > 0 && d0 < 0.5 ? DoorHingeSide.RIGHT : DoorHingeSide.LEFT;
     }
 
-//    public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity livent, ItemStack stack) {
-//        Block block = level.getBlockState(pos).getBlock();
-//        Block below = level.getBlockState(pos.below(1)).getBlock();
-//        if (stack.hasCustomHoverName()) {
-//            BlockEntity blockentity = level.getBlockEntity(pos);
-//            this.TableState(state, level, pos);
-//            if (blockentity instanceof StorageTileEntity) {
-//                ((StorageTileEntity)blockentity).setCustomName(stack.getHoverName());
-//                this.TableState(state, level, pos);
-//            }
-//        }
-//
-//        if (block == this && below == block) {
-//            DoorHingeSide hinge = (DoorHingeSide)level.getBlockState(pos.below(1)).getValue(HINGE);
-//            level.setBlockAndUpdate(pos, (BlockState)state.setValue(HINGE, hinge));
-//        }
-//
-//    }
     public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity livent, ItemStack stack) {
         Block block = level.getBlockState(pos).getBlock();
         Block below = level.getBlockState(pos.below(1)).getBlock();
         if (stack.hasCustomHoverName()) {
             BlockEntity blockentity = level.getBlockEntity(pos);
             this.TableState(state, level, pos);
-            if (blockentity instanceof TFCChestBlockEntity) {
-                ((TFCChestBlockEntity)blockentity).setCustomName(stack.getHoverName());
+            if (blockentity instanceof StorageTileEntity) {
+                ((StorageTileEntity)blockentity).setCustomName(stack.getHoverName());
                 this.TableState(state, level, pos);
             }
         }
@@ -108,6 +90,24 @@ public class TallFurnitureHinge extends TallFurniture implements EntityBlock {
         }
 
     }
+//    public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity livent, ItemStack stack) {
+//        Block block = level.getBlockState(pos).getBlock();
+//        Block below = level.getBlockState(pos.below(1)).getBlock();
+//        if (stack.hasCustomHoverName()) {
+//            BlockEntity blockentity = level.getBlockEntity(pos);
+//            this.TableState(state, level, pos);
+//            if (blockentity instanceof TFCChestBlockEntity) {
+//                ((TFCChestBlockEntity)blockentity).setCustomName(stack.getHoverName());
+//                this.TableState(state, level, pos);
+//            }
+//        }
+//
+//        if (block == this && below == block) {
+//            DoorHingeSide hinge = (DoorHingeSide)level.getBlockState(pos.below(1)).getValue(HINGE);
+//            level.setBlockAndUpdate(pos, (BlockState)state.setValue(HINGE, hinge));
+//        }
+//
+//    }
 
     static {
         HINGE = BlockStateProperties.DOOR_HINGE;

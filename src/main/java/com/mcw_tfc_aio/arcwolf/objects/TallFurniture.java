@@ -1,7 +1,7 @@
 package com.mcw_tfc_aio.arcwolf.objects;
 
 
-//import com.mcw_tfc_aio.arcwolf.storage.StorageTileEntity;
+import com.mcw_tfc_aio.arcwolf.storage.StorageTileEntity;
 import java.util.Random;
 import javax.annotation.Nullable;
 import net.minecraft.core.BlockPos;
@@ -37,7 +37,7 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import net.dries007.tfc.common.blockentities.TFCChestBlockEntity;
+//import net.dries007.tfc.common.blockentities.TFCChestBlockEntity;
 
 
 
@@ -111,42 +111,23 @@ public class TallFurniture extends FurnitureObject implements EntityBlock {
         level.setBlock(pos, this.defaultBlockState(), num);
     }
 
-//    @Nullable
-//    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-//        return new StorageTileEntity(pos, state);
-//    }
     @Nullable
     public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-        return new TFCChestBlockEntity(pos, state);
+        return new StorageTileEntity(pos, state);
     }
-
-//    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result) {
-//        ItemStack itemstack = player.getItemInHand(hand);
-//        Item item = itemstack.getItem();
-//        if (item != this.asItem()) {
-//            if (!level.isClientSide()) {
-//                BlockEntity var10 = level.getBlockEntity(pos);
-//                if (var10 instanceof StorageTileEntity) {
-//                    StorageTileEntity blockEntity = (StorageTileEntity)var10;
-//                    player.openMenu(blockEntity);
-//                }
-//
-//                return InteractionResult.SUCCESS;
-//            } else {
-//                return InteractionResult.SUCCESS;
-//            }
-//        } else {
-//            return InteractionResult.PASS;
-//        }
+//    @Nullable
+//    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+//        return new TFCChestBlockEntity(pos, state);
 //    }
+
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result) {
         ItemStack itemstack = player.getItemInHand(hand);
         Item item = itemstack.getItem();
         if (item != this.asItem()) {
             if (!level.isClientSide()) {
                 BlockEntity var10 = level.getBlockEntity(pos);
-                if (var10 instanceof TFCChestBlockEntity) {
-                    TFCChestBlockEntity blockEntity = (TFCChestBlockEntity)var10;
+                if (var10 instanceof StorageTileEntity) {
+                    StorageTileEntity blockEntity = (StorageTileEntity)var10;
                     player.openMenu(blockEntity);
                 }
 
@@ -158,6 +139,25 @@ public class TallFurniture extends FurnitureObject implements EntityBlock {
             return InteractionResult.PASS;
         }
     }
+//    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result) {
+//        ItemStack itemstack = player.getItemInHand(hand);
+//        Item item = itemstack.getItem();
+//        if (item != this.asItem()) {
+//            if (!level.isClientSide()) {
+//                BlockEntity var10 = level.getBlockEntity(pos);
+//                if (var10 instanceof TFCChestBlockEntity) {
+//                    TFCChestBlockEntity blockEntity = (TFCChestBlockEntity)var10;
+//                    player.openMenu(blockEntity);
+//                }
+//
+//                return InteractionResult.SUCCESS;
+//            } else {
+//                return InteractionResult.SUCCESS;
+//            }
+//        } else {
+//            return InteractionResult.PASS;
+//        }
+//    }
 
     public void onRemove(BlockState state, Level level, BlockPos pos, BlockState statetwo, boolean bool) {
         if (!state.is(statetwo.getBlock())) {
@@ -172,47 +172,47 @@ public class TallFurniture extends FurnitureObject implements EntityBlock {
 
     }
 
-//    public void tick(BlockState state, ServerLevel level, BlockPos pos, Random rand) {
-//        BlockEntity blockentity = level.getBlockEntity(pos);
-//        if (blockentity instanceof StorageTileEntity) {
-//            ((StorageTileEntity)blockentity).recheckOpen();
-//        }
-//
-//    }
     public void tick(BlockState state, ServerLevel level, BlockPos pos, Random rand) {
         BlockEntity blockentity = level.getBlockEntity(pos);
-        if (blockentity instanceof TFCChestBlockEntity) {
-            ((TFCChestBlockEntity)blockentity).recheckOpen();
+        if (blockentity instanceof StorageTileEntity) {
+            ((StorageTileEntity)blockentity).recheckOpen();
         }
 
     }
+//    public void tick(BlockState state, ServerLevel level, BlockPos pos, Random rand) {
+//        BlockEntity blockentity = level.getBlockEntity(pos);
+//        if (blockentity instanceof TFCChestBlockEntity) {
+//            ((TFCChestBlockEntity)blockentity).recheckOpen();
+//        }
+//
+//    }
 
     public BlockState updateShape(BlockState state, Direction direction, BlockState newState, LevelAccessor level, BlockPos pos, BlockPos newPos) {
         return this.TableState(state, level, pos);
     }
 
-//    public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity livent, ItemStack stack) {
-//        if (stack.hasCustomHoverName()) {
-//            BlockEntity blockentity = level.getBlockEntity(pos);
-//            this.TableState(state, level, pos);
-//            if (blockentity instanceof StorageTileEntity) {
-//                ((StorageTileEntity)blockentity).setCustomName(stack.getHoverName());
-//                this.TableState(state, level, pos);
-//            }
-//        }
-//
-//    }
     public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity livent, ItemStack stack) {
         if (stack.hasCustomHoverName()) {
             BlockEntity blockentity = level.getBlockEntity(pos);
             this.TableState(state, level, pos);
-            if (blockentity instanceof TFCChestBlockEntity) {
-                ((TFCChestBlockEntity)blockentity).setCustomName(stack.getHoverName());
+            if (blockentity instanceof StorageTileEntity) {
+                ((StorageTileEntity)blockentity).setCustomName(stack.getHoverName());
                 this.TableState(state, level, pos);
             }
         }
 
     }
+//    public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity livent, ItemStack stack) {
+//        if (stack.hasCustomHoverName()) {
+//            BlockEntity blockentity = level.getBlockEntity(pos);
+//            this.TableState(state, level, pos);
+//            if (blockentity instanceof TFCChestBlockEntity) {
+//                ((TFCChestBlockEntity)blockentity).setCustomName(stack.getHoverName());
+//                this.TableState(state, level, pos);
+//            }
+//        }
+//
+//    }
 
     public boolean hasAnalogOutputSignal(BlockState state) {
         return true;

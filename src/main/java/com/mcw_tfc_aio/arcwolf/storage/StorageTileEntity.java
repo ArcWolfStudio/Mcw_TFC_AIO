@@ -2,6 +2,8 @@ package com.mcw_tfc_aio.arcwolf.storage;
 
 
 import com.mcw_tfc_aio.arcwolf.init.BlockEntityInit;
+import net.dries007.tfc.common.container.RestrictedChestContainer;
+import net.dries007.tfc.common.container.TFCContainerTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.NonNullList;
@@ -30,7 +32,8 @@ public class StorageTileEntity extends RandomizableContainerBlockEntity {
 
     public StorageTileEntity(BlockPos pos, BlockState state) {
         super(BlockEntityInit.FURNITURE_STORAGE.get(), pos, state);
-        this.items = NonNullList.withSize(27, ItemStack.EMPTY);
+        this.items = NonNullList.withSize(18, ItemStack.EMPTY);
+//        this.items = NonNullList.withSize(27, ItemStack.EMPTY);
         this.openersCounter = new ContainerOpenersCounter() {
             protected void onOpen(Level level, BlockPos pos, BlockState state) {
             }
@@ -69,8 +72,11 @@ public class StorageTileEntity extends RandomizableContainerBlockEntity {
 
     }
 
+//    public int getContainerSize() {
+//        return 27;
+//    }
     public int getContainerSize() {
-        return 27;
+        return 18;
     }
 
     protected NonNullList<ItemStack> getItems() {
@@ -85,10 +91,14 @@ public class StorageTileEntity extends RandomizableContainerBlockEntity {
         return Component.translatable("mcw_tfc_aio.container.threerows");
     }
 
-    protected AbstractContainerMenu createMenu(int ints, Inventory inventory) {
-        return ChestMenu.threeRows(ints, inventory, this);
+//    protected AbstractContainerMenu createMenu(int ints, Inventory inventory) {
+//        return ChestMenu.threeRows(ints, inventory, this);
+//    }
+    @Override
+    protected AbstractContainerMenu createMenu(int id, Inventory inventory)
+    {
+      return new RestrictedChestContainer(TFCContainerTypes.CHEST_9x2.get(), id, inventory, this, 2);
     }
-
     public void startOpen(Player player) {
         if (!this.remove && !player.isSpectator()) {
             this.openersCounter.incrementOpeners(player, this.getLevel(), this.getBlockPos(), this.getBlockState());
