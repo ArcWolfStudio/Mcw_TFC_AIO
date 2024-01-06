@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "modern_desk",
+    "pattern":
+    [
+        "AAA",
+        "BCB"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/palm"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/palm_fence"
+        },
+		
+		"C":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/palm_furniture/palm_modern_desk",
+        "count": 2
+    }
+}
+
+

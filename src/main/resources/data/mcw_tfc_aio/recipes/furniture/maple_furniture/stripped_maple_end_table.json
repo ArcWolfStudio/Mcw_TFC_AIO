@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "end_table",
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcw_tfc_aio:furniture/maple_furniture/stripped_maple_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "tfc:wood/stripped_log/maple"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/maple_furniture/stripped_maple_end_table",
+        "count": 1
+    }
+}
+
+

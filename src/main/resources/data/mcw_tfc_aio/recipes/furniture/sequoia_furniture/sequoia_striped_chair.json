@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "striped_chair",
+    "pattern":
+    [
+        " A",
+        "BC",
+		"CC"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/sequoia"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/sequoia_slab"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/sequoia_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/sequoia_furniture/sequoia_striped_chair",
+        "count": 1
+    }
+}
+
+

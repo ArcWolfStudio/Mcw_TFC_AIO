@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "covered_desk",
+    "pattern":
+    [
+        "AAA",
+        "A A"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/sycamore"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/sycamore_furniture/stripped_sycamore_covered_desk",
+        "count": 2
+    }
+}
+
+

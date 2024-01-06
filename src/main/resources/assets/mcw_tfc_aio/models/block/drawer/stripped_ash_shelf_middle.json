@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/shelf_middle",
+	"textures": {
+		"0": "tfc:block/wood/stripped_log/ash",
+		"1": "tfc:block/wood/log/ash",
+		"2": "minecraft:block/iron_block",
+		"particle": "tfc:block/wood/stripped_log/ash"
+	}
+}

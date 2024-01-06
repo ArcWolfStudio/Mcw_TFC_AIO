@@ -7,8 +7,8 @@ plugins {
 }
 
 
-group = 'com.mcw_tfc_aio.mcw_tfc.aio'
-version = '0.0.9-1.20.1'
+group = mod_group_id
+version = mod_version
 
 base {
     archivesName = 'mcw_tfc_aio'
@@ -122,6 +122,12 @@ repositories {
     // flatDir {
     //     dir 'libs'
     // }
+    mavenLocal()
+    mavenCentral()
+    maven {
+        url "https://www.cursemaven.com"
+    }
+
 }
 
 dependencies {
@@ -142,6 +148,7 @@ dependencies {
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
     // The group id is ignored when searching -- in this case, it is "blank"
     // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
+    implementation fg.deobf("curse.maven:terrafirmacraft-302973:4862659")
 
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html

@@ -1,0 +1,82 @@
+{
+	"credit": "Made with Blockbench",
+	"render_type": "cutout",
+	"elements": [
+		{
+			"name": "Box4",
+			"from": [0, 15, 11],
+			"to": [16, 15, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 9]},
+			"faces": {
+				"up": {"uv": [0, 0, 1, 16], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [0, 0, 1, 16], "rotation": 270, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Box5",
+			"from": [14, 15, 5],
+			"to": [16, 15, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 9]},
+			"faces": {
+				"up": {"uv": [5, 1, 11, 3], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [5, 1, 11, 3], "rotation": 270, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Box4",
+			"from": [0, 15, 5],
+			"to": [14, 15, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 9]},
+			"faces": {
+				"up": {"uv": [5, 1, 11, 15], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [5, 1, 11, 15], "rotation": 270, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Box3",
+			"from": [0, 15, 4],
+			"to": [16, 15, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 9]},
+			"faces": {
+				"up": {"uv": [0, 0, 1, 16], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [0, 0, 1, 16], "rotation": 270, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Box2",
+			"from": [0, 14, 12],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 9]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#1"},
+				"up": {"uv": [0, 0, 4, 16], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 0, 4, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "Box3",
+			"from": [0, 14, 0],
+			"to": [16, 16, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 9]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#1"},
+				"up": {"uv": [0, 0, 4, 16], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 0, 4, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "Box2",
+			"from": [0, 1, 2],
+			"to": [16, 2, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 9]},
+			"faces": {
+				"north": {"uv": [0, 5, 16, 6], "texture": "#1"},
+				"south": {"uv": [0, 5, 16, 6], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 12], "texture": "#1"},
+				"down": {"uv": [0, 0, 12, 16], "rotation": 270, "texture": "#1"}
+			}
+		}
+	]
+}

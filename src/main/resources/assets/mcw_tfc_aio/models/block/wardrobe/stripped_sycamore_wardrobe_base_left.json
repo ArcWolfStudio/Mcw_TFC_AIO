@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/wardrobe_base_left",
+	"textures": {
+		"0": "tfc:block/wood/stripped_log/sycamore",
+		"1": "tfc:block/wood/log/sycamore",
+		"2": "minecraft:block/iron_block",
+		"particle": "tfc:block/wood/stripped_log/sycamore"
+	}
+}

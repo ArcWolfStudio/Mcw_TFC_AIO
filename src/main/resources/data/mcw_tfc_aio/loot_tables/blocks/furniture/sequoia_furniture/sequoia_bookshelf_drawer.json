@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:block",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "mcw_tfc_aio:furniture/sequoia_furniture/sequoia_bookshelf_drawer"
+				}
+			]
+		}
+	]
+}

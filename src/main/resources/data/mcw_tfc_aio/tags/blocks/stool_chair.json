@@ -1,0 +1,47 @@
+{
+  "values": [
+
+    "mcw_tfc_aio:furniture/oak_furniture/oak_stool_chair",
+    "mcw_tfc_aio:furniture/birch_furniture/birch_stool_chair",
+    "mcw_tfc_aio:furniture/spruce_furniture/spruce_stool_chair",
+    "mcw_tfc_aio:furniture/acacia_furniture/acacia_stool_chair",
+    "mcw_tfc_aio:furniture/mangrove_furniture/mangrove_stool_chair",
+    "mcw_tfc_aio:furniture/ash_furniture/ash_stool_chair",
+    "mcw_tfc_aio:furniture/aspen_furniture/aspen_stool_chair",
+    "mcw_tfc_aio:furniture/blackwood_furniture/blackwood_stool_chair",
+    "mcw_tfc_aio:furniture/chestnut_furniture/chestnut_stool_chair",
+    "mcw_tfc_aio:furniture/douglas_fir_furniture/douglas_fir_stool_chair",
+    "mcw_tfc_aio:furniture/hickory_furniture/hickory_stool_chair",
+    "mcw_tfc_aio:furniture/kapok_furniture/kapok_stool_chair",
+    "mcw_tfc_aio:furniture/maple_furniture/maple_stool_chair",
+    "mcw_tfc_aio:furniture/palm_furniture/palm_stool_chair",
+    "mcw_tfc_aio:furniture/pine_furniture/pine_stool_chair",
+    "mcw_tfc_aio:furniture/rosewood_furniture/rosewood_stool_chair",
+    "mcw_tfc_aio:furniture/sequoia_furniture/sequoia_stool_chair",
+    "mcw_tfc_aio:furniture/sycamore_furniture/sycamore_stool_chair",
+    "mcw_tfc_aio:furniture/white_cedar_furniture/white_cedar_stool_chair",
+    "mcw_tfc_aio:furniture/willow_furniture/willow_stool_chair",
+
+    "mcw_tfc_aio:furniture/oak_furniture/stripped_oak_stool_chair",
+    "mcw_tfc_aio:furniture/birch_furniture/stripped_birch_stool_chair",
+    "mcw_tfc_aio:furniture/spruce_furniture/stripped_spruce_stool_chair",
+    "mcw_tfc_aio:furniture/acacia_furniture/stripped_acacia_stool_chair",
+    "mcw_tfc_aio:furniture/mangrove_furniture/stripped_mangrove_stool_chair",
+    "mcw_tfc_aio:furniture/ash_furniture/stripped_ash_stool_chair",
+    "mcw_tfc_aio:furniture/aspen_furniture/stripped_aspen_stool_chair",
+    "mcw_tfc_aio:furniture/blackwood_furniture/stripped_blackwood_stool_chair",
+    "mcw_tfc_aio:furniture/chestnut_furniture/stripped_chestnut_stool_chair",
+    "mcw_tfc_aio:furniture/douglas_fir_furniture/stripped_douglas_fir_stool_chair",
+    "mcw_tfc_aio:furniture/hickory_furniture/stripped_hickory_stool_chair",
+    "mcw_tfc_aio:furniture/kapok_furniture/stripped_kapok_stool_chair",
+    "mcw_tfc_aio:furniture/maple_furniture/stripped_maple_stool_chair",
+    "mcw_tfc_aio:furniture/palm_furniture/stripped_palm_stool_chair",
+    "mcw_tfc_aio:furniture/pine_furniture/stripped_pine_stool_chair",
+    "mcw_tfc_aio:furniture/rosewood_furniture/stripped_rosewood_stool_chair",
+    "mcw_tfc_aio:furniture/sequoia_furniture/stripped_sequoia_stool_chair",
+    "mcw_tfc_aio:furniture/sycamore_furniture/stripped_sycamore_stool_chair",
+    "mcw_tfc_aio:furniture/white_cedar_furniture/stripped_white_cedar_stool_chair",
+    "mcw_tfc_aio:furniture/willow_furniture/stripped_willow_stool_chair"
+
+  ]
+}

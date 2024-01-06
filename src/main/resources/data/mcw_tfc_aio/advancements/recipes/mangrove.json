@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcw_tfc_aio:fences/mangrove_fences/mangrove_picket_fence",
+	  "mcw_tfc_aio:fences/mangrove_fences/mangrove_stockade_fence",
+	  "mcw_tfc_aio:fences/mangrove_fences/mangrove_horse_fence",
+	  "mcw_tfc_aio:fences/mangrove_fences/mangrove_wired_fence",
+	  "mcw_tfc_aio:fences/mangrove_fences/mangrove_highley_gate",
+	  "mcw_tfc_aio:fences/mangrove_fences/mangrove_pyramid_gate",
+      "mcw_tfc_aio:fences/mangrove_fences/mangrove_roof",
+      "mcw_tfc_aio:fences/mangrove_fences/mangrove_attic_roof",
+      "mcw_tfc_aio:fences/mangrove_fences/mangrove_top_roof",
+      "mcw_tfc_aio:fences/mangrove_fences/mangrove_lower_roof",
+      "mcw_tfc_aio:fences/mangrove_fences/mangrove_steep_roof",
+      "mcw_tfc_aio:fences/mangrove_fences/mangrove_upper_lower_roof",
+      "mcw_tfc_aio:fences/mangrove_fences/mangrove_upper_steep_roof",
+      "mcw_tfc_aio:fences/mangrove_fences/mangrove_planks_roof",
+      "mcw_tfc_aio:fences/mangrove_fences/mangrove_planks_attic_roof",
+      "mcw_tfc_aio:fences/mangrove_fences/mangrove_planks_top_roof",
+      "mcw_tfc_aio:fences/mangrove_fences/mangrove_planks_lower_roof",
+      "mcw_tfc_aio:fences/mangrove_fences/mangrove_planks_steep_roof",
+      "mcw_tfc_aio:fences/mangrove_fences/mangrove_planks_upper_lower_roof",
+      "mcw_tfc_aio:fences/mangrove_fences/mangrove_planks_upper_steep_roof"
+    ]
+  },
+  "criteria": {
+    "has_mangrove": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tfc:block/wood/log/mangrove"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mangrove"
+    ]
+  ]
+}

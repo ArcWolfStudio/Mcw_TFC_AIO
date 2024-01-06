@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:block",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "mcw_tfc_aio:furniture/hickory_furniture/stripped_hickory_lower_bookshelf_drawer"
+				}
+			]
+		}
+	]
+}

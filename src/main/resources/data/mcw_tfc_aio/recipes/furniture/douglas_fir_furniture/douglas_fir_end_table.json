@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "end_table",
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcw_tfc_aio:furniture/douglas_fir_furniture/douglas_fir_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "tfc:wood/log/douglas_fir"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/douglas_fir_furniture/douglas_fir_end_table",
+        "count": 1
+    }
+}
+
+

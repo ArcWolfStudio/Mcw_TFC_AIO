@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "stool_chair",
+    "pattern":
+    [
+		"A",
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/palm"
+        }, 	
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/palm_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/palm_furniture/stripped_palm_stool_chair",
+        "count": 1
+    }
+}
+
+

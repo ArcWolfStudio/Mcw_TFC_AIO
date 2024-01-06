@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "modern_desk",
+    "pattern":
+    [
+        "AAA",
+        "BCB"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/maple"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/maple_fence"
+        },
+		
+		"C":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/maple_furniture/maple_modern_desk",
+        "count": 2
+    }
+}
+
+

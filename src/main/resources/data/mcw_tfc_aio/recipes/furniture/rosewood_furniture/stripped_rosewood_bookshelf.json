@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bookshelf",
+	
+    "pattern":
+    [
+        "AAA",
+        "BBB",
+		"AAA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/rosewood"
+        }, 
+		
+        "B":
+        {
+            "item": "minecraft:book"
+        }
+
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/rosewood_furniture/stripped_rosewood_bookshelf",
+        "count": 4
+    }
+}
+
+

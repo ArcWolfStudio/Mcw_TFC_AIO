@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "cupboard_counter",
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/planks/willow_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "mcw_tfc_aio:furniture/willow_furniture/willow_wardrobe"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/willow_furniture/willow_cupboard_counter",
+        "count": 1
+    }
+}
+
+

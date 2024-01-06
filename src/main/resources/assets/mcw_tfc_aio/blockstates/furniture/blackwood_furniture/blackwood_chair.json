@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=east": { "model": "mcw_tfc_aio:block/chair/blackwood_chair", "y": 180  },
+        "facing=south": { "model": "mcw_tfc_aio:block/chair/blackwood_chair", "y": 270 },
+        "facing=west": { "model": "mcw_tfc_aio:block/chair/blackwood_chair" },
+        "facing=north": { "model": "mcw_tfc_aio:block/chair/blackwood_chair", "y": 90  }
+    }
+}

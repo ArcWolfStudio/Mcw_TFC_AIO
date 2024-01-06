@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "end_table",
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcw_tfc_aio:furniture/sequoia_furniture/sequoia_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "tfc:wood/log/sequoia"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/sequoia_furniture/sequoia_end_table",
+        "count": 1
+    }
+}
+
+

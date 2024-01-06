@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "modern_chair",
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/ash"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/ash_slab"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/ash_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/ash_furniture/stripped_ash_modern_chair",
+        "count": 1
+    }
+}
+
+

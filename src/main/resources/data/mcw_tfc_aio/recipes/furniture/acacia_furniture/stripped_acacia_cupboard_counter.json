@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "cupboard_counter",
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/planks/acacia_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "mcw_tfc_aio:furniture/acacia_furniture/stripped_acacia_wardrobe"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/acacia_furniture/stripped_acacia_cupboard_counter",
+        "count": 1
+    }
+}
+
+

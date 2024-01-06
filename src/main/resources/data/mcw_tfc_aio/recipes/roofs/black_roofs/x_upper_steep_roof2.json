@@ -4,9 +4,9 @@
     
     "pattern":
     [
+		"SW",
 		"W ",
-		"W ",
-        "SW"
+        "W "
     ],
     
     "key":

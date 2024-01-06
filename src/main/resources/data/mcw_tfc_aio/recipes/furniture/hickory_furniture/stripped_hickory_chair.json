@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "chair",
+    "pattern":
+    [
+        " A",
+        "BA",
+        "CC"		
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/hickory"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/hickory_slab"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/hickory_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/hickory_furniture/stripped_hickory_chair",
+        "count": 1
+    }
+}
+
+

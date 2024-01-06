@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bookshelf",
+	
+    "pattern":
+    [
+        "AAA",
+        "BBB",
+		"AAA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/stripped_log/chestnut"
+        }, 
+		
+        "B":
+        {
+            "item": "minecraft:book"
+        }
+
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/chestnut_furniture/stripped_chestnut_bookshelf",
+        "count": 4
+    }
+}
+
+

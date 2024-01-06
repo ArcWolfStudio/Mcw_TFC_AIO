@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/end_table_middle_three",
+	"textures": {
+		"1": "tfc:block/wood/stripped_log/oak",
+		"particle": "tfc:block/wood/stripped_log/oak"
+	}
+}

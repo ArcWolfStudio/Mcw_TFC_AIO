@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "stool_chair",
+    "pattern":
+    [
+		"A",
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/aspen"
+        }, 	
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/aspen_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/aspen_furniture/aspen_stool_chair",
+        "count": 1
+    }
+}
+
+

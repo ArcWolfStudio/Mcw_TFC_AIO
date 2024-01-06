@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:block",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "mcw_tfc_aio:furniture/douglas_fir_furniture/stripped_douglas_fir_bookshelf"
+				}
+			]
+		}
+	]
+}

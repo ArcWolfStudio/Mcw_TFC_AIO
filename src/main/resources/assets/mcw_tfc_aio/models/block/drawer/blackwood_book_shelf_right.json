@@ -1,0 +1,10 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/book_shelf_right",
+	"textures": {
+		"0": "minecraft:block/bookshelf",
+		"1": "minecraft:block/iron_block",
+		"2": "tfc:block/wood/log/blackwood",
+		"3": "tfc:block/wood/stripped_log/blackwood",
+		"particle": "tfc:block/wood/log/blackwood"
+	}
+}

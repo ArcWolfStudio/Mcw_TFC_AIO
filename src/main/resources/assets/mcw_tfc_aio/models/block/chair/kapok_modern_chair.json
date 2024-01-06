@@ -1,0 +1,8 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/modern_chair",
+	"textures": {
+		"0": "tfc:block/wood/log/kapok",
+		"3": "tfc:block/wood/stripped_log/kapok",
+		"particle": "tfc:block/wood/log/kapok"
+	}
+}

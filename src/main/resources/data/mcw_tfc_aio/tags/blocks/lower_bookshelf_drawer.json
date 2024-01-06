@@ -1,0 +1,47 @@
+{
+  "values": [
+
+    "mcw_tfc_aio:furniture/oak_furniture/oak_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/birch_furniture/birch_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/spruce_furniture/spruce_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/acacia_furniture/acacia_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/mangrove_furniture/mangrove_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/ash_furniture/ash_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/aspen_furniture/aspen_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/blackwood_furniture/blackwood_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/chestnut_furniture/chestnut_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/douglas_fir_furniture/douglas_fir_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/hickory_furniture/hickory_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/kapok_furniture/kapok_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/maple_furniture/maple_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/palm_furniture/palm_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/pine_furniture/pine_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/rosewood_furniture/rosewood_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/sequoia_furniture/sequoia_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/sycamore_furniture/sycamore_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/white_cedar_furniture/white_cedar_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/willow_furniture/willow_lower_bookshelf_drawer",
+
+    "mcw_tfc_aio:furniture/oak_furniture/stripped_oak_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/birch_furniture/stripped_birch_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/spruce_furniture/stripped_spruce_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/acacia_furniture/stripped_acacia_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/mangrove_furniture/stripped_mangrove_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/ash_furniture/stripped_ash_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/aspen_furniture/stripped_aspen_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/blackwood_furniture/stripped_blackwood_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/chestnut_furniture/stripped_chestnut_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/douglas_fir_furniture/stripped_douglas_fir_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/hickory_furniture/stripped_hickory_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/kapok_furniture/stripped_kapok_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/maple_furniture/stripped_maple_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/palm_furniture/stripped_palm_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/pine_furniture/stripped_pine_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/rosewood_furniture/stripped_rosewood_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/sequoia_furniture/stripped_sequoia_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/sycamore_furniture/stripped_sycamore_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/white_cedar_furniture/stripped_white_cedar_lower_bookshelf_drawer",
+    "mcw_tfc_aio:furniture/willow_furniture/stripped_willow_lower_bookshelf_drawer"
+
+  ]
+}

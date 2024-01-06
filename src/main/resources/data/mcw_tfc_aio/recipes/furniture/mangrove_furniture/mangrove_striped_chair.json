@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "striped_chair",
+    "pattern":
+    [
+        " A",
+        "BC",
+		"CC"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/mangrove"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/mangrove_slab"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/mangrove_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/mangrove_furniture/mangrove_striped_chair",
+        "count": 1
+    }
+}
+
+

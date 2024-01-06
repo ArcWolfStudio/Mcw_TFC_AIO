@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/desk_left",
+	"textures": {
+		"0": "tfc:block/wood/log/white_cedar",
+		"particle": "tfc:block/wood/log/white_cedar"
+	}
+}

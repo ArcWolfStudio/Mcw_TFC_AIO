@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "end_table",
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcw_tfc_aio:furniture/aspen_furniture/aspen_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "tfc:wood/log/aspen"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/aspen_furniture/aspen_end_table",
+        "count": 1
+    }
+}
+
+

@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"render_type": "cutout",
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [6, 15, 0],
+			"to": [16, 15, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 9]},
+			"faces": {
+				"up": {"uv": [5, 5, 15, 15], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [5, 5, 15, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "Box2",
+			"from": [6, 15, 10],
+			"to": [16, 15, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 9]},
+			"faces": {
+				"up": {"uv": [5, 5, 15, 11], "texture": "#2"},
+				"down": {"uv": [1, 8, 11, 14], "texture": "#2"}
+			}
+		},
+		{
+			"name": "Box2",
+			"from": [0, 15, 0],
+			"to": [6, 15, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 9]},
+			"faces": {
+				"up": {"uv": [5, 1, 11, 15], "texture": "#2"},
+				"down": {"uv": [5, 1, 11, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "Box3",
+			"from": [0, 15, 14],
+			"to": [6, 15, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 9]},
+			"faces": {
+				"up": {"uv": [5, 4, 11, 6], "texture": "#2"},
+				"down": {"uv": [8, 6, 10, 12], "rotation": 90, "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 1, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	]
+}

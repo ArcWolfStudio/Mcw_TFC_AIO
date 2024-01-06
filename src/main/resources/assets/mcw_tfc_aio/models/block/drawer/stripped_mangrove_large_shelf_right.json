@@ -1,0 +1,9 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/large_shelf_right",
+	"textures": {
+		"0": "minecraft:block/iron_block",
+		"1": "tfc:block/wood/stripped_log/mangrove",
+		"2": "tfc:block/wood/log/mangrove",
+		"particle": "tfc:block/wood/stripped_log/mangrove"
+	}
+}

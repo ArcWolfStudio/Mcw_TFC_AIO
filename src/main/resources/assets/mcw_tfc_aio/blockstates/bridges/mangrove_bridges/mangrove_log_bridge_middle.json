@@ -1,0 +1,139 @@
+{
+    "variants": {                         
+		"facing=north,north=true,east=true,south=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base", "y": 90,"uvlock": true},
+		"facing=east,north=true,east=true,south=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"facing=south,north=true,east=true,south=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base", "y": 90,"uvlock": true},
+		"facing=west,north=true,east=true,south=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+	
+        "facing=north,north=false,east=false,south=false,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle", "y": 90,"uvlock": true},
+		"facing=east,north=false,east=false,south=false,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle","uvlock": true},
+		"facing=south,north=false,east=false,south=false,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle", "y": 90,"uvlock": true},
+		"facing=west,north=false,east=false,south=false,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle","uvlock": true},
+		
+		"north=false,east=false,south=true,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle_end", "y": 180,"uvlock": true},
+		"north=true,east=false,south=false,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle_end","uvlock": true},
+		"north=false,east=false,south=false,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle_end", "y": 270,"uvlock": true},
+		"north=false,east=true,south=false,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle_end", "y": 90,"uvlock": true},
+	
+		"north=false,east=true,south=false,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle", "y": 90,"uvlock": true},
+		"north=true,east=false,south=true,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle","uvlock": true},
+
+		"toggle=false,north=true,east=false,south=false,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_corner", "y": 180,"uvlock": true},
+		"toggle=false,north=true,east=true,south=false,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_corner", "y": 270,"uvlock": true},
+		"toggle=false,north=false,east=true,south=true,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_corner","uvlock": true},
+		"toggle=false,north=false,east=false,south=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_corner", "y": 90,"uvlock": true},
+		"toggle=false,north=true,east=true,south=false,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side","uvlock": true},
+		"toggle=false,north=false,east=true,south=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side", "y": 180,"uvlock": true},
+		"toggle=false,north=true,east=true,south=true,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side", "y": 90,"uvlock": true},
+		"toggle=false,north=true,east=false,south=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side", "y": 270,"uvlock": true},
+		
+		"facing=east,toggle=true,north=true,east=false,south=false,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right","uvlock": true},
+		"facing=east,toggle=true,north=false,east=false,south=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left", "y": 180,"uvlock": true},
+		"facing=east,toggle=true,north=false,east=true,south=true,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right", "y": 180,"uvlock": true},
+		"facing=east,toggle=true,north=true,east=true,south=false,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left","uvlock": true},
+		"facing=north,toggle=true,north=true,east=false,south=false,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left", "y": 270,"uvlock": true},
+		"facing=north,toggle=true,north=false,east=false,south=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right", "y": 270,"uvlock": true},
+		"facing=north,toggle=true,north=false,east=true,south=true,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left", "y": 90,"uvlock": true},
+		"facing=north,toggle=true,north=true,east=true,south=false,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right", "y": 90,"uvlock": true},
+	
+		"facing=west,toggle=true,north=true,east=false,south=false,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right","uvlock": true},
+		"facing=west,toggle=true,north=false,east=false,south=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left", "y": 180,"uvlock": true},
+		"facing=west,toggle=true,north=false,east=true,south=true,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right", "y": 180,"uvlock": true},
+		"facing=west,toggle=true,north=true,east=true,south=false,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left","uvlock": true},
+		"facing=south,toggle=true,north=true,east=false,south=false,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left", "y": 270,"uvlock": true},
+		"facing=south,toggle=true,north=false,east=false,south=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right", "y": 270,"uvlock": true},
+		"facing=south,toggle=true,north=false,east=true,south=true,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left", "y": 90,"uvlock": true},
+		"facing=south,toggle=true,north=true,east=true,south=false,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right", "y": 90,"uvlock": true},
+
+		"east=true,facing=south,north=true,south=false,toggle=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=false,facing=east,north=true,south=true,toggle=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=true,facing=south,north=false,south=true,toggle=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=true,facing=west,north=false,south=true,toggle=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=true,facing=north,north=true,south=true,toggle=true,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=false,facing=south,north=true,south=true,toggle=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=true,facing=west,north=true,south=false,toggle=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=true,facing=north,north=false,south=true,toggle=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=true,facing=south,north=true,south=true,toggle=true,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=false,facing=west,north=true,south=true,toggle=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=false,facing=north,north=true,south=true,toggle=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=true,facing=east,north=true,south=false,toggle=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=true,facing=east,north=false,south=true,toggle=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=true,facing=west,north=true,south=true,toggle=true,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=true,facing=east,north=true,south=true,toggle=true,west=false,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		"east=true,facing=north,north=true,south=false,toggle=true,west=true,torch=false":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base","uvlock": true},
+		
+		
+		
+		
+		"facing=north,north=true,east=true,south=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch", "y": 90,"uvlock": true},
+		"facing=east,north=true,east=true,south=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"facing=south,north=true,east=true,south=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch", "y": 90,"uvlock": true},
+		"facing=west,north=true,east=true,south=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+	
+        "facing=north,north=false,east=false,south=false,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle_torch", "y": 90,"uvlock": true},
+		"facing=east,north=false,east=false,south=false,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle_torch","uvlock": true},
+		"facing=south,north=false,east=false,south=false,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle_torch", "y": 90,"uvlock": true},
+		"facing=west,north=false,east=false,south=false,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle_torch","uvlock": true},
+		
+		"north=false,east=false,south=true,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle_end_torch", "y": 180,"uvlock": true},
+		"north=true,east=false,south=false,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle_end_torch","uvlock": true},
+		"north=false,east=false,south=false,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle_end_torch", "y": 270,"uvlock": true},
+		"north=false,east=true,south=false,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle_end_torch", "y": 90,"uvlock": true},
+	
+		"north=false,east=true,south=false,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle_torch", "y": 90,"uvlock": true},
+		"north=true,east=false,south=true,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_middle_torch","uvlock": true},
+
+		"toggle=false,north=true,east=false,south=false,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_corner_torch", "y": 180,"uvlock": true},
+		"toggle=false,north=true,east=true,south=false,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_corner_torch", "y": 270,"uvlock": true},
+		"toggle=false,north=false,east=true,south=true,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_corner_torch","uvlock": true},
+		"toggle=false,north=false,east=false,south=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_corner_torch", "y": 90,"uvlock": true},
+		"toggle=false,north=true,east=true,south=false,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_torch","uvlock": true},
+		"toggle=false,north=false,east=true,south=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_torch", "y": 180,"uvlock": true},
+		"toggle=false,north=true,east=true,south=true,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_torch", "y": 90,"uvlock": true},
+		"toggle=false,north=true,east=false,south=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_torch", "y": 270,"uvlock": true},
+		
+		"facing=east,toggle=true,north=true,east=false,south=false,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right_torch","uvlock": true},
+		"facing=east,toggle=true,north=false,east=false,south=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left_torch", "y": 180,"uvlock": true},
+		"facing=east,toggle=true,north=false,east=true,south=true,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right_torch", "y": 180,"uvlock": true},
+		"facing=east,toggle=true,north=true,east=true,south=false,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left_torch","uvlock": true},
+		"facing=north,toggle=true,north=true,east=false,south=false,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left_torch", "y": 270,"uvlock": true},
+		"facing=north,toggle=true,north=false,east=false,south=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right_torch", "y": 270,"uvlock": true},
+		"facing=north,toggle=true,north=false,east=true,south=true,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left_torch", "y": 90,"uvlock": true},
+		"facing=north,toggle=true,north=true,east=true,south=false,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right_torch", "y": 90,"uvlock": true},
+	
+		"facing=west,toggle=true,north=true,east=false,south=false,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right_torch","uvlock": true},
+		"facing=west,toggle=true,north=false,east=false,south=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left_torch", "y": 180,"uvlock": true},
+		"facing=west,toggle=true,north=false,east=true,south=true,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right_torch", "y": 180,"uvlock": true},
+		"facing=west,toggle=true,north=true,east=true,south=false,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left_torch","uvlock": true},
+		"facing=south,toggle=true,north=true,east=false,south=false,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left_torch", "y": 270,"uvlock": true},
+		"facing=south,toggle=true,north=false,east=false,south=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right_torch", "y": 270,"uvlock": true},
+		"facing=south,toggle=true,north=false,east=true,south=true,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_left_torch", "y": 90,"uvlock": true},
+		"facing=south,toggle=true,north=true,east=true,south=false,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_side_right_torch", "y": 90,"uvlock": true},
+
+		"east=true,facing=south,north=true,south=false,toggle=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=false,facing=east,north=true,south=true,toggle=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=true,facing=south,north=false,south=true,toggle=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=true,facing=west,north=false,south=true,toggle=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=true,facing=north,north=true,south=true,toggle=true,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=false,facing=south,north=true,south=true,toggle=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=true,facing=west,north=true,south=false,toggle=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=true,facing=north,north=false,south=true,toggle=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=true,facing=south,north=true,south=true,toggle=true,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=false,facing=west,north=true,south=true,toggle=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=false,facing=north,north=true,south=true,toggle=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=true,facing=east,north=true,south=false,toggle=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=true,facing=east,north=false,south=true,toggle=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=true,facing=west,north=true,south=true,toggle=true,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=true,facing=east,north=true,south=true,toggle=true,west=false,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true},
+		"east=true,facing=north,north=true,south=false,toggle=true,west=true,torch=true":  { "model": "mcw_tfc_aio:block/bridge/bridge_wood/mangrove/mangrove_base_torch","uvlock": true}
+
+    }
+}
+
+
+
+
+		
+	
+		
+

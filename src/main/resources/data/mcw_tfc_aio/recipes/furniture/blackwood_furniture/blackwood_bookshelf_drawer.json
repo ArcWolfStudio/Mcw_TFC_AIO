@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bookshelf_drawer",
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+		"ACA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/blackwood"
+        }, 
+		
+        "B":
+        {
+            "item": "mcw_tfc_aio:furniture/cabinet/cabinet_drawer"
+        },
+		
+	    "C":
+        {
+            "item": "minecraft:book"
+        } 
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/blackwood_furniture/blackwood_bookshelf_drawer",
+        "count": 4
+    }
+}
+
+

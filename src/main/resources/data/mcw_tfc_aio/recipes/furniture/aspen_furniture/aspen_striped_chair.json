@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "striped_chair",
+    "pattern":
+    [
+        " A",
+        "BC",
+		"CC"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "tfc:wood/log/aspen"
+        }, 
+		
+        "B":
+        {
+            "item": "tfc:wood/planks/aspen_slab"
+        },
+		
+		"C":
+        {
+            "item": "tfc:wood/planks/aspen_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcw_tfc_aio:furniture/aspen_furniture/aspen_striped_chair",
+        "count": 1
+    }
+}
+
+

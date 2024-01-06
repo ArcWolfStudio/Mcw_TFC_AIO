@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/covered_desk_left",
+	"textures": {
+		"0": "tfc:block/wood/stripped_log/blackwood",
+		"particle": "tfc:block/wood/stripped_log/blackwood"
+	}
+}

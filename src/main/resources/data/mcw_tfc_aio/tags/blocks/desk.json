@@ -1,0 +1,47 @@
+{
+  "values": [
+
+    "mcw_tfc_aio:furniture/oak_furniture/oak_desk",
+    "mcw_tfc_aio:furniture/birch_furniture/birch_desk",
+    "mcw_tfc_aio:furniture/spruce_furniture/spruce_desk",
+    "mcw_tfc_aio:furniture/acacia_furniture/acacia_desk",
+    "mcw_tfc_aio:furniture/mangrove_furniture/mangrove_desk",
+    "mcw_tfc_aio:furniture/ash_furniture/ash_desk",
+    "mcw_tfc_aio:furniture/aspen_furniture/aspen_desk",
+    "mcw_tfc_aio:furniture/blackwood_furniture/blackwood_desk",
+    "mcw_tfc_aio:furniture/chestnut_furniture/chestnut_desk",
+    "mcw_tfc_aio:furniture/douglas_fir_furniture/douglas_fir_desk",
+    "mcw_tfc_aio:furniture/hickory_furniture/hickory_desk",
+    "mcw_tfc_aio:furniture/kapok_furniture/kapok_desk",
+    "mcw_tfc_aio:furniture/maple_furniture/maple_desk",
+    "mcw_tfc_aio:furniture/palm_furniture/palm_desk",
+    "mcw_tfc_aio:furniture/pine_furniture/pine_desk",
+    "mcw_tfc_aio:furniture/rosewood_furniture/rosewood_desk",
+    "mcw_tfc_aio:furniture/sequoia_furniture/sequoia_desk",
+    "mcw_tfc_aio:furniture/sycamore_furniture/sycamore_desk",
+    "mcw_tfc_aio:furniture/white_cedar_furniture/white_cedar_desk",
+    "mcw_tfc_aio:furniture/willow_furniture/willow_desk",
+
+    "mcw_tfc_aio:furniture/oak_furniture/stripped_oak_desk",
+    "mcw_tfc_aio:furniture/birch_furniture/stripped_birch_desk",
+    "mcw_tfc_aio:furniture/spruce_furniture/stripped_spruce_desk",
+    "mcw_tfc_aio:furniture/acacia_furniture/stripped_acacia_desk",
+    "mcw_tfc_aio:furniture/mangrove_furniture/stripped_mangrove_desk",
+    "mcw_tfc_aio:furniture/ash_furniture/stripped_ash_desk",
+    "mcw_tfc_aio:furniture/aspen_furniture/stripped_aspen_desk",
+    "mcw_tfc_aio:furniture/blackwood_furniture/stripped_blackwood_desk",
+    "mcw_tfc_aio:furniture/chestnut_furniture/stripped_chestnut_desk",
+    "mcw_tfc_aio:furniture/douglas_fir_furniture/stripped_douglas_fir_desk",
+    "mcw_tfc_aio:furniture/hickory_furniture/stripped_hickory_desk",
+    "mcw_tfc_aio:furniture/kapok_furniture/stripped_kapok_desk",
+    "mcw_tfc_aio:furniture/maple_furniture/stripped_maple_desk",
+    "mcw_tfc_aio:furniture/palm_furniture/stripped_palm_desk",
+    "mcw_tfc_aio:furniture/pine_furniture/stripped_pine_desk",
+    "mcw_tfc_aio:furniture/rosewood_furniture/stripped_rosewood_desk",
+    "mcw_tfc_aio:furniture/sequoia_furniture/stripped_sequoia_desk",
+    "mcw_tfc_aio:furniture/sycamore_furniture/stripped_sycamore_desk",
+    "mcw_tfc_aio:furniture/white_cedar_furniture/stripped_white_cedar_desk",
+    "mcw_tfc_aio:furniture/willow_furniture/stripped_willow_desk"
+
+  ]
+}
